@@ -137,3 +137,10 @@ gi
 git config --global init.defaultBranch main
 gi
 gs
+ga
+gc "arch-on-termux"
+ls
+gs
+touch .gitignore
+nvim .gitignore
+gs
