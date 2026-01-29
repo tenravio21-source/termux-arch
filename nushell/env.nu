@@ -1,1 +1,9 @@
 $env.PATH = ($env.PATH | split row (char env_sep) | append /data/data/com.termux/files/usr/bin)
+
+use std "path add"
+
+path add ($env.HOME | path join ".local" "bin")
+
+path add ($env.HOME | path join ".cargo" "bin")
+
+zoxide init nushell | save -f ~/.zoxide.nu

@@ -144,3 +144,117 @@ gs
 touch .gitignore
 nvim .gitignore
 gs
+ga
+gc "arch-on-termux"
+ls
+gs
+ls
+pwd
+ll
+pwd
+ll
+git branch -M main
+z ~/coding/
+nvim codeium-token-key.md
+z config
+git push -u origin main
+ls
+pwd
+ll
+ls
+pwd
+go
+python --version
+uv
+yay -S uv 
+/etc/pacman.d/mirrorlist
+nvim /etc/pacman.d/mirrorlist
+sudo pacman -S reflector
+yay -S reflector
+nvim /etc/pacman.d/mirrorlist
+z
+yay -Syy
+uv tools install posting
+uv tool install posting
+sudo pacman -S --needed base-devel python-pip
+sudo pacman -S --needed  python-pip
+python --version
+sudo pacman -S gcc make pkgconf
+ls
+uv tool install posting
+source ~/.config/nushell/config.nu
+posting
+z nushell
+v
+source ~/.config/nushell/config.nu
+posting
+ls
+posting
+tmux
+yay -S tmux
+tmux
+ls
+pwd
+ls
+z
+nvim .tmux.conf
+ls
+tmux
+nvim .tmux.conf
+tmux
+ll
+pwd
+ll
+btm
+p
+ll
+lsd
+fastfetch
+ls
+pwd
+ll
+lua --version
+lua -v
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ls
+pwd
+ls
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source ~/.config/nushell/config.nu
+cd ~/.config/nushell/
+v
+source ~/.config/nushell/config.nu
+cargo
+z nushell
+v
+source $"($nu.home-path)/.cargo/env.nu"
+source ~/.cargo/env.nu
+source $"($nu.home-path)/.cargo/env.nu"
+z nushell
+gs
+git diff
+ls
+cargo
+source ~/.cargo/env.nu
+nu
+z nushell
+ls ~/.cargo/env.nu
+v
+v ~/.cargo/env.nu
+z nushell
+cargo
+v
+gs
+pwd
+z confi
+ls
+gs
+nvim .gitignore
+gs
+ga
+gs
+gc "fix nushell"
+gp
+git reset --soft HEAD~1
+v nushell/history.txt
+git rm --cached nushell/history.txt
