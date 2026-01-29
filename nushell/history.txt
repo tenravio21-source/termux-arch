@@ -348,3 +348,29 @@ dart --version
 v
 z config
 gs
+ga
+gc "add node and dart sdk"
+gp
+ls
+z nv
+v
+make
+gcc
+ls
+go version
+ls
+pwd
+ls
+pwd
+ll
+pwd
+lll
+pwd
+ll
+pwd
+ll
+gs
+z config
+gs
+nvim .gitignore
+gs
