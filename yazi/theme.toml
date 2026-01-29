@@ -1,0 +1,32 @@
+# ~/.config/yazi/theme.toml
+
+[manager]
+# Using brighter blue for the current directory path
+cwd = { fg = "#83a598" } 
+
+# Hovered item: Dark background with light text (Classic Gruvbox Dark)
+hovered = { fg = "#282828", bg = "#83a598", bold = true }
+
+# Selection
+preview_hovered = { underline = true, bold = true }
+
+[status]
+# These powerline symbols look great if you have a Nerd Font installed
+separator_open  = ""
+separator_close = ""
+
+[status.mode]
+# Using the standard Dark palette: Blue for Normal, Green for Select, Purple for Unset
+normal = { bg = "#458588", fg = "#ebdbb2", bold = true }
+select = { bg = "#98971a", fg = "#ebdbb2", bold = true }
+unset  = { bg = "#b16286", fg = "#ebdbb2", bold = true }
+
+[filetype]
+rules = [
+    { mime = "image/*", fg = "#d3869b" }, # Lighter Purple/Pink
+    { mime = "video/*", fg = "#d3869b" },
+    { mime = "audio/*", fg = "#d3869b" },
+    { mime = "text/*",  fg = "#ebdbb2" }, # Light tan for readability
+    { name = "*.zip",   fg = "#fabd2f" }, # Bright Yellow
+    { name = "*.tar",   fg = "#fabd2f" },
+]

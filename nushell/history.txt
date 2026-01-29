@@ -1,0 +1,139 @@
+yazi
+exit
+zoxide init nushell | save -f ~/.zoxide.nu
+cd
+zoxide init nushell | save -f ~/.zoxide.nu
+exit
+cd
+cd ~/.config/nushell/
+nano config.nu
+exit
+ls
+yazi
+cd
+y
+ls
+yay -S starship
+pwd
+cd
+pwd
+cd ~/.config/nushell/
+yazi
+exit
+cd
+ls -a
+cd ~/.config/nushell/
+rm env.nu
+exit
+cd
+ls
+z
+z ~/.config/nushell/
+v
+cd
+ls
+z ~/.config/nushell/
+cd ~/.config/nushell/
+whoami
+ls
+pwd
+ll
+pwd
+ll
+z nv
+z ~/.config/nvim/
+y
+v
+z ~/.config/nushell/
+v
+ls
+cd nv
+z nv
+v
+ls
+pwd
+whoami
+z nv
+ls
+pwd
+ll
+v
+z nv
+v
+ls
+v
+z
+ls
+mkdir coding
+cd coding/
+ls
+touch codeium-token-key.md
+nvim codeium-token-key.md
+ls
+pwd
+z nv
+v
+ls
+pwd
+v
+ls
+pwd
+ll
+pwd
+ll
+fzf
+ls
+y
+z nv
+v
+ls
+pwd
+ll
+z nushell
+ls
+v
+fzf
+y
+exit
+bash
+z nushell
+v
+ls
+cat env.nu
+source ~/.config/nushell/config.nu
+cat env.nu
+fzf
+y
+z ~/.config/
+ls
+cd yazi/
+v
+yazi
+cd nv
+z nv
+v
+yay -S bottom
+btm
+yay -S fastfetch
+fastfetch
+cd nv
+z nv
+v
+ls
+pwd
+ll
+pwd
+exit
+v
+ls
+pwd
+ll
+z 
+z config
+ls
+gs
+ga
+gi
+git config --global init.defaultBranch main
+gi
+gs
