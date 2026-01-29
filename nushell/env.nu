@@ -6,4 +6,8 @@ path add ($env.HOME | path join ".local" "bin")
 
 path add ($env.HOME | path join ".cargo" "bin")
 
+path add ($env.HOME | path join ".sdk" "node" "bin")
+
+path add ($env.HOME | path join ".sdk" "dart" "bin")
+
 zoxide init nushell | save -f ~/.zoxide.nu

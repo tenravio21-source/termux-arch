@@ -258,3 +258,93 @@ gp
 git reset --soft HEAD~1
 v nushell/history.txt
 git rm --cached nushell/history.txt
+git add .
+git commit -m "chore: remove history file and sensitive data"
+gp
+ls
+gs
+pwd
+ll
+echo "nushell/history.txt" >> .gitignore
+ls
+cat .gitignore
+ls
+pwd
+ll
+y
+ls
+ll
+z
+ls
+z
+z nv
+ll
+ls
+ll
+z config
+ls
+lsd
+z nv
+lsd
+ll
+y
+ls
+exit
+nu
+ls
+source $"($nu.home-path)/.cargo/env.nu"
+exit
+ls
+df -h
+yay -S dysk
+sys disks
+df -h
+ls
+pwd
+ll
+cargo
+pwd
+ll
+z nv
+v
+fastfetch
+node -v
+npm -v
+ls
+z
+mkdir .sdk
+cd .sdk/
+curl -O https://nodejs.org/dist/v24.13.0/node-v24.13.0-linux-arm64.tar.xz
+ls
+tar -xvf node-v24.13.0-linux-arm64.tar.xz
+mv node-v24.13.0-linux-arm64 ./node
+ls
+z nushell
+ls
+node -v
+npm -v
+v
+ls
+z 
+z .sdk/
+ls
+rm node-v24.13.0-linux-arm64.tar.xz
+ls
+du
+curl -O https://storage.googleapis.com/dart-archive/channels/beta/release/3.11.0-296.4.beta/sdk/dartsdk-linux-arm64-release.zip
+ls
+rm dartsdk-linux-arm64-release.zip
+exit
+cd .sdk/
+curl -O https://storage.googleapis.com/dart-archive/channels/beta/release/3.11.0-296.4.beta/sdk/dartsdk-linux-arm64-release.zip
+ls
+unzip dartsdk-linux-arm64-release.zip
+ls
+mv dart-sdk/ ./dart
+ls
+rm dartsdk-linux-arm64-release.zip
+z nushell
+dart --version
+v
+z config
+gs

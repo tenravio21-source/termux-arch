@@ -1,15 +1,15 @@
-user: "#b16286"        # Purple
-group: "#928374"       # Gray
+user: "#d3869b"        # Brighter Purple
+group: "#928374"       # Gray (keeps it subtle)
 permission:
-  read: "#98971a"      # Green
-  write: "#d79921"     # Yellow
-  exec: "#cc241d"      # Red
+  read: "#b8bb26"      # Bright Green
+  write: "#fabd2f"     # Bright Yellow
+  exec: "#fb4934"      # Bright Red
 size:
   none: "#928374"
-  small: "#427b58"     # Aqua
-  medium: "#af3a03"    # Orange
-  large: "#cc241d"     # Red
+  small: "#8ec07c"     # Bright Aqua
+  medium: "#fe8019"    # Bright Orange
+  large: "#fb4934"     # Bright Red
 date:
-  hour: "#076678"      # Blue
-  day: "#427b58"       # Aqua
+  hour: "#83a598"      # Bright Blue
+  day: "#8ec07c"       # Bright Aqua
   older: "#928374"     # Gray
