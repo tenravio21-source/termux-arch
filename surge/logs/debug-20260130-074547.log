@@ -1,0 +1,15 @@
+[2026-01-30 07:45:47] HTTP server listening on port 8080
+[2026-01-30 07:45:47] TUIDownload: Probing server... https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz
+[2026-01-30 07:45:47] Probing server: https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz
+[2026-01-30 07:45:49] Probe response status: 206
+[2026-01-30 07:45:49] Content-Range header: bytes 0-0/1596420
+[2026-01-30 07:45:49] Range supported, file size: 1596420
+[2026-01-30 07:45:49] Probe complete - filename: csvlens-aarch64-unknown-linux-gnu.tar.xz, size: 1596420, range: true
+[2026-01-30 07:45:49] TUIDownload: Probe success 1596420
+[2026-01-30 07:45:49] Destination path: /home/rio/Downloads/csvlens-aarch64-unknown-linux-gnu.tar.xz
+[2026-01-30 07:45:49] Using concurrent downloader
+[2026-01-30 07:45:49] ConcurrentDownloader.Download: https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz -> /home/rio/Downloads/csvlens-aarch64-unknown-linux-gnu.tar.xz (size: 1596420)
+[2026-01-30 07:45:49] Worker 0 started
+[2026-01-30 07:45:49] Worker 0: Task offset=0 length=1596420 took 379.174154ms
+[2026-01-30 07:45:49] Worker 0 finished
+[2026-01-30 07:45:49] Download https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz completed in 559.387077ms

@@ -1,0 +1,51 @@
+[2026-01-30 07:20:35] HTTP server listening on port 8080
+[2026-01-30 07:20:35] TUIDownload: Probing server... https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz
+[2026-01-30 07:20:35] Probing server: https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz
+[2026-01-30 07:20:36] Probe response status: 206
+[2026-01-30 07:20:36] Content-Range header: bytes 0-0/213239840
+[2026-01-30 07:20:36] Range supported, file size: 213239840
+[2026-01-30 07:20:36] Probe complete - filename: jdk-25_linux-aarch64_bin.tar.gz, size: 213239840, range: true
+[2026-01-30 07:20:36] TUIDownload: Probe success 213239840
+[2026-01-30 07:20:36] Destination path: /home/rio/Downloads/jdk-25_linux-aarch64_bin.tar.gz
+[2026-01-30 07:20:36] Using concurrent downloader
+[2026-01-30 07:20:36] ConcurrentDownloader.Download: https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz -> /home/rio/Downloads/jdk-25_linux-aarch64_bin.tar.gz (size: 213239840)
+[2026-01-30 07:20:36] Worker 0 started
+[2026-01-30 07:20:36] Worker 1 started
+[2026-01-30 07:20:36] Worker 2 started
+[2026-01-30 07:20:36] Worker 3 started
+[2026-01-30 07:20:36] Worker 4 started
+[2026-01-30 07:20:36] Worker 5 started
+[2026-01-30 07:20:37] Worker 0: Task offset=0 length=8884224 took 1.107371077s
+[2026-01-30 07:20:38] Worker 0: Task offset=53305344 length=8884224 took 900.76ms
+[2026-01-30 07:20:38] Worker 2: Task offset=17768448 length=8884224 took 2.034806538s
+[2026-01-30 07:20:38] Worker 3: Task offset=26652672 length=8884224 took 2.267560308s
+[2026-01-30 07:20:39] Worker 5: Task offset=44421120 length=8884224 took 2.501238539s
+[2026-01-30 07:20:39] Worker 1: Task offset=8884224 length=8884224 took 2.531622385s
+[2026-01-30 07:20:39] Worker 0: Task offset=62189568 length=8884224 took 869.446769ms
+[2026-01-30 07:20:40] Worker 4: Task offset=35536896 length=8884224 took 3.671959077s
+[2026-01-30 07:20:40] Worker 2: Task offset=71073792 length=8884224 took 1.692702462s
+[2026-01-30 07:20:40] Worker 0: Task offset=106610688 length=8884224 took 990.197154ms
+[2026-01-30 07:20:40] Worker 3: Task offset=79958016 length=8884224 took 1.869634154s
+[2026-01-30 07:20:41] Worker 5: Task offset=88842240 length=8884224 took 2.002506231s
+[2026-01-30 07:20:41] Worker 1: Task offset=97726464 length=8884224 took 2.035122769s
+[2026-01-30 07:20:41] Worker 0: Task offset=133263360 length=8884224 took 973.493308ms
+[2026-01-30 07:20:42] Worker 2: Task offset=124379136 length=8884224 took 1.66185723s
+[2026-01-30 07:20:42] Worker 3: Task offset=142147584 length=8884224 took 1.780053539s
+[2026-01-30 07:20:42] Worker 0: Task offset=168800256 length=8884224 took 1.206390231s
+[2026-01-30 07:20:43] Worker 1: Task offset=159916032 length=8884224 took 1.814175462s
+[2026-01-30 07:20:43] Worker 5: Task offset=151031808 length=8884224 took 1.958290769s
+[2026-01-30 07:20:43] Worker 5: Task offset=213221376 length=18464 took 83.709231ms
+[2026-01-30 07:20:43] Worker 2: Task offset=177684480 length=8884224 took 1.536212231s
+[2026-01-30 07:20:43] Worker 4: Task offset=115494912 length=8884224 took 3.281813231s
+[2026-01-30 07:20:43] Balancer: stole 3.2 MB from worker 1 (new range: 209825792-213221376)
+[2026-01-30 07:20:43] Worker 0: Task offset=195452928 length=8884224 took 1.147339077s
+[2026-01-30 07:20:43] Worker 3: Task offset=186568704 length=8884224 took 1.326289846s
+[2026-01-30 07:20:44] Worker 1: Task offset=204337152 length=8884224 took 1.057929231s
+[2026-01-30 07:20:44] Worker 5: Task offset=209825792 length=3395584 took 661.496616ms
+[2026-01-30 07:20:44] Worker 5 finished
+[2026-01-30 07:20:44] Worker 2 finished
+[2026-01-30 07:20:44] Worker 4 finished
+[2026-01-30 07:20:44] Worker 0 finished
+[2026-01-30 07:20:44] Worker 1 finished
+[2026-01-30 07:20:44] Worker 3 finished
+[2026-01-30 07:20:44] Download https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz completed in 8.062961615s

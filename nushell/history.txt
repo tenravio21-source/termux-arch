@@ -374,3 +374,264 @@ z config
 gs
 nvim .gitignore
 gs
+ga
+gc "add node and dart sdk"
+gp
+ls
+gs
+exit
+ls
+yay -Sy 
+nvim /etc/pacman.d/mirrorlist
+yay -Sy 
+yay -Syu
+ls
+z nv
+v
+ls
+z config
+ls
+gs
+zi
+nvims
+ls
+pwd
+y
+ls
+pwd
+pomo
+yay -S pomo
+ls
+z
+fresh
+ls
+pwd
+ll
+ls
+la
+mkdir .cli
+cd .cli/
+mkdir bin
+ls
+curl -O https://github.com/Bahaaio/pomo/releases/download/v1.0.5/pomo_Darwin_arm64.tar.gz
+ls
+tar -xvf pomo_Darwin_arm64.tar.gz
+rm pomo_Darwin_arm64.tar.gz
+ls
+wget https://github.com/Bahaaio/pomo/releases/download/v1.0.5/pomo_Linux_arm64.tar.gz
+ls
+tar -xvf pomo_Linux_arm64.tar.gz
+ls
+./pomo
+y
+ls
+yay -S trash-cli
+ls
+trash-list
+ls
+yay -Rns trash-cli
+ls
+z nushell
+v
+source $"($nu.home-path)/.cargo/env.nu"
+pomo
+tmux
+source ~/.config/nushell/config.nu
+pomo
+source ~/.config/nushell/env.nu
+pomo
+pomo help
+pomo stats
+pomo 5m
+ls
+z .cli
+ls
+wget https://github.com/superstarryeyes/bit/releases/download/v0.3.0/bit_0.3.0_Linux_arm64.tar.gz
+ls
+tar -xvf bit_0.3.0_Linux_arm64.tar.gz
+y
+bit
+ls
+y
+ls
+rm rio.txt
+ls
+java -version
+ls
+wget https://github.com/surge-downloader/surge/releases/download/v0.4/surge_0.4_linux_arm64.tar.gz
+ls
+tar surge_0.4_linux_arm64.tar.gz
+tar -xvf surge_0.4_linux_arm64.tar.gz
+ls
+mv surge ./bin/
+ls
+rm LICENSE README.md surge_0.4_linux_arm64.tar.gz
+ls
+surge help
+ls
+z
+z Downloads/
+ls
+surge https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz
+ls
+rm jdk-25_linux-aarch64_bin.tar.gz
+ls
+surge https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz --exit-when-done
+ls
+tar -xvf jdk-25_linux-aarch64_bin.tar.gz
+ls
+y
+mv jdk-25.0.2/ ~/.sdk/java
+z
+z .sdk/
+ls
+y
+z nushell
+v
+source ~/.config/nushell/env.nu
+java -version
+ls
+z Downloads/
+zi
+ls
+rm jdk-25_linux-aarch64_bin.tar.gz
+ls
+surge https://services.gradle.org/distributions/gradle-9.3.1-bin.zip --exit-when-done
+ls
+unzip gradle-9.3.1-bin.zip
+ls
+y
+ls
+./gradle --version
+./gradle --help
+y
+ls
+mv gradle-9.3.1 ~/.sdk/gradle
+v ~/.cargo/env.nu
+v ~/.config/nushell/env.nu
+source ~/.config/nushell/env.nu
+ls
+gradle --version
+ls
+pwd
+rm gradle-9.3.1-bin.zip
+ls
+z
+ls
+cd coding/
+ls
+mkdir my-cli-app && cd my-cli-app
+mkdir my-cli-app; cd my-cli-app
+ls
+p
+gradle init
+ls
+y
+ls
+..
+ls
+p
+em my-cli-app/
+rm -r my-cli-app/
+ls
+z Dow
+ls
+surge https://dlcdn.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.zip --exit-when-done
+ls
+unzip apache-maven-3.9.12-bin.zip
+ls
+y
+ls
+./mvn -v
+..
+ls
+..
+ls
+mv apache-maven-3.9.12/ ~/.sdk/maven
+v ~/.config/nushell/env.nu
+mvn -v
+ls
+rm apache-maven-3.9.12-bin.zip
+z 
+z .sdk/
+ls
+y
+source ~/.config/nushell/env.nu
+mvn -v
+ls
+z
+ls
+du
+ls
+y
+z coding/
+ls
+mkdir my-cli-app; cd my-cli-app
+ls
+open
+history | to csv | save history.csv
+ls
+p
+open history.csv | table
+open history.csv 
+open history.csv | grep surge
+yay -Q
+yay -S tree-sitter-cli
+ls
+pwd
+ll
+mvn -v
+z .cli
+ls
+surge https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz
+ls
+surge https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz
+ls
+z
+ls
+cd Downloads/
+ls
+rm `csvlens-aarch64-unknown-linux-gnu.tar(1).xz`
+ls
+tar -xJf csvlens-aarch64-unknown-linux-gnu.tar.xz
+ls
+y
+ls
+mv csvlens ~/.cli/bin/
+z coding
+ls
+cd my-cli-app/
+ls
+csvlens history.csv
+z Dow
+ls
+rm csvlens-aarch64-unknown-linux-gnu.tar.xz
+rm -r csvlens-aarch64-unknown-linux-gnu/
+ls
+pwd
+surge https://github.com/antonmedv/fx/releases/download/39.2.0/fx_linux_arm64
+ls
+mv fx_linux_arm64 ./fx
+ls
+y
+mv fx ~/.cli/bin/
+zi
+ls
+history | to json | save history.json
+fx history.json
+z cli
+ls
+z bin/
+ls
+chmod +x fx
+ls
+zi
+ls
+fx history.json
+fx help
+fx h
+fx -h
+ls
+z config
+ls
+gs
