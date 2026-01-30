@@ -676,3 +676,9 @@ y
 l
 mv froggit ~/.cli/bin/
 z config
+froggit
+cal
+ls
+pwd
+gss
+ls
