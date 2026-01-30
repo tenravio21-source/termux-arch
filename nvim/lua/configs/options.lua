@@ -49,6 +49,7 @@ opt.undolevels = 1000 -- Store more undo history
 
 -- Status line and UI
 opt.laststatus = 3
+opt.cmdheight = 0
 opt.showmode = false
 opt.fillchars = { eob = " ", vert = "│" } -- Better visual separation
 opt.signcolumn = "yes"
