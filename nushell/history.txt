@@ -757,3 +757,76 @@ y
 z nv
 ls
 gs
+froggit
+ls
+v
+yay -S tree-sitter-cli
+gs
+ga
+gc 'add outline plugins'
+gp
+ls
+z
+ls
+cd coding/
+ls
+z nv
+v
+gs
+ls
+v
+gs
+ga
+gc 'add outline plugins'
+gp
+ls
+p
+z
+ls
+pwd
+whoami
+nerdfetch
+yay -S nerdfetch
+z dow
+ls
+surge https://raw.githubusercontent.com/ThatOneCalculator/NerdFetch/main/nerdfetch
+ls
+chmod +x nerdfetch
+ls
+./nerdfetch
+mv nerdfetch ~/.cli/bin/
+nerdfetch
+make
+pwd
+z nv
+v
+time
+date
+date now
+timedatectl
+ls
+ls /usr/share/zoneinfo/
+ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+date
+date now
+v
+ls
+v
+z nv
+v
+ls
+gs
+ga
+gc 'fix window padding'
+gp
+v
+ls
+pwd
+ll
+v
+gs
+v
+ls
+z con
+ls
+gs

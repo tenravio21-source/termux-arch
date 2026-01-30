@@ -1,5 +1,5 @@
 if vim.g.colors_name == nil then
-	vim.cmd("colorscheme cyberdream")
+	vim.cmd("colorscheme onedark_dark")
 end
 
 vim.api.nvim_create_autocmd("BufWinEnter", {

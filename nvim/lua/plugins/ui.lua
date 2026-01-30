@@ -72,4 +72,27 @@ return {
 			transparent_mode = true,
 		},
 	},
+	{
+		"olimorris/onedarkpro.nvim",
+		opts = {
+			options = {
+				transparency = false,
+			},
+			styles = {
+				types = "italic",
+				methods = "italic",
+				numbers = "italic",
+				strings = "italic",
+				comments = "italic",
+				keywords = "italic",
+				constants = "italic",
+				functions = "italic",
+				operators = "italic",
+				variables = "italic",
+				parameters = "italic",
+				conditionals = "italic",
+				virtual_text = "italic",
+			},
+		},
+	},
 }
