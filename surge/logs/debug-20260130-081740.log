@@ -1,0 +1,17 @@
+[2026-01-30 08:17:40] HTTP server listening on port 8080
+[2026-01-30 08:17:40] TUIDownload: Probing server... https://github.com/thewizardshell/froggit/releases/download/v1.2.0-beta/linux-arm64.zip
+[2026-01-30 08:17:40] Probing server: https://github.com/thewizardshell/froggit/releases/download/v1.2.0-beta/linux-arm64.zip
+[2026-01-30 08:17:43] Probe response status: 206
+[2026-01-30 08:17:43] Content-Range header: bytes 0-0/5434662
+[2026-01-30 08:17:43] Range supported, file size: 5434662
+[2026-01-30 08:17:43] Probe complete - filename: linux-arm64.zip, size: 5434662, range: true
+[2026-01-30 08:17:43] TUIDownload: Probe success 5434662
+[2026-01-30 08:17:43] Destination path: /home/rio/Downloads/linux-arm64.zip
+[2026-01-30 08:17:43] Using concurrent downloader
+[2026-01-30 08:17:43] ConcurrentDownloader.Download: https://github.com/thewizardshell/froggit/releases/download/v1.2.0-beta/linux-arm64.zip -> /home/rio/Downloads/linux-arm64.zip (size: 5434662)
+[2026-01-30 08:17:43] Worker 0 started
+[2026-01-30 08:17:44] Worker 0: Task offset=0 length=2097152 took 1.031204231s
+[2026-01-30 08:17:44] Worker 0: Task offset=2097152 length=2097152 took 236.723769ms
+[2026-01-30 08:17:44] Worker 0: Task offset=4194304 length=1240358 took 129.987385ms
+[2026-01-30 08:17:44] Worker 0 finished
+[2026-01-30 08:17:44] Download https://github.com/thewizardshell/froggit/releases/download/v1.2.0-beta/linux-arm64.zip completed in 1.557678231s

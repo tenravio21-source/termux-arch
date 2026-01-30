@@ -635,3 +635,44 @@ ls
 z config
 ls
 gs
+ga
+gs
+gc 'nushell'
+gp
+y
+fastfetch
+ls
+pwd
+7z
+ls
+z dow
+ls
+surge https://github.com/pashkov256/deletor/releases/download/v1.5.0/deletor-v1.5.0-linux-arm64
+ls
+mv deletor-v1.5.0-linux-arm64 deleteor
+mv deleteor deletor
+ls
+chmod +x deletor
+mv deletor ~/.cli/bin/
+ld
+ls
+touch demo.txt
+deletor demo.txt
+ls
+deletor
+p
+deletor
+ls
+z bin
+ls
+rm deletor
+ls
+z
+surge https://github.com/thewizardshell/froggit/releases/download/v1.2.0-beta/linux-arm64.zip
+z Downloads/
+l
+unzip linux-arm64.zip
+y
+l
+mv froggit ~/.cli/bin/
+z config
