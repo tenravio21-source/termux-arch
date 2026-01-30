@@ -682,3 +682,78 @@ ls
 pwd
 gss
 ls
+froggit
+ls
+pomo 3m
+pomo 30m
+ls
+z cli
+ls
+p
+zi
+ls
+wget https://github.com/curlpipe/ox/releases/download/0.7.7/ox
+ls
+chmod +x ox
+ox
+ls
+rm ox
+ls
+..
+ls
+z bin
+ls
+wget https://github.com/samtay/so/releases/download/v0.4.10/so-aarch64-unknown-linux-gnu.tar.gz
+ls
+tar -xvf so-aarch64-unknown-linux-gnu.tar.gz
+rm so-aarch64-unknown-linux-gnu.tar.gz
+ls
+so how to create struct in rust
+so "how to create struct in rust programming language"
+so how do i reverse a list in python
+so --site tex how to put tilde over character
+rm so
+ls
+z con
+ls
+gs
+rm do
+rm -r so
+ls
+gs
+ls
+z oxwm
+ls
+y
+ls
+whoami
+ls
+y
+ls
+zi
+ls
+surge https://github.com/andrewmd5/dawn/releases/download/v0.1.3/dawn-macos-arm64.tar.gz
+ls
+z dow
+ls
+tar -xvf dawn-macos-arm64.tar.gz
+ls
+./dawn
+./dawn demo.txt
+ls
+rm dawn dawn-macos-arm64.tar.gz
+ls
+pwd
+ll
+rm linux-arm64.zip
+ls
+yay -Q | grep ff
+yay -Q | grep ffmpeg
+yay -S ffmpeg
+ls
+pwd
+ls
+y
+z nv
+ls
+gs
