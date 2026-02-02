@@ -1024,3 +1024,66 @@ v
 z conf
 ls
 gs
+ga
+gc 'fix window padding'
+gp
+ls
+tmux
+ls
+pwd
+ls
+btm
+ls
+fastfetch
+onefetch
+nerdfetch
+zi
+ls
+pomo stats
+pomo
+ls
+ll
+pwd
+z
+ls
+pwd
+ll
+ls
+pwd
+ll
+ls
+go version
+ll
+pwd
+dart --version
+which dart
+zi
+ls
+pwd
+ll
+node -v
+z
+ls
+cd coding/
+ls
+mkdir rust-lang
+cd rust-lang/
+cargo new cli
+cd cli/
+ls
+cargo r -q
+cargo binstall cargo-watch
+cargoinstall cargo-watch
+cargo install cargo-watch
+ls
+cargo watch -x r -q
+ls
+cargo watch -x r -q
+ls
+v
+z nv
+v
+z
+z conf
+ls
+gs

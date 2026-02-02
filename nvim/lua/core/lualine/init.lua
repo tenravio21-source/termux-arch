@@ -18,7 +18,7 @@ function M.setup()
 		options = {
 			theme = lualine_theme,
 			icons_enabled = true,
-			section_separators = { left = "", right = "" },
+			section_separators = { left = "", right = "" },
 			component_separators = { left = "", right = "" },
 			globalstatus = true,
 		},
