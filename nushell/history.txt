@@ -1087,3 +1087,109 @@ z
 z conf
 ls
 gs
+ga
+gc 'change lualine'
+gp
+ls
+z nv
+ls
+zi
+ls
+cargo r
+ls
+v
+ll
+bit
+ls
+..
+ls
+cargo new todo
+cd todo/
+cargo r
+$env:RUST_LOG="info"; cargo watch -c -x r
+http localhost:8080/todo_lits
+http localhost::8080/todo_lits
+http http://127.0.0.1:8080/todo_lits
+http http://127.0.0.1:8080/todos
+http post http://localhost:8080/add_todo { content: "Buy milk" }
+http post http://localhost:8080/todos { content: "Buy milk" }
+http http://127.0.0.1:8080/todos
+{ content: "Buy milk" } | to json | http post http://localhost:8080/todos $in
+{ content: "Buy milk" } | to json | http post --content-type application/json http://localhost:8080/todos $in
+http http://127.0.0.1:8080/todos
+http http://127.0.0.1:8080/todos/1
+http http://127.0.0.1:8080/todos/2
+http http://127.0.0.1:8080/todos/1
+http http://127.0.0.1:8080/todos
+{ content: "Buy HDD" } | to json | http post --content-type application/json http://localhost:8080/todos/1 $in
+http http://127.0.0.1:8080/todos/1
+{ content: "Buy HDD" } | to json | http put --content-type application/json http://localhost:8080/todos/1 $in
+http http://127.0.0.1:8080/todos/1
+{ content: "Buy Cake" } | to json | http put --content-type application/json http://localhost:8080/todos/1 $in
+http http://127.0.0.1:8080/todos/1
+ls
+posting
+http http://127.0.0.1:8080/todos/1
+http http://127.0.0.1:8080/todos/
+http http://127.0.0.1:8080/todos
+http http://127.0.0.1:8080/todos/
+http http://127.0.0.1:8080/todos
+http http://127.0.0.1:8080/todos/1
+{ content: "Buy milk" } | to json | http post --content-type application/json http://localhost:8080/todos $in
+http http://127.0.0.1:8080/todos
+ls
+sqlite
+sqlite3
+sqlite3 db.sqlite
+sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo;"
+ls
+pwd
+du
+ls
+http http://127.0.0.1:8080/todos
+http delete http://localhost:8080/todos/2
+http http://127.0.0.1:8080/todos
+ls
+gs
+ga
+gc 'finish delete route'
+gs
+ls
+http http://127.0.0.1:8080/todos
+{ content: "Buy milk" } | to json | http post --content-type application/json http://localhost:8080/todos $in
+http http://127.0.0.1:8080/todos
+http delete http://localhost:8080/todos/2
+http http://127.0.0.1:8080/todos
+http delete http://localhost:8080/todos/2
+http http://127.0.0.1:8080/todos
+http delete http://localhost:8080/todos/3
+http http://127.0.0.1:8080/todos
+http delete http://localhost:8080/todos/3
+http http://127.0.0.1:8080/todos
+http delete http://localhost:8080/todos/3
+ls
+gs
+gss
+ga
+gc 'refactor code'
+ls
+ll
+du
+http delete http://localhost:8080/todos/3
+http http://127.0.0.1:8080/todos
+http delete http://localhost:8080/todos/5
+v
+ls ~/coding/
+z coding
+v codeium-token-key.md
+zi
+gs
+gh
+ls
+git branch -M main
+git remote add origin https://github.com/tenravio21-source/rust_todo.git
+git push -u origin main
+z nushell
+v history.txt
+z conf
+gs
