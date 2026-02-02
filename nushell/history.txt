@@ -830,3 +830,197 @@ ls
 z con
 ls
 gs
+ga
+gc 'fix window padding'
+gp
+z co
+ls
+pwd
+ll
+gs
+pwd
+ll
+z nv
+v
+ls
+pwd
+nerdfetch
+fastfetch
+btm
+ls
+pwd
+ll
+df -h
+ll
+ls
+pwd
+cargo
+dart --version
+npm -v
+ls
+pwd
+ll
+pwd
+ll
+pomo
+pomo help
+pomo break
+pomo stats
+ls
+z
+ls
+cd coding/
+ls
+v
+zi
+ls
+bit
+ls
+y
+v hi.go
+mv hi.go ~/coding/
+ls
+z
+pwd
+ll
+ls
+pwd
+ls
+wd
+whoami
+p
+ll
+l
+lla
+z nushell
+cat config.nu
+ls
+pwd
+ll
+ls
+pwd
+ll
+fresh
+p
+ll
+btm
+ps
+top
+ls
+ll
+pwd
+ll
+ls
+c
+p
+ll
+lla
+time
+time help
+time --help
+ls
+python --version
+pip --version
+pip list
+ls
+pwd
+ll
+nvim --version
+ls
+pwd
+ll
+yay -Sy
+ls
+p
+ll
+pwd
+ls
+pwd
+ll
+history
+ls
+ll
+gh
+pwd
+ls
+ll
+pwd
+ll
+l
+pwd
+ls
+whoami
+yay -Sy
+yay -Syu
+sudo rm -rf /var/lib/pacman/sync/*
+yay -Sy
+yay -Syu
+sudo rm -f /var/lib/pacman/db.lck
+sudo rm -rf /var/lib/pacman/sync/*
+sudo pacman -Scc
+yay -Sy
+yay -Syu
+ls
+uv --version
+ls
+p
+sudo rm -f /var/lib/pacman/db.lck
+sudo rm -rf /var/lib/pacman/sync/*
+sudo pacman -Scc
+yay -Sy
+yay -Syu
+sudo rm -f /var/lib/pacman/db.lck
+sudo rm -rf /var/lib/pacman/sync/*
+sudo pacman -Scc
+yay -Sy
+yay -Syu
+sudo nano /etc/pacman.d/mirrorlist
+ls
+ls ~/.config/
+ls
+sudo nvim /etc/pacman.d/mirrorlist
+sudo rm -f /var/lib/pacman/db.lck
+sudo rm -rf /var/lib/pacman/sync/*
+sudo pacman -Scc
+yay -Syu
+sudo rm /var/cache/pacman/pkg/uv-0.9.28-1-aarch64.pkg.tar.xz
+sudo pacman-key --init
+sudo pacman-key --populate archlinuxarm
+sudo pacman -Sy archlinuxarm-keyring
+sudo pacman -Syu
+ls
+whoami
+p
+z conf
+ls
+yay -Syu
+ls
+z .cli
+ls
+z bin
+ls
+y
+z nv
+v
+ls
+pwd
+ll
+ls
+uv tool list
+ls
+pwd
+ll
+pwd
+ll
+z
+ls
+pwd
+ll
+yay -Sy
+yay -Syu
+ls
+z nv
+v
+z conf
+ls
+gs
