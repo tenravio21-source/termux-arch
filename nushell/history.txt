@@ -1193,3 +1193,164 @@ z nushell
 v history.txt
 z conf
 gs
+ga
+gc 'changes'
+gp
+ls
+z todo
+gs
+ga
+gc 'fix routes'
+gp
+gs
+ga
+gc 'fix code'
+gp
+gs
+gr src/main.rs
+v
+pgrep sshd
+z nushell
+v
+source ~/.config/nushell/env.nu
+source ~/.config/nushell/config.nu
+ls
+pwd
+ll
+pwd
+ll
+pwd
+ll
+pwd
+ll
+ip 
+ip addr
+sudo ip
+ls
+pp
+p
+lt
+z nv
+lt
+ls
+pwd
+ll
+sys disks
+sys hosts
+sys host
+source ~/.config/nushell/config.nu
+ls
+p
+ll
+btm
+ll
+pomo 5m
+v
+pomo 15m
+history | grep ssh
+pgrep sshd
+ls
+pwd
+ll
+cargo --version
+ls
+p
+whoami
+z
+y
+ls
+cat codeium-token-key.md
+ls
+pwd
+ping 
+ping google.com
+ls
+yay -Sy
+yay -Syu
+ls
+pwd
+yay -Syu
+z nv
+v
+uv tool install posting
+uv tool update posting
+ls
+pwd
+ll
+pip list
+uv pip list
+ls
+pwd
+ls
+pwd
+ll
+pwd
+y
+z nv
+v
+z
+ls
+y
+ls
+pwd
+ll
+l
+la -l
+ll
+l
+ll -a
+lla
+ls
+p
+lsd
+ll
+rm hi.go
+ls
+pwd
+ll
+surge
+ls
+pwd
+ll
+pomo
+ls
+p
+lsd
+ll
+ls
+pwd
+ll
+l
+ls
+ped
+ll
+l
+ls
+pwd
+ll
+sg --==-
+ls
+p
+whoami
+ls
+fastfetch
+pomo
+ls
+go version
+pwd
+ll
+ls
+pwd
+ll
+ls
+z
+ls
+ll
+la
+z nv
+v
+z conf
+ls
+wget https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-TTF.zip
+ls
+gs
