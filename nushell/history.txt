@@ -1430,3 +1430,17 @@ v
 z conf
 ls
 gs
+ga
+gc 'added lua runner'
+gp
+z nv
+ls
+v
+z nv
+v
+z algo
+v
+z conf
+ls
+gs
+history | grep git
