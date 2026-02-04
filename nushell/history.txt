@@ -1354,3 +1354,79 @@ ls
 wget https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-TTF.zip
 ls
 gs
+ga
+gc 'added maple mono font'
+gp
+ls
+z nv
+v
+zi
+ls
+v
+ls
+v
+lsd
+ls
+pwd
+ll
+lsd
+p
+sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo;"
+yay -Q
+ls
+pwd
+ll
+ls
+ll
+pwd
+ll
+y
+z nv
+v
+ls
+yay -Syu
+ls
+pwd
+ll
+ls
+z
+ls
+y
+whoami
+ls
+y
+du
+ls
+pwd
+ll
+dart --version
+y
+ls
+dart create algo
+v
+cd algo/
+ls
+dart run
+v
+z nv
+p
+v
+z
+ls
+y
+surge https://github.com/rivoten05/oxwms.git --exit-on-done
+surge https://github.com/rivoten05/oxwms.git --exit-when-done
+ls
+y
+rm oxwms.git
+git clone https://github.com/rivoten05/oxwms.git
+y
+z nv
+v
+zi
+v
+cd algo/
+v
+z conf
+ls
+gs
