@@ -1444,3 +1444,131 @@ z conf
 ls
 gs
 history | grep git
+froggit
+ls
+gs
+nls
+ls
+p
+ls
+z nv
+v
+tmux
+ls
+z
+ls
+nvim .tmux.conf
+ls
+nvim .tmux.conf
+tmux
+tmux
+source ~/.tmux.conf
+ls
+z
+z conmf
+z conf
+gs
+ls
+pwd
+ls
+pwd
+ll
+ls
+z
+y
+ls
+y
+ls
+pwd
+ll
+ls
+pwd
+ll
+history
+ls
+pwd
+ls
+pwd
+ll
+pwd
+z nv
+lt
+ls
+pp
+ls
+lsd
+pwd
+zi
+ls
+v
+ls
+pwd
+ll
+lsd
+pwd
+ll
+y
+ls
+..
+ls
+ll
+pwd
+z
+ls
+pwd
+ll
+l
+ls
+ll
+yay -Syu
+ls
+dart --version
+ls
+pwd
+ll
+zi dart
+ls
+pwd
+z algo/
+ls
+dart test
+dart test -v
+v
+dart run
+dart test 
+dart test -r expanded
+dart test -r compact
+dart test -r json
+dart test --name "capitalize"
+dart test -r json
+dart test --color
+dart test --color -r expanded
+ls
+whoami
+zi
+ls
+v
+lsd
+exit
+fzf
+zi
+ls
+cat lib/anagram.dart
+cat lib/capitalize.dart
+ls
+pwd
+ll
+z nv
+z
+y
+ls
+v
+ls
+z nv
+p
+v
+gs
+z cong
+z conf
+ls
+gs

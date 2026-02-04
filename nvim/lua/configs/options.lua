@@ -2,7 +2,7 @@ local opt = vim.opt
 local g = vim.g
 
 --set background
-vim.o.background = "dark"
+-- vim.o.background = "light"
 
 -- Neovide settings (cleaner and more consistent)
 if g.neovide then
