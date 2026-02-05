@@ -69,25 +69,25 @@ M.active = {
 	},
 }
 
--- M.winbar = {
--- 	lualine_b = {
--- 		{
--- 			"filename",
--- 			path = 1,
--- 			symbols = { modified = " ", readonly = " ", unnamed = "[No Name]" },
--- 			padding = { left = 1, right = 1 },
--- 		},
--- 	},
--- }
---
--- M.inactive_winbar = {
--- 	lualine_b = {
--- 		{
--- 			"filename",
--- 			path = 1,
--- 			padding = { left = 1, right = 1 },
--- 		},
--- 	},
--- }
---
+M.winbar = {
+	lualine_b = {
+		{
+			"filename",
+			path = 1,
+			symbols = { modified = " ", readonly = " ", unnamed = "[No Name]" },
+			padding = { left = 1, right = 1 },
+		},
+	},
+}
+
+M.inactive_winbar = {
+	lualine_b = {
+		{
+			"filename",
+			path = 1,
+			padding = { left = 1, right = 1 },
+		},
+	},
+}
+
 return M

@@ -1572,3 +1572,280 @@ z cong
 z conf
 ls
 gs
+ga
+gc 'added lua runner'
+gp
+fastfetch
+zi
+ls
+..
+ls
+..
+ls
+p
+gs
+gi
+ga
+gc 'created anagram'
+s
+gs
+ls
+z 
+ls
+y
+cat codeium-token-key.md
+zi
+ls
+lgs
+gs
+pwd
+ll
+gs
+git branch -M main
+git remote add origin https://@github.com/tenravio21-source/dart_algo.git
+git push -u origin main
+z nushell
+v history.txt
+ls
+pwd
+z
+fastfetch
+pomo
+ls
+pwd
+ll
+ls
+zi
+ls
+pwd
+v
+yay -Syu
+ls
+z nv
+ls
+z nv
+v
+ls
+v
+zi
+ls
+dart test --color -r expanded
+gs
+ga
+gc 'fizzbuzz program'
+gp
+ls
+gs
+dart test --color -r expanded
+gs
+ga
+gs
+gc 'chunk program'
+gp
+dart test --color -r expanded
+gs
+ga
+gc 'chunk program'
+gp
+dart test --color -r expanded
+in
+ls
+l
+p
+ll
+gs
+ga
+gc 'maxchar program'
+gp
+ls
+pwd
+ls
+dart test --color -r expanded
+gs
+dart test --color -r expanded
+gs
+ga
+gc 'steps program'
+gp
+ls
+gs
+ls
+gs
+dart test --color -r expanded
+gs
+ga
+gc 'stack program'
+gp
+dart test --color -r expanded
+ga
+gc 'queue program'
+gp
+dart test --color -r expanded
+gs
+gc 'reverse int program'
+gs
+ga
+gc 'reverse int program'
+gp
+v
+ls
+lt
+dart test --color -r expanded
+gs
+ga
+gc 'reverse string program'
+gp
+dart test --color -r expanded
+ga
+gc 'fib'
+gp
+v
+ls
+gs
+ls
+y
+ls
+p
+ls
+z
+ls
+fzf
+ls
+l
+ll
+ls
+pwd
+ll
+ls
+pwd
+ll
+pwd
+ll
+ls
+pw
+pwd
+ll
+ls
+pwd
+ll
+z nv
+ls
+z
+zi
+ls
+v
+z nv
+v
+zi
+ls
+v
+ls
+zi
+ls
+surge https://github.com/legostin/cull/releases/download/v0.6.1/cull_linux_arm64.tar.gz --exit-when-done
+ls
+tar -xvf cull_linux_arm64.tar.gz
+ls
+mv cull ~/.cli/bin/
+cull --version
+cull 
+ls
+p
+cull 
+ls
+zi
+ls
+dart create cli
+cd cli/
+ls
+dart pub add dart_console
+ls
+dart run
+z lib/
+ls
+dart run cli.dart
+dart -h
+dart compile exe cli.dart
+ls
+./cli.exe
+cull
+rm cli.exe
+ls
+dart compile exe cli.dart --optimize --output-type=exe
+dart compile exe cli.dart --optimize
+dart compile exe --help
+z dow
+ls
+wget https://github.com/upx/upx/releases/download/v5.1.0/upx-5.1.0-arm64_linux.tar.xz
+ls
+tar -xvf upx-5.1.0-arm64_linux.tar.xz
+ls
+y
+ls
+mv upx ~/.cli/bin/
+upx --version
+z dart
+ls
+z cli/
+ls
+cd lib/
+ls
+dart compile exe cli.dart
+upx --help
+ls
+upx --brute cli.exe
+ls
+du
+./cli.exe
+cli.exe
+ls
+./cli.exe
+ls
+z bin/
+z ../lib/
+ls
+rm cli.exe
+dart compile exe cli.dart -o cli.exe
+./cli.exe
+du
+./cli.exe
+ls
+v
+dart run
+v
+ls
+..
+ls
+du
+dart create logger
+z logger/
+ls
+dart pub add mason_logger
+dart run
+ls
+dart run
+v
+ls
+pwd
+lsd
+ll
+ls
+make
+ls
+cull
+ls
+pacman -Qdt
+go
+pacman -Rs $(pacman -Qdtq)
+bash
+ls
+cull
+ls
+bit
+ls
+y
+z nv
+v
+gs
+z conf
+ls
