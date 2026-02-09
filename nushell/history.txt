@@ -2226,3 +2226,16 @@ source ~/.config/nushell/config.nu
 ls
 z nushell
 gs
+ga
+gc 'nushell'
+gp
+v
+ls
+zi
+ls
+froggit
+z conf
+y
+gs
+z conf
+gs
