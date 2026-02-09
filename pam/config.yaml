@@ -1,0 +1,7 @@
+current_connection: ""
+connections: {}
+color_scheme: default
+history:
+  size: 0
+default_row_limit: 1000
+default_column_width: 15

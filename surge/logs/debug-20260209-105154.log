@@ -1,0 +1,17 @@
+[2026-02-09 10:51:54] HTTP server listening on port 8080
+[2026-02-09 10:51:54] TUIDownload: Probing server... https://github.com/surge-downloader/surge/releases/download/v0.5.4/surge_0.5.4_linux_arm64.tar.gz
+[2026-02-09 10:51:54] Probing server: https://github.com/surge-downloader/surge/releases/download/v0.5.4/surge_0.5.4_linux_arm64.tar.gz
+[2026-02-09 10:51:56] Probe response status: 206
+[2026-02-09 10:51:56] Content-Range header: bytes 0-0/5751378
+[2026-02-09 10:51:56] Range supported, file size: 5751378
+[2026-02-09 10:51:56] Probe complete - filename: surge_0.5.4_linux_arm64.tar.gz, size: 5751378, range: true
+[2026-02-09 10:51:56] TUIDownload: Probe success 5751378
+[2026-02-09 10:51:56] Destination path: /home/rio/Downloads/surge_0.5.4_linux_arm64.tar.gz
+[2026-02-09 10:51:56] Using concurrent downloader
+[2026-02-09 10:51:56] ConcurrentDownloader.Download: https://github.com/surge-downloader/surge/releases/download/v0.5.4/surge_0.5.4_linux_arm64.tar.gz -> /home/rio/Downloads/surge_0.5.4_linux_arm64.tar.gz (size: 5751378)
+[2026-02-09 10:51:56] Worker 0 started
+[2026-02-09 10:51:57] Worker 0: Task offset=0 length=2097152 took 1.096226462s
+[2026-02-09 10:51:58] Worker 0: Task offset=2097152 length=2097152 took 245.588077ms
+[2026-02-09 10:51:58] Worker 0: Task offset=4194304 length=1557074 took 157.350077ms
+[2026-02-09 10:51:58] Worker 0 finished
+[2026-02-09 10:51:58] Download https://github.com/surge-downloader/surge/releases/download/v0.5.4/surge_0.5.4_linux_arm64.tar.gz completed in 2.040857154s

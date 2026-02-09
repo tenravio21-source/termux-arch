@@ -1849,3 +1849,262 @@ v
 gs
 z conf
 ls
+ga
+gc 'changes lualine and increase nvim conform formate time'
+gp
+ls
+pwd
+ll
+lsd
+zi
+v
+z nv
+v
+ls
+cull
+ls
+pwd
+ll
+ls
+whoami
+lsd
+ls
+rm name.py
+ls
+yay -Sy
+yay -Syu
+ls
+z nv
+ls
+z nv
+v
+lsd
+pwd
+ll
+uv tool update posting
+ls
+pwd
+ll
+zi
+ls
+gs
+p
+gs
+ga
+gc 'crating linklist'
+gp
+gs
+ga
+gc 'added pop'
+gp
+gs
+ga
+gc 'added prepend'
+gp
+gs
+p
+ga
+gc 'added popFirst'
+gp
+gs
+ga
+gc 'added get'
+gp
+gs
+ga
+gc 'fix get'
+gp
+gs
+ga
+gc 'added reverse'
+gp
+dart test --color -r expanded
+gs
+ga
+gc 'added test'
+gp
+dart test --color -r expanded
+v
+fastfetch
+ls
+dart test --color -r expanded
+gs
+ga
+gc 'added bubble sort'
+gp
+dart test --color -r expanded
+gs
+ga
+gc 'added merge sort'
+gp
+v
+whoami
+ls
+p
+ll
+ls
+lsd
+ll
+lsd
+pwd
+z nv
+lsd
+pwd
+nerdfetch
+uname
+pwd
+ll
+ls
+y
+ls
+zi
+ls
+y
+ls
+z
+ls
+lsd
+ls
+p
+fzf --preview
+fzf --preview bat
+z nv
+fzf --preview bat
+fzf --preview cat
+cat init.lua
+pwd
+cat
+yay -S bat
+ls
+cat init.lua
+f
+fzf --preview cat
+ls
+y
+ls
+pwd
+ll
+ls
+p
+ll
+ls
+pwd
+ll
+pwd
+ls
+p
+ls
+pp
+p
+lsd
+z
+lsd
+pwd
+ll
+ls
+pwd
+ll
+s
+ls
+l
+ls
+pwd
+ls
+lsd
+ping google.com
+history | grep ssh
+pgrep sshd
+ls
+zi
+ls
+cst lib/anagram.dart
+cat lib/anagram.dart
+ls
+yay -Sy
+yay -Syu
+clear
+ls
+yay -Syu
+z nv
+v
+ls
+y
+dart test --color -r expanded
+gs
+ga
+gc 'remove printd'
+gp
+v
+ls
+y
+z
+y
+pwd
+ll
+z
+onefetch
+nerdfetch
+sys mem
+y
+nerdfetch
+z nv
+zi
+ls
+v
+z
+y
+c
+l
+ll
+z conf
+ls
+gs
+ll
+lsd
+cull
+y
+nerdfetch
+ls
+ping google.com
+yay -Sy
+yay -Syu
+ls
+z nv
+v
+ls
+surge https://github.com/eduardofuncao/pam/releases/download/v0.2.0-beta/pam-linux-arm64 
+z dow
+ls
+mv pam-linux-arm64 ~/.cli/bin/pam
+pam --version
+ls
+zi
+ls
+sudo chmod +x pam
+ls
+pam --version
+ls
+z
+y
+ls
+surge https://github.com/surge-downloader/surge/releases/download/v0.5.4/surge_0.5.4_linux_arm64.tar.gz
+z dow
+ls
+rm ~/.cli/bin/surge
+ls
+tar -xvf surge_0.5.4_linux_arm64.tar.gz
+ls
+mv surge ~/.cli/bin/
+ls
+surge
+ls
+y
+zi
+ls
+v
+y
+v
+y
+z conf
+ls
+gs
