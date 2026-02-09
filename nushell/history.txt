@@ -2108,3 +2108,121 @@ y
 z conf
 ls
 gs
+ga
+gc 'fix yazi'
+gp
+ls
+p
+ll
+tmux
+ls
+pwd
+ll
+ls
+lsd
+l
+ll
+z conf
+l
+ll
+zi
+y
+zi
+ls
+p
+dart test --color -r expanded
+gs
+git diff
+ga
+gc 'improve time complexity'
+gp
+zi
+ls
+gs
+ga
+gc 'improved'
+gp
+v
+ls
+dart test --color -r expanded
+ls
+pwd
+ll
+l
+p
+ll
+y
+l
+ll
+c
+ll
+l
+ls
+pwd
+ls
+pwd
+zi
+ls
+v
+mime
+ls
+pwd
+lt
+mime
+y
+l
+p
+ll
+y
+sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo;"
+ls
+pwd
+btm
+pomo 5m
+ls
+zi cli
+ls
+p
+ll
+y
+ls
+./cli.exe
+ls
+z
+dysk
+ls
+yay -S dysk
+dysk
+yay -Rns dysk
+ls
+yay -Q
+just
+ls
+p
+ls
+zi
+ls
+wget https://github.com/casey/just/releases/download/1.46.0/just-1.46.0-arm-unknown-linux-musleabihf.tar.gz
+ls
+tar -xvf just-1.46.0-arm-unknown-linux-musleabihf.tar.gz
+ls
+y
+rm .*
+rm ./.*
+ls
+rm *.*
+ls
+rm LICENSE
+ls
+y
+zi
+ls
+rm -r completions/
+ls
+just
+z nushell
+v
+source ~/.config/nushell/config.nu
+ls
+z nushell
+gs
