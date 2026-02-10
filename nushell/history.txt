@@ -2239,3 +2239,134 @@ y
 gs
 z conf
 gs
+froggit
+btm
+z nv
+v
+z dart
+ls
+z algo/
+l
+v
+nvim --vershin
+nvim --version
+ls
+which nvi
+which nvim
+yay -Rns neovim
+ls
+z
+ls
+npm -v
+which npm
+ls
+dart ---
+dart --version
+dart -help
+dart 
+dart --help
+ls
+pwd
+l
+ls
+pwd
+ll
+yay -Syu
+ls
+dart --help
+z algo
+ls
+dart analyze
+dart info
+ls
+z lib
+ls
+dart formate anagram.dart
+dart format anagram.dart
+gs
+ls
+scp
+surge https://github.com/boyter/scc/releases/download/v3.6.0/scc_Linux_arm64.tar.gz
+z dow
+ls
+tar -xvf scc_Linux_arm64.tar.gz
+ls
+mv scc ~/.cli/bin/
+z conf
+z algo
+s
+ls
+scc
+z todo
+ls
+scc
+z nv
+scc
+ls
+scc
+zi
+ls
+du
+ls
+pwd
+ll
+ls
+z nv
+v
+ls
+yay -S clangd
+ls
+pwd
+ll
+l
+v
+z dart
+ls
+gcl https://github.com/rivoten05/counter_bloc.git
+y
+scc
+y
+ls
+..
+ls
+cat pages/home_page.dart
+ls
+cat bloc/counter_bloc.dart
+cat bloc/counter_state.dart
+y
+lsd
+pwd
+ll
+cull
+ls
+lls
+ls
+mkdir go-lang
+z go-lang/
+git https://github.com/rivoten05/todo-cli-app.git
+gcl https://github.com/rivoten05/todo-cli-app.git
+y
+ls
+yay -Sy
+yay -Syu
+z nv
+v
+uv tool update posting
+ls
+pwd
+ls
+ll
+pwd
+ll
+lsd
+pwd
+ll
+ls
+pwd
+ll
+pwd
+ll
+p
+z conf
+ls
+gs
