@@ -4,20 +4,21 @@
     "warn_on_duplicate": true,
     "extension_prompt": false,
     "auto_resume": false,
-    "skip_update_check": false,
-    "max_concurrent_downloads": 3,
+    "skip_update_check": true,
     "clipboard_monitor": true,
-    "theme": 0
+    "theme": 0,
+    "log_retention_count": 5
   },
   "connections": {
     "max_connections_per_host": 32,
     "max_global_connections": 100,
-    "user_agent": ""
+    "max_concurrent_downloads": 3,
+    "user_agent": "",
+    "proxy_url": "",
+    "sequential_download": false
   },
   "chunks": {
     "min_chunk_size": 2097152,
-    "max_chunk_size": 16777216,
-    "target_chunk_size": 8388608,
     "worker_buffer_size": 524288
   },
   "performance": {

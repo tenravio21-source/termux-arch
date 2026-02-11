@@ -1,0 +1,26 @@
+[2026-02-11 10:55:08] HTTP server listening on port 8080
+[2026-02-11 10:55:08] TUIDownload: Probing server... https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz
+[2026-02-11 10:55:08] Probing server: https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz
+[2026-02-11 10:55:09] Probe response status: 206
+[2026-02-11 10:55:09] Content-Range header: bytes 0-0/3917332
+[2026-02-11 10:55:09] Range supported, file size: 3917332
+[2026-02-11 10:55:09] Probe complete - filename: jiq-aarch64-unknown-linux-gnu.tar.xz, size: 3917332, range: true
+[2026-02-11 10:55:09] TUIDownload: Probe success 3917332
+[2026-02-11 10:55:09] Destination path: /home/rio/Downloads/jiq-aarch64-unknown-linux-gnu.tar.xz
+[2026-02-11 10:55:09] Using concurrent downloader
+[2026-02-11 10:55:09] Probing 1 mirrors
+[2026-02-11 10:55:09] Probing 1 mirrors...
+[2026-02-11 10:55:09] Probing server: https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz
+[2026-02-11 10:55:09] Probe response status: 206
+[2026-02-11 10:55:09] Content-Range header: bytes 0-0/3917332
+[2026-02-11 10:55:09] Range supported, file size: 3917332
+[2026-02-11 10:55:09] Probe complete - filename: jiq-aarch64-unknown-linux-gnu.tar.xz, size: 3917332, range: true
+[2026-02-11 10:55:09] Mirror probing complete: 1 valid, 0 failed
+[2026-02-11 10:55:09] Found 0 active mirrors from 1 candidates
+[2026-02-11 10:55:09] Calling Download with mirrors: [https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz]
+[2026-02-11 10:55:09] ConcurrentDownloader.Download: https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz -> /home/rio/Downloads/jiq-aarch64-unknown-linux-gnu.tar.xz (size: 3917332, mirrors: 0)
+[2026-02-11 10:55:09] Worker 0 started
+[2026-02-11 10:55:10] Worker 0: Task offset=0 length=3915776 took 638.859461ms
+[2026-02-11 10:55:10] Worker 0: Task offset=3915776 length=1556 took 45.186538ms
+[2026-02-11 10:55:10] Worker 0 finished
+[2026-02-11 10:55:10] Download https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz completed in 791.841846ms

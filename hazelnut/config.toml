@@ -1,0 +1,11 @@
+watch = []
+rule = []
+
+[general]
+log_level = "info"
+debounce_seconds = 2
+polling_interval_secs = 5
+log_retention = 1000
+start_daemon_on_launch = false
+notifications_enabled = false
+theme = "cyberpunk"

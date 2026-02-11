@@ -56,6 +56,9 @@ alias ip = ip -c a  # Colorized output
 alias ping = ping -c 5
 alias wget = wget -c  # Continue interrupted downloads
 
+#extract
+alias tar = tar -xvf
+
 
 # Environment variables
 $env.EDITOR = "nvim"

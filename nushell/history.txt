@@ -2370,3 +2370,245 @@ p
 z conf
 ls
 gs
+ga
+gc 
+gc 'nushell'
+gp
+ls
+y
+lsd
+ll
+lsd
+p
+tmux
+ls
+z
+ls
+pwd
+ll
+ls
+ll
+pwd
+ll
+ls
+pwd
+ll
+lsd
+ls
+p
+ll
+p
+ll
+pp
+ll
+pp
+p
+ll
+lsd
+pwd
+lsd
+ll
+btm
+ls
+pwd
+zi
+ls
+y
+z nv
+v
+ls
+pwd
+ll
+ls
+pwd
+ll
+ls
+pwd
+ll
+pwd
+ll
+lls
+ll
+pwd
+date
+date now
+time now
+date now
+timezone
+date
+date to-timezone
+date to-timezone IN
+date to-timezone --help
+date to-timezone local
+date now | date to-timezone local
+date now | date to-timezone AS/Kolkatta
+date now | date to-timezone AS/Kolkata
+date now | date to-timezone Mumbai
+ls
+ll
+pwd
+ls
+pwd
+ll
+pwd
+ll
+l
+ls
+yay -Sy
+yay -Syu
+ls
+z nv
+v
+surge https://github.com/ricardodantas/hazelnut/releases/download/v0.2.39/hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz 
+z dow
+ls
+rm scc_Linux_arm64.tar.gz LICENSE
+tar -xvf hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz
+ls
+./hazelnut
+mv hazelnut ~/.cli/bin/
+hazelnut
+z conf
+gs
+surge https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz
+z dow
+ls
+hazelnut
+rm hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz
+ls
+rm hazelnutd
+ls
+rm README.md
+ls
+tar -xvf whosthere_0.5.1_linux_arm64.tar.gz
+./whosthere
+ipconfig
+ip add
+sudo ip add
+ls
+rm *.*
+ls
+rm LICENSE whosthere
+ls
+pwd
+ll
+ls
+zi cli
+ls
+lt
+cull
+z dow
+ls
+history | to json | save history.json
+ls
+surge https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz
+z dow
+l
+z nushell
+v
+z dow
+ls
+tar jiq-aarch64-unknown-linux-gnu.tar.xz
+source ~/.config/nushell/config.nu
+tar jiq-aarch64-unknown-linux-gnu.tar.xz
+ls
+y
+ls
+mv jiq ~/.cli/bin/
+..
+ls
+jiq history.json
+yay -S jq
+jiq history.json
+ls
+rm *.*
+ls
+rm jiq-aarch64-unknown-linux-gnu/
+rm -r jiq-aarch64-unknown-linux-gnu/
+ls
+pp
+lsd
+ll
+pwd
+ll
+lsd
+pwd
+ls
+p
+ll
+ls
+pwd
+lls
+top
+ls
+lsd
+pwd
+ll
+l
+pwd
+ll
+zi 
+ls
+lt
+pomo
+z dart
+y
+ls
+dart run
+v
+ls
+pwd
+zi cli
+ls
+p
+v
+zi rust
+ls
+v
+z todo/
+ls
+gs
+git diff
+ga
+gc 'fix code'
+gp
+v
+z todo/
+z todo
+ls
+cargo run
+yay -Q lld
+yay -S lld
+cargo run
+la
+v y
+y
+ls
+v config.toml
+ls
+..
+ls
+cargo run
+rustc -vV
+cargo build -v
+cargo c
+gs
+ga
+gc 'fix install lld'
+gp
+cargo watch -x r -q
+cargo watch -x r
+gs
+ga
+gc 'add validator'
+gp
+v
+z nv
+v
+gs
+zi rust
+z todo/
+rustc -vV
+v
+z conf
+gs

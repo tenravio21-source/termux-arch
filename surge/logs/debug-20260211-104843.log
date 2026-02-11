@@ -1,0 +1,29 @@
+[2026-02-11 10:48:43] HTTP server listening on port 8080
+[2026-02-11 10:48:43] TUIDownload: Probing server... https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz
+[2026-02-11 10:48:43] Probing server: https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz
+[2026-02-11 10:48:45] Probe response status: 206
+[2026-02-11 10:48:45] Content-Range header: bytes 0-0/5839595
+[2026-02-11 10:48:45] Range supported, file size: 5839595
+[2026-02-11 10:48:45] Probe complete - filename: whosthere_0.5.1_linux_arm64.tar.gz, size: 5839595, range: true
+[2026-02-11 10:48:45] TUIDownload: Probe success 5839595
+[2026-02-11 10:48:45] Destination path: /home/rio/Downloads/whosthere_0.5.1_linux_arm64.tar.gz
+[2026-02-11 10:48:45] Using concurrent downloader
+[2026-02-11 10:48:45] Probing 1 mirrors
+[2026-02-11 10:48:45] Probing 1 mirrors...
+[2026-02-11 10:48:45] Probing server: https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz
+[2026-02-11 10:48:45] Probe response status: 206
+[2026-02-11 10:48:45] Content-Range header: bytes 0-0/5839595
+[2026-02-11 10:48:45] Range supported, file size: 5839595
+[2026-02-11 10:48:45] Probe complete - filename: whosthere_0.5.1_linux_arm64.tar.gz, size: 5839595, range: true
+[2026-02-11 10:48:45] Mirror probing complete: 1 valid, 0 failed
+[2026-02-11 10:48:45] Found 0 active mirrors from 1 candidates
+[2026-02-11 10:48:45] Calling Download with mirrors: [https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz]
+[2026-02-11 10:48:45] ConcurrentDownloader.Download: https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz -> /home/rio/Downloads/whosthere_0.5.1_linux_arm64.tar.gz (size: 5839595, mirrors: 0)
+[2026-02-11 10:48:45] Worker 0 started
+[2026-02-11 10:48:45] Worker 1 started
+[2026-02-11 10:48:46] Worker 0: Task offset=0 length=2916352 took 688.558461ms
+[2026-02-11 10:48:46] Worker 1: Task offset=2916352 length=2916352 took 756.542154ms
+[2026-02-11 10:48:46] Worker 0: Task offset=5832704 length=6891 took 70.751077ms
+[2026-02-11 10:48:46] Worker 0 finished
+[2026-02-11 10:48:46] Worker 1 finished
+[2026-02-11 10:48:46] Download https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz completed in 920.571692ms
