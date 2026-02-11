@@ -1,162 +1,22 @@
 fastfetch
 
-def --env y [...args] {
-	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
-	yazi ...$args --cwd-file $tmp
-	let cwd = (open $tmp)
-	if $cwd != "" and $cwd != $env.PWD {
-		cd $cwd
-	}
-	rm -fp $tmp
-}
+source ./environment.nu
 
-def ysearch [] {
-    let selection = (
-        yay -Slq 
-        | fzf --multi --ansi --preview-window=right:60% 
-          --header "TAB: select, ENTER: install" 
-          --preview "yay -Si {1} | bat --language=yaml --color=always"
-    )
-    
-    if ($selection | is-not-empty) {
-        let targets = ($selection | lines)
-        yay -S ...$targets
-    }
-}
+source ./alias.nu
 
-# Navigation
-alias e = exit
-alias . = cd ..
-alias .. = cd ../.. 
-alias ... = cd ../../..
-alias p = pwd
+source ./starship.nu
 
-#Editor
-alias v = nvim
-alias vi = nvim
+source ./nvims.nu
 
-# Git (Enhanced)
-alias gc = git commit -m
-alias gp = git push
-alias ga = git add .
-alias gpl = git pull
-alias gs = git status
-alias gss = gss  # Use our custom git status
-alias gcl = git clone
-alias gr = git restore
-alias gi = git init
-alias gd = git diff 
-alias gco = git checkout
-alias gb = git branch
-alias gl = git log --oneline --graph --all
+source ./fzf.nu
 
-# Misc Utilities
-alias hist = history
-alias cls = clear
-alias c = clear
-alias time = timeit 
+source ./yazi.nu
 
-# File Operations
-alias l = lsd --color always --icon always
-alias ll = lsd -l --color always --icon always
-alias la = lsd -a --color always --icon always
-alias lla = lsd -la --color always --icon always
-alias lt = lsd --tree --color always --icon always
-alias cat = bat
-alias rm-safe = rm -I
+source ./git.nu
 
-# Network
-alias ip = ip -c a  # Colorized output
-alias ping = ping -c 5
-alias wget = wget -c  # Continue interrupted downloads
+source ./yay.nu
 
-#extract
-alias tar = tar -xvf
-
-
-# Environment variables
-$env.EDITOR = "nvim"
-$env.VISUAL = "nvim"
-$env.BAT_THEME = "base16"
-$env.MANPAGER = "sh -c 'col -bx | bat -l man -p'"
-$env.config.buffer_editor = "nvim"
-$env.config.show_banner = false
-
-$env.FZF_DEFAULT_OPTS = "--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}' 
---color=bg+:-1,bg:-1,spinner:#83a598,hl:#fb4934 
---color=fg:#ebdbb2,header:#fb4934,info:#fabd2f,pointer:#83a598 
---color=marker:#fe8019,fg+:#ebdbb2,prompt:#fb4934,hl+:#fb4934"
-
-
-# Quick directory listing with icons (simplified)
-def lsg [] {
-    ls | each {|file|
-        let extension = ($file.name | path parse | get extension)
-        let icon = match $extension {
-            "nu" => "🐚",
-            "rs" => "🦀", 
-            "py" => "🐍",
-            "js" => "📜",
-            "ts" => "📘",
-            "md" => "📝",
-            "txt" => "📄",
-            "zip" => "📦",
-            "pdf" => "📕",
-            _ => { if $file.type == "dir" { "📁" } else { "📄" } }
-        }
-        $"($icon) ($file.name)"
-    }
-}
-
-# Enhanced git status with formatting
-def gss [] {
-    git status -s | lines | each {|line|
-        let parts = ($line | split row ' ')
-        let status = $parts.0
-        let file = $parts.1
-        match $status {
-            "M" => { $"[(ansi green)modified(ansi reset)] ($file)" }
-            "A" => { $"[(ansi yellow)added(ansi reset)] ($file)" }
-            "D" => { $"[(ansi red)deleted(ansi reset)] ($file)" }
-            "??" => { $"[(ansi blue)untracked(ansi reset)] ($file)" }
-            _ => $line
-        }
-    }
-}
-
-
-# Quick directory navigation
-def q [dir: string] {
-    let target = match $dir {
-        "d" => "~/Downloads",
-        "c" => "~/.config",
-        "p" => "~/Projects",
-        "doc" => "~/Documents",
-        _ => $dir
-    }
-    cd $target
-}
-#-----------------------------------------*******nvim******------------------------
-def nvims [...args] {
-  let items = ["rio", "kickstart", "LazyVim", "NvChad", "AstroNvim"]
-  let config = ($items | to text | fzf --prompt=" Neovim Config  " --height=50% --layout=reverse --border --exit-0)
-
-  if ($config == null or $config == "") {
-    print "Nothing selected"
-    return
-  }
-
-  let appname = if $config == "rio" { "" } else { $config }
-
-  with-env { NVIM_APPNAME: $appname } {
-    nvim ...$args
-  }
-}
-
-# Create vendor directory if it doesn't exist
-mkdir ($nu.data-dir | path join "vendor/autoload")
-
-starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+source ./list.nu
 
 source ~/.zoxide.nu
 
