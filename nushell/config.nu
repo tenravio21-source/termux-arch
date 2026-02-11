@@ -2,8 +2,6 @@ fastfetch
 
 source ./environment.nu
 
-source ./alias.nu
-
 source ./starship.nu
 
 source ./nvims.nu
@@ -22,4 +20,4 @@ source ~/.zoxide.nu
 
 source ./just.nu
 
-
+source ./alias.nu

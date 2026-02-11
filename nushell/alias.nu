@@ -1,6 +1,7 @@
 #yazi
 alias ys = ysearch
 alias yr = yremove
+alias yc = yclean
 
 # Navigation
 alias e = exit

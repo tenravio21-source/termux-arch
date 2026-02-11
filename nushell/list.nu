@@ -1,8 +1,7 @@
-# Quick directory listing with icons (simplified)
-def lsg [] {
-    ls | each {|file|
-        let extension = ($file.name | path parse | get extension)
-        let icon = match $extension {
+def lsg [path: path = .] {
+    ls $path | insert icon {|file|
+        let extension = ($file.name | path parse | get extension | str downcase)
+        match $extension {
             "nu" => "🐚",
             "rs" => "🦀", 
             "py" => "🐍",
@@ -12,8 +11,9 @@ def lsg [] {
             "txt" => "📄",
             "zip" => "📦",
             "pdf" => "📕",
+            "toml" => "⚙️",
+            "lock" => "🔒",
             _ => { if $file.type == "dir" { "📁" } else { "📄" } }
         }
-        $"($icon) ($file.name)"
-    }
+    } | select icon name type size modified
 }

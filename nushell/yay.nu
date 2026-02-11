@@ -28,3 +28,22 @@ def yremove [] {
         sudo pacman -Rs ...$targets
     }
 }
+
+def yclean [] {
+    print "🧹 Starting system cleanup..."
+    
+    # 1. Remove all but the last 3 versions of installed packages
+    # This keeps you safe in case you need to downgrade.
+    print "-> Cleaning package cache (keeping last 3)..."
+    sudo paccache -r
+
+    # 2. Remove all cached versions of UNINSTALLED packages
+    print "-> Removing cache of uninstalled packages..."
+    sudo paccache -ruk0
+
+    # 3. Optional: Clean yay's build cache
+    print "-> Cleaning yay build cache..."
+    yay -Sc --noconfirm
+
+    print "✅ System cleaned!"
+}
