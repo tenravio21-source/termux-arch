@@ -20,6 +20,4 @@ source ~/.zoxide.nu
 
 source ./just.nu
 
-source ./scripts/process.nu
-
 source ./alias.nu
