@@ -10,6 +10,20 @@ def --env y [...args] {
 	rm -fp $tmp
 }
 
+def ysearch [] {
+    let selection = (
+        yay -Slq 
+        | fzf --multi --ansi --preview-window=right:60% 
+          --header "TAB: select, ENTER: install" 
+          --preview "yay -Si {1} | bat --language=yaml --color=always"
+    )
+    
+    if ($selection | is-not-empty) {
+        let targets = ($selection | lines)
+        yay -S ...$targets
+    }
+}
+
 # Navigation
 alias e = exit
 alias . = cd ..
