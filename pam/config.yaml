@@ -1,5 +1,14 @@
 current_connection: ""
-connections: {}
+connections:
+  my_db:
+    name: my_db
+    db_type: sqlite
+    conn_string: ./db.sqlite
+    queries: {}
+    last_query:
+      name: ""
+      id: 0
+      sql: ""
 color_scheme: default
 history:
   size: 0

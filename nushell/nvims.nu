@@ -1,6 +1,6 @@
 #-----------------------------------------*******nvim******------------------------
 def nvims [...args] {
-  let items = ["rio", "kickstart", "LazyVim", "NvChad", "AstroNvim"]
+  let items = ["nvim", "kickstart", "LazyVim", "NvChad", "AstroNvim"]
   let config = ($items | to text | fzf --prompt=" Neovim Config  " --height=50% --layout=reverse --border --exit-0)
 
   if ($config == null or $config == "") {
@@ -8,7 +8,7 @@ def nvims [...args] {
     return
   }
 
-  let appname = if $config == "rio" { "" } else { $config }
+  let appname = if $config == "nvim" { "" } else { $config }
 
   with-env { NVIM_APPNAME: $appname } {
     nvim ...$args
