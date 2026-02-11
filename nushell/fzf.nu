@@ -1,7 +1,6 @@
 $env.FZF_DEFAULT_OPTS = (
     "--ansi " +
     "--reverse " +
-    # Changed from 60% to 75% for a much wider preview
     "--preview-window 'right:75%,border-left' " + 
     "--preview 'bat --color=always --theme=base16 --line-range :300 {}' " +
     "--color=bg+:-1,bg:-1,spinner:#81a1c1,hl:#88c0d0 " +

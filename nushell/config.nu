@@ -2,6 +2,8 @@ fastfetch
 
 source ./environment.nu
 
+source ./extract.nu
+
 source ./starship.nu
 
 source ./nvims.nu
