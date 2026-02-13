@@ -5,6 +5,7 @@ local keymap_configs = {
 	"git",
 	"search",
 	"ui",
+	"leetcode",
 }
 
 for _, config_name in ipairs(keymap_configs) do

@@ -4,7 +4,7 @@ local basic_map = util.basic_map
 
 -- ## 🖱️ Core Navigation & Movement
 -- Disable space in normal mode
-basic_map("n", "<Space>", "<Nop>", "Disable Space")
+-- basic_map("n", "<Space>", "<Nop>", "Disable Space")
 
 -- Better window navigation (panes) with Ctrl + h/j/k/l
 basic_map("n", "<C-h>", "<C-w>h", "Window Left")
