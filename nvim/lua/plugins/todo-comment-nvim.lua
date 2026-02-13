@@ -1,7 +1,7 @@
 return {
 	"folke/todo-comments.nvim",
 	dependencies = { "nvim-lua/plenary.nvim", "nvim-telescope/telescope.nvim" },
-	event = { "BufReadPost", "BufNewFile" },
+	cmd = { "TodoTrouble", "TodoTelescope" },
 	opts = {
 		highlight = {
 			keyword = "wide",
