@@ -6,6 +6,13 @@ return {
 	"folke/trouble.nvim",
 	dependencies = { "nvim-tree/nvim-web-devicons", "folke/todo-comments.nvim" },
 	cmd = { "Trouble" },
+	opts = {
+		modes = {
+			lsp = {
+				win = { position = "right" },
+			},
+		},
+	},
 	keys = mappings,
 	config = function()
 		require("core.trouble").setup()
