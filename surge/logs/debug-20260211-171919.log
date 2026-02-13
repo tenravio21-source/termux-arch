@@ -1,0 +1,26 @@
+[2026-02-11 17:19:19] HTTP server listening on port 8080
+[2026-02-11 17:19:19] TUIDownload: Probing server... https://github.com/hako/bbcli/releases/download/1.0.3/bbcli-aarch64-unknown-linux-gnu.tar.gz
+[2026-02-11 17:19:19] Probing server: https://github.com/hako/bbcli/releases/download/1.0.3/bbcli-aarch64-unknown-linux-gnu.tar.gz
+[2026-02-11 17:19:21] Probe response status: 206
+[2026-02-11 17:19:21] Content-Range header: bytes 0-0/2699170
+[2026-02-11 17:19:21] Range supported, file size: 2699170
+[2026-02-11 17:19:21] Probe complete - filename: bbcli-aarch64-unknown-linux-gnu.tar.gz, size: 2699170, range: true
+[2026-02-11 17:19:21] TUIDownload: Probe success 2699170
+[2026-02-11 17:19:21] Destination path: /home/rio/Downloads/bbcli-aarch64-unknown-linux-gnu.tar.gz
+[2026-02-11 17:19:21] Using concurrent downloader
+[2026-02-11 17:19:21] Probing 1 mirrors
+[2026-02-11 17:19:21] Probing 1 mirrors...
+[2026-02-11 17:19:21] Probing server: https://github.com/hako/bbcli/releases/download/1.0.3/bbcli-aarch64-unknown-linux-gnu.tar.gz
+[2026-02-11 17:19:21] Probe response status: 206
+[2026-02-11 17:19:21] Content-Range header: bytes 0-0/2699170
+[2026-02-11 17:19:21] Range supported, file size: 2699170
+[2026-02-11 17:19:21] Probe complete - filename: bbcli-aarch64-unknown-linux-gnu.tar.gz, size: 2699170, range: true
+[2026-02-11 17:19:21] Mirror probing complete: 1 valid, 0 failed
+[2026-02-11 17:19:21] Found 0 active mirrors from 1 candidates
+[2026-02-11 17:19:21] Calling Download with mirrors: [https://github.com/hako/bbcli/releases/download/1.0.3/bbcli-aarch64-unknown-linux-gnu.tar.gz]
+[2026-02-11 17:19:21] ConcurrentDownloader.Download: https://github.com/hako/bbcli/releases/download/1.0.3/bbcli-aarch64-unknown-linux-gnu.tar.gz -> /home/rio/Downloads/bbcli-aarch64-unknown-linux-gnu.tar.gz (size: 2699170, mirrors: 0)
+[2026-02-11 17:19:21] Worker 0 started
+[2026-02-11 17:19:21] Worker 0: Task offset=0 length=2695168 took 373.290231ms
+[2026-02-11 17:19:21] Worker 0: Task offset=2695168 length=4002 took 25.680923ms
+[2026-02-11 17:19:21] Worker 0 finished
+[2026-02-11 17:19:21] Download https://github.com/hako/bbcli/releases/download/1.0.3/bbcli-aarch64-unknown-linux-gnu.tar.gz completed in 522.542693ms
