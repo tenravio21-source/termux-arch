@@ -5,6 +5,7 @@ local M = {
 	"rust_analyzer",
 	"gopls",
 	"clangd",
+	"vtls",
 }
 
 return M

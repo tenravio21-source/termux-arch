@@ -10,6 +10,10 @@ M.setup = function()
 			dart = { "dart_format" },
 			cpp = { "clang_format" },
 			c = { "clang_format" },
+			typescript = { "prettier" },
+			javascript = { "prettier" },
+			json = { "prettier" },
+			typescriptreact = { "prettier" },
 		},
 		formatters = {
 			clang_format = {
