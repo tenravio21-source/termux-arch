@@ -1,0 +1,90 @@
+[2026-02-17 11:08:26] HTTP server listening on port 8080
+[2026-02-17 11:08:26] TUIDownload: Probing server... https://storage.googleapis.com/dart-archive/channels/stable/release/3.11.0/sdk/dartsdk-linux-arm64-release.zip
+[2026-02-17 11:08:26] Probing server: https://storage.googleapis.com/dart-archive/channels/stable/release/3.11.0/sdk/dartsdk-linux-arm64-release.zip
+[2026-02-17 11:08:28] Probe response status: 206
+[2026-02-17 11:08:28] Content-Range header: bytes 0-0/226614013
+[2026-02-17 11:08:28] Range supported, file size: 226614013
+[2026-02-17 11:08:28] Probe complete - filename: dartsdk-linux-arm64-release.zip, size: 226614013, range: true
+[2026-02-17 11:08:28] TUIDownload: Probe success 226614013
+[2026-02-17 11:08:28] Destination path: /home/rio/Downloads/dartsdk-linux-arm64-release.zip
+[2026-02-17 11:08:28] Using concurrent downloader
+[2026-02-17 11:08:28] Probing 1 mirrors
+[2026-02-17 11:08:28] Probing 1 mirrors...
+[2026-02-17 11:08:28] Probing server: https://storage.googleapis.com/dart-archive/channels/stable/release/3.11.0/sdk/dartsdk-linux-arm64-release.zip
+[2026-02-17 11:08:29] Probe response status: 206
+[2026-02-17 11:08:29] Content-Range header: bytes 0-0/226614013
+[2026-02-17 11:08:29] Range supported, file size: 226614013
+[2026-02-17 11:08:29] Probe complete - filename: dartsdk-linux-arm64-release.zip, size: 226614013, range: true
+[2026-02-17 11:08:29] Mirror probing complete: 1 valid, 0 failed
+[2026-02-17 11:08:29] Found 0 active mirrors from 1 candidates
+[2026-02-17 11:08:29] Calling Download with mirrors: [https://storage.googleapis.com/dart-archive/channels/stable/release/3.11.0/sdk/dartsdk-linux-arm64-release.zip]
+[2026-02-17 11:08:29] ConcurrentDownloader.Download: https://storage.googleapis.com/dart-archive/channels/stable/release/3.11.0/sdk/dartsdk-linux-arm64-release.zip -> /home/rio/Downloads/dartsdk-linux-arm64-release.zip (size: 226614013, mirrors: 0)
+[2026-02-17 11:08:29] Worker 0 started
+[2026-02-17 11:08:29] Worker 7 started
+[2026-02-17 11:08:29] Worker 3 started
+[2026-02-17 11:08:29] Worker 11 started
+[2026-02-17 11:08:29] Worker 1 started
+[2026-02-17 11:08:29] Worker 4 started
+[2026-02-17 11:08:29] Worker 8 started
+[2026-02-17 11:08:29] Worker 2 started
+[2026-02-17 11:08:29] Worker 5 started
+[2026-02-17 11:08:29] Worker 6 started
+[2026-02-17 11:08:29] Worker 14 started
+[2026-02-17 11:08:29] Worker 13 started
+[2026-02-17 11:08:29] Worker 10 started
+[2026-02-17 11:08:29] Worker 12 started
+[2026-02-17 11:08:29] Worker 9 started
+[2026-02-17 11:08:36] Worker 3: Task offset=30212096 length=15106048 took 7.700609462s
+[2026-02-17 11:08:36] Worker 6: Task offset=135954432 length=15106048 took 7.919707462s
+[2026-02-17 11:08:37] Balancer: stole 6.0 MB from worker 13 (new range: 175030272-181272576)
+[2026-02-17 11:08:37] Worker 10: Task offset=181272576 length=15106048 took 8.074302155s
+[2026-02-17 11:08:37] Worker 11: Task offset=45318144 length=15106048 took 8.087418462s
+[2026-02-17 11:08:37] Balancer: stole 5.7 MB from worker 9 (new range: 220610560-226590720)
+[2026-02-17 11:08:37] Worker 4: Task offset=75530240 length=15106048 took 8.213965616s
+[2026-02-17 11:08:37] Worker 3: Task offset=226590720 length=23293 took 566.775385ms
+[2026-02-17 11:08:37] Balancer: stole 5.7 MB from worker 2 (new range: 114868224-120848384)
+[2026-02-17 11:08:37] Balancer: stole 5.0 MB from worker 1 (new range: 70336512-75530240)
+[2026-02-17 11:08:37] Balancer: stole 5.0 MB from worker 8 (new range: 100548608-105742336)
+[2026-02-17 11:08:37] Worker 12: Task offset=196378624 length=15106048 took 8.78149377s
+[2026-02-17 11:08:37] Balancer: stole 4.0 MB from worker 0 (new range: 10960896-15106048)
+[2026-02-17 11:08:38] Worker 5: Task offset=120848384 length=15106048 took 9.103320308s
+[2026-02-17 11:08:38] Worker 7: Task offset=15106048 length=15106048 took 9.123641232s
+[2026-02-17 11:08:38] Balancer: stole 2.9 MB from worker 10 (new range: 223600640-226590720)
+[2026-02-17 11:08:38] Worker 14: Task offset=151060480 length=15106048 took 9.363044693s
+[2026-02-17 11:08:38] Balancer: stole 2.9 MB from worker 11 (new range: 117858304-120848384)
+[2026-02-17 11:08:38] Balancer: stole 2.7 MB from worker 13 (new range: 172171264-175030272)
+[2026-02-17 11:08:39] Worker 6: Task offset=175030272 length=6242304 took 2.014040307s
+[2026-02-17 11:08:39] Balancer: stole 2.5 MB from worker 3 (new range: 103145472-105742336)
+[2026-02-17 11:08:39] Worker 0: Task offset=0 length=15106048 took 10.299911001s
+[2026-02-17 11:08:39] Worker 8: Task offset=90636288 length=15106048 took 10.309947616s
+[2026-02-17 11:08:39] Balancer: stole 2.1 MB from worker 2 (new range: 112664576-114868224)
+[2026-02-17 11:08:39] Worker 10: Task offset=220610560 length=5980160 took 2.55872523s
+[2026-02-17 11:08:39] Worker 11: Task offset=114868224 length=5980160 took 2.428528846s
+[2026-02-17 11:08:40] Worker 3: Task offset=100548608 length=5193728 took 2.682426539s
+[2026-02-17 11:08:40] Worker 4: Task offset=70336512 length=5193728 took 2.969267077s
+[2026-02-17 11:08:40] Worker 12: Task offset=10960896 length=4145152 took 2.582668616s
+[2026-02-17 11:08:40] Worker 13: Task offset=166166528 length=15106048 took 11.451632231s
+[2026-02-17 11:08:40] Worker 5: Task offset=223600640 length=2990080 took 2.262686846s
+[2026-02-17 11:08:40] Worker 7: Task offset=117858304 length=2990080 took 2.251528385s
+[2026-02-17 11:08:40] Worker 14: Task offset=172171264 length=2859008 took 2.206104847s
+[2026-02-17 11:08:40] Worker 2: Task offset=105742336 length=15106048 took 11.846635077s
+[2026-02-17 11:08:41] Worker 9: Task offset=211484672 length=15106048 took 12.048661847s
+[2026-02-17 11:08:41] Worker 1: Task offset=60424192 length=15106048 took 12.176715078s
+[2026-02-17 11:08:41] Worker 6: Task offset=103145472 length=2596864 took 2.177407077s
+[2026-02-17 11:08:41] Worker 0: Task offset=112664576 length=2203648 took 2.241755615s
+[2026-02-17 11:08:41] Worker 0 finished
+[2026-02-17 11:08:41] Worker 12 finished
+[2026-02-17 11:08:41] Worker 8 finished
+[2026-02-17 11:08:41] Worker 10 finished
+[2026-02-17 11:08:41] Worker 11 finished
+[2026-02-17 11:08:41] Worker 3 finished
+[2026-02-17 11:08:41] Worker 4 finished
+[2026-02-17 11:08:41] Worker 5 finished
+[2026-02-17 11:08:41] Worker 7 finished
+[2026-02-17 11:08:41] Worker 9 finished
+[2026-02-17 11:08:41] Worker 14 finished
+[2026-02-17 11:08:41] Worker 1 finished
+[2026-02-17 11:08:41] Worker 2 finished
+[2026-02-17 11:08:41] Worker 6 finished
+[2026-02-17 11:08:41] Worker 13 finished
+[2026-02-17 11:08:42] Download https://storage.googleapis.com/dart-archive/channels/stable/release/3.11.0/sdk/dartsdk-linux-arm64-release.zip completed in 14.113733616s
