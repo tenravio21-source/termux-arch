@@ -4,12 +4,12 @@ local basic_map = util.basic_map
 
 -- ## 🖱️ Core Navigation & Movement
 -- Disable space in normal mode
--- basic_map("n", "<Space>", "<Nop>", "Disable Space")
+basic_map("n", "<Space>", "<Nop>", "Disable Space")
 
 -- Better window navigation (panes) with Ctrl + h/j/k/l
 basic_map("n", "<C-h>", "<C-w>h", "Window Left")
 basic_map("n", "<C-j>", "<C-w>j", "Window Down")
-basic_map("n", "<C-p>", "<C-w>k", "Window Up")
+basic_map("n", "<C-k>", "<C-w>k", "Window Up")
 basic_map("n", "<C-l>", "<C-w>l", "Window Right")
 
 -- Move around in insert mode without leaving
