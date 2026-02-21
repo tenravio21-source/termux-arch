@@ -1,4 +1,4 @@
-current_connection: ""
+current_connection: my_db
 connections:
   my_db:
     name: my_db
