@@ -1,4 +1,6 @@
 return {
+	["<C-k>"] = { "fallback" },
+	["<C-b>"] = { "fallback" },
 	["<C-z>"] = { "select_and_accept" },
 	["<Tab>"] = {
 		function(cmp)
@@ -30,7 +32,7 @@ return {
 	["<Down>"] = { "select_next", "fallback" },
 
 	["<C-f>"] = { "scroll_documentation_up", "fallback" }, -- C-f/b is standard for scrolling
-	["<C-b>"] = { "scroll_documentation_down", "fallback" },
+	--["<C-b>"] = { "scroll_documentation_down", "fallback" },
 
 	["<C-space>"] = { "show", "show_documentation", "hide_documentation" },
 	["<C-e>"] = { "hide", "fallback" },
