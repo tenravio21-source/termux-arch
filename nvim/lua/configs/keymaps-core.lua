@@ -36,6 +36,9 @@ basic_map("i", "jk", "<ESC>", "Exit Insert Mode")
 -- Clear search highlights with ESC
 basic_map("n", "<ESC>", "<cmd>noh<CR>", "Clear Highlights")
 
+--paste
+basic_map("v", "p", '"_dP', "Paste without overwriting register")
+
 --Search
 basic_map("n", "n", "nzzzv", "Next Search Result (Centered)")
 basic_map("n", "N", "Nzzzv", "Prev Search Result (Centered)")
@@ -70,7 +73,10 @@ basic_map("n", "<leader>wL", "<C-W>L", "Move Window Right")
 -- ## 📂 File and Buffer Management
 -- New/Save/Quit
 basic_map("n", "<leader>fn", "<cmd>enew<cr>", "New File")
-basic_map("n", "<C-s>", "<cmd>w<cr>", "Save File")
+util.safe_map("n", "<C-s>", function()
+	vim.cmd("w")
+	vim.lsp.buf.format({ async = false })
+end, "Save and Format")
 basic_map("i", "<C-s>", "<cmd>w<cr>", "Save File")
 basic_map("n", "<leader>qa", "<cmd>qa<cr>", "Quit All")
 
