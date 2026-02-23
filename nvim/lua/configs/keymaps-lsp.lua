@@ -8,6 +8,13 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	callback = function(ev)
 		local b_opts = { buffer = ev.buf }
 
+		local client = vim.lsp.get_client_by_id(ev.data.client_id)
+
+		-- Check if the LSP supports document symbols (needed for Navic)
+		if client.server_capabilities.documentSymbolProvider then
+			require("nvim-navic").attach(client, ev.buf)
+		end
+
 		-- NAVIGATION
 		util.safe_map("n", "gd", vim.lsp.buf.definition, "LSP: Definition", b_opts)
 		util.safe_map("n", "gi", vim.lsp.buf.implementation, "LSP: Implementation", b_opts)
