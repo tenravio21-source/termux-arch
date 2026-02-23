@@ -87,11 +87,7 @@ end, "Search Word Under Cursor")
 
 -- Search Visual Selection (Safe & Reliable)
 safe_map("v", "<leader>fv", function()
-	local function get_visual_selection()
-		vim.cmd('noau normal! "vy')
-		local text = vim.fn.getreg("v")
-		vim.fn.setreg("v", {})
-		return text
-	end
-	builtin.grep_string({ search = get_visual_selection() })
-end, "Search Visual Selection")
+	-- Get text without clobbering registers
+	local text = vim.fn.getregion(vim.fn.getpos("."), vim.fn.getpos("v"), { type = vim.fn.mode() })
+	builtin.grep_string({ search = table.concat(text, "\n") })
+end, "Search Visual Selection (Native)")
