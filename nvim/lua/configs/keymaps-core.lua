@@ -73,10 +73,7 @@ basic_map("n", "<leader>wL", "<C-W>L", "Move Window Right")
 -- ## 📂 File and Buffer Management
 -- New/Save/Quit
 basic_map("n", "<leader>fn", "<cmd>enew<cr>", "New File")
-util.safe_map("n", "<C-s>", function()
-	vim.cmd("w")
-	vim.lsp.buf.format({ async = false })
-end, "Save and Format")
+basic_map("n", "<C-s>", "<cmd>w<cr>", "Save File")
 basic_map("i", "<C-s>", "<cmd>w<cr>", "Save File")
 basic_map("n", "<leader>qa", "<cmd>qa<cr>", "Quit All")
 

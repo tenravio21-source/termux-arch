@@ -7,7 +7,11 @@ basic_map("n", "<leader>h", "<cmd>Alpha<CR>", "Alpha")
 basic_map("n", ";", ":", "Esc")
 
 -- Reload nvim (LINE 8/9 area)
-basic_map("n", "<leader>ur", "<Cmd>update<CR><Cmd>source<CR>", "Reload nvim")
+safe_map("n", "<leader>ur", function()
+	vim.cmd("write")
+	vim.cmd("source " .. vim.fn.stdpath("config") .. "/init.lua")
+	vim.notify("Config Reloaded!", vim.log.levels.INFO)
+end, "Reload nvim")
 
 safe_map("n", "<leader>ut", function()
 	require("telescope.builtin").colorscheme({

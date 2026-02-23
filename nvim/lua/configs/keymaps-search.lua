@@ -21,7 +21,9 @@ safe_map("n", "<leader>fF", function()
 end, "Smart Open Files")
 
 -- Live Grep (Search in Project)
-safe_map("n", "<leader>fg", builtin.live_grep, "Live Grep (Project)")
+safe_map("n", "<leader>fg", function()
+	require("telescope").extensions.live_grep_args.live_grep_args()
+end, "Live Grep (with Args)")
 
 -- Live Grep in Current Directory
 safe_map("n", "<leader>fG", function()
