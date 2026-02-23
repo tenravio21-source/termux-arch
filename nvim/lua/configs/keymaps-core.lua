@@ -17,8 +17,8 @@ basic_map("i", "<C-h>", "<Left>", "Move Left in Insert")
 basic_map("i", "<C-j>", "<Down>", "Move Down in Insert")
 basic_map("i", "<C-k>", "<Up>", "Move Up in Insert")
 basic_map("i", "<C-l>", "<Right>", "Move Right in Insert")
-basic_map("i", "<C-b>", "<ESC>^i", "Move to Beginning of Line in Insert")
-basic_map("i", "<C-e>", "<End>", "Move to End of Line in Insert")
+basic_map("i", "<C-b>", "<C-o>^", "Move to Beginning of Line")
+basic_map("i", "<C-e>", "<C-o>$", "Move to End of Line")
 
 -- ## ↕️ Move Lines
 basic_map("n", "<leader>j", ":move .+1<CR>==", "Move Line Down")

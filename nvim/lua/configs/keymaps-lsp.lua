@@ -25,8 +25,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		-- DOCUMENTATION
 		util.safe_map("n", "K", vim.lsp.buf.hover, "Hover Documentation", b_opts)
 		util.safe_map("n", "gK", vim.lsp.buf.signature_help, "Signature Help", b_opts)
-		-- Insert mode signature help (The fix for your C-k move conflict)
-		util.safe_map("i", "<C-k>", vim.lsp.buf.signature_help, "Signature Help", b_opts)
 
 		-- SYMBOLS
 		util.safe_map("n", "<leader>ls", "Telescope lsp_document_symbols", "Document Symbols", b_opts)
