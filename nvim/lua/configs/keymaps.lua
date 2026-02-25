@@ -20,7 +20,7 @@ wk.add({
 })
 
 -- 2. NOW load your modular keymaps
-local keymap_configs = { "core", "terminal", "lsp", "git", "ui", "leetcode" }
+local keymap_configs = { "core", "lsp", "git", "ui" }
 
 for _, config_name in ipairs(keymap_configs) do
 	local success, _ = pcall(require, "configs.keymaps-" .. config_name)
