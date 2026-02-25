@@ -2,6 +2,10 @@ return {
 	{
 		"akinsho/toggleterm.nvim",
 		cmd = { "ToggleTerm", "TermExec" },
+		keys = {
+			{ "<leader>t", "<cmd>ToggleTerm<cr>", desc = "Toggle Terminal" },
+			{ "<esc><esc>", "<cmd>ToggleTerm<cr>", mode = "t", desc = "Exit ToggleTerm" },
+		},
 		config = function()
 			require("toggleterm").setup({
 				start_in_insert = true,
