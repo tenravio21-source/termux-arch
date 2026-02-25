@@ -16,6 +16,7 @@ wk.add({
 	{ "<leader>z", group = "Leetcode", icon = "󰒋" },
 	{ "<leader>x", group = "Trouble", icon = " " },
 	{ "<leader>d", group = "Diagnostic", icon = "󱒇 " },
+	{ "<leader>F", group = "Flutter", icon = "󰒋 " },
 })
 
 -- 2. NOW load your modular keymaps
