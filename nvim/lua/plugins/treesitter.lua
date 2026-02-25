@@ -9,6 +9,7 @@ return {
 		treesitter.setup({})
 		local ensure_installed = {
 			"bash",
+			"dart",
 			"go",
 			"html",
 			"json",
