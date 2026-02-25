@@ -25,3 +25,17 @@ return {
 		},
 	},
 }
+
+--[[
+Type gsaiw) (Global Surround Add Inner Word )).
+
+    Result: word becomes (word).
+
+Type gsr)' (Global Surround Replace ) with ').
+
+    Result: (word) becomes 'word'.
+
+Type gsd' (Global Surround Delete ').
+
+    Result: 'word' returns to word.
+ ]]
