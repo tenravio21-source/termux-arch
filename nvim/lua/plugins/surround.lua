@@ -2,7 +2,7 @@ return {
 	{
 		"echasnovski/mini.surround",
 		version = false,
-		-- We define the keys manually since we aren't using the LazyVim distro helpers
+		event = "VeryLazy",
 		keys = {
 			{ "gsa", desc = "Add Surrounding", mode = { "n", "x" } },
 			{ "gsd", desc = "Delete Surrounding" },
