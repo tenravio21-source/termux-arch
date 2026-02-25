@@ -58,7 +58,6 @@ end, "Copy current file directory")
 
 -- ... (rest of the code) ...
 -- Quick access to important files
-local builtin = require("telescope.builtin")
 -- Using safe_map here just in case Telescope is not loaded, though basic_map is also sufficient.
 safe_map("n", "<leader>fN", function()
 	require("telescope.builtin").find_files({ cwd = "~/.config/nvim" })

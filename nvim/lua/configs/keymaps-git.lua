@@ -1,9 +1,6 @@
 local util = require("utils.keymaps")
 local safe_map = util.safe_map
 
--- 1. DELETE this line entirely
--- local builtin = require("telescope.builtin")
-
 -- 2. WRAP the calls in functions
 -- Search Git Files
 safe_map("n", "<leader>gf", function()

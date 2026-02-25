@@ -1,15 +1,15 @@
-local builtin = require("telescope.builtin")
 local M = {}
 
 M.find_files_cwd = function()
-	builtin.find_files({
+	-- Only loads telescope when you actually call this function
+	require("telescope.builtin").find_files({
 		cwd = vim.fn.expand("%:p:h"),
 		hidden = true,
 	})
 end
 
 M.live_grep_cwd = function()
-	builtin.live_grep({
+	require("telescope.builtin").live_grep({
 		cwd = vim.fn.expand("%:p:h"),
 		additional_args = function()
 			return { "--hidden", "--glob", "!{.git,node_modules,.DS_Store}" }
@@ -18,7 +18,7 @@ M.live_grep_cwd = function()
 end
 
 M.grep_word_under_cursor = function()
-	builtin.grep_string({
+	require("telescope.builtin").grep_string({
 		search = vim.fn.expand("<cword>"),
 		additional_args = function()
 			return { "--hidden", "--glob", "!{.git,node_modules,.DS_Store}" }
