@@ -6,6 +6,8 @@ local basic_map = util.basic_map
 -- Disable space in normal mode
 basic_map("n", "<Space>", "<Nop>", "Disable Space")
 
+basic_map("n", "<leader>sc", ":nohlsearch<CR>", "Clear search highlights")
+
 -- Better window navigation (panes) with Ctrl + h/j/k/l
 basic_map("n", "<C-h>", "<C-w>h", "Window Left")
 basic_map("n", "<C-j>", "<C-w>j", "Window Down")
