@@ -179,13 +179,21 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
 
 -- Show relative line numbers in normal mode, absolute in insert mode
 vim.api.nvim_create_autocmd({ "InsertEnter" }, {
-	pattern = "*",
-	command = "setlocal norelativenumber",
+	callback = function()
+		if vim.wo.relativenumber then
+			vim.t.relativenumber_was_on = true
+			vim.wo.relativenumber = false
+		end
+	end,
 })
 
 vim.api.nvim_create_autocmd({ "InsertLeave" }, {
-	pattern = "*",
-	command = "setlocal relativenumber",
+	callback = function()
+		if vim.t.relativenumber_was_on then
+			vim.wo.relativenumber = true
+			vim.t.relativenumber_was_on = false
+		end
+	end,
 })
 
 vim.api.nvim_create_user_command("ToggleContrast", function()
