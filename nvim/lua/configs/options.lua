@@ -4,6 +4,9 @@ local g = vim.g
 --set background
 -- vim.o.background = "light"
 
+-- Global variables
+g.mapleader = " "
+
 -- Neovide settings (cleaner and more consistent)
 if g.neovide then
 	g.neovide_opacity = 0.8
@@ -46,6 +49,7 @@ opt.textwidth = 0
 opt.swapfile = false
 opt.undofile = true
 opt.undolevels = 1000 -- Store more undo history
+opt.undodir = vim.fn.stdpath("data") .. "/undo"
 
 -- Status line and UI
 opt.laststatus = 3
@@ -82,6 +86,9 @@ opt.smartcase = true
 opt.splitbelow = true
 opt.splitright = true
 
+opt.inccommand = "nosplit"
+opt.wildmode = "longest:full,full"
+
 -- Timeouts and updates
 opt.timeoutlen = 400
 opt.updatetime = 250
@@ -94,6 +101,3 @@ g.loaded_node_provider = 0
 g.loaded_python3_provider = 0
 g.loaded_perl_provider = 0
 g.loaded_ruby_provider = 0
-
--- Global variables
-g.mapleader = " "
