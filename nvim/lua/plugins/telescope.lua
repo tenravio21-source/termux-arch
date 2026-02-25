@@ -1,6 +1,7 @@
 return {
 	"nvim-telescope/telescope.nvim",
 	cmd = "Telescope",
+	event = "VeryLazy",
 	version = false,
 	keys = {
 		-- Basic Find
