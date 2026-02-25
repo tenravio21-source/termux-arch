@@ -15,7 +15,7 @@ return {
 	},
 	{
 		"scottmckendry/cyberdream.nvim",
-		lazy = true,
+		event = "VeryLazy",
 		opts = {
 			variant = "auto",
 			transparent = true,

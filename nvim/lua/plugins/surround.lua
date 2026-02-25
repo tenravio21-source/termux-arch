@@ -2,7 +2,7 @@ return {
 	{
 		"echasnovski/mini.surround",
 		version = false,
-		event = "VeryLazy",
+		event = "InsertEnter",
 		keys = {
 			{ "gsa", desc = "Add Surrounding", mode = { "n", "x" } },
 			{ "gsd", desc = "Delete Surrounding" },
