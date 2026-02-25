@@ -2,19 +2,26 @@ return {
 	{
 		"echasnovski/mini.surround",
 		version = false,
-		config = function()
-			require("mini.surround").setup({
-				-- These are the default mappings
-				mappings = {
-					add = "sa", -- Add surrounding in Normal and Visual modes
-					delete = "sd", -- Delete surrounding
-					find = "sf", -- Find surrounding (to the right)
-					find_left = "sF", -- Find surrounding (to the left)
-					highlight = "sh", -- Highlight surrounding
-					replace = "sr", -- Replace surrounding
-					update_n_lines = "sn", -- Update `n_lines`
-				},
-			})
-		end,
+		-- We define the keys manually since we aren't using the LazyVim distro helpers
+		keys = {
+			{ "gsa", desc = "Add Surrounding", mode = { "n", "x" } },
+			{ "gsd", desc = "Delete Surrounding" },
+			{ "gsf", desc = "Find Right Surrounding" },
+			{ "gsF", desc = "Find Left Surrounding" },
+			{ "gsh", desc = "Highlight Surrounding" },
+			{ "gsr", desc = "Replace Surrounding" },
+			{ "gsn", desc = "Update n_lines" },
+		},
+		opts = {
+			mappings = {
+				add = "gsa", -- Add surrounding in Normal and Visual modes
+				delete = "gsd", -- Delete surrounding
+				find = "gsf", -- Find surrounding (to the right)
+				find_left = "gsF", -- Find surrounding (to the left)
+				highlight = "gsh", -- Highlight surrounding
+				replace = "gsr", -- Replace surrounding
+				update_n_lines = "gsn", -- Update `n_lines`
+			},
+		},
 	},
 }
