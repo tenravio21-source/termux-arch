@@ -10,6 +10,10 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
 		local client = vim.lsp.get_client_by_id(ev.data.client_id)
 
+		if not client then
+			return
+		end
+
 		-- Check if the LSP supports document symbols (needed for Navic)
 		if client.server_capabilities.documentSymbolProvider then
 			require("nvim-navic").attach(client, ev.buf)
