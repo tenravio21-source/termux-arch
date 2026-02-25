@@ -13,12 +13,13 @@ safe_map("n", "<leader>fu", function()
 	require("telescope").extensions.notify.notify()
 end, "Find Notifications (History)")
 
--- Smart Open Files (requires Telescope Smart Open extension)
+-- Smart Open Files (Optimized for project relevance)
 safe_map("n", "<leader>fF", function()
-	-- Assuming Telescope is loaded and extension is available
-	local telescope = require("telescope")
-	return telescope.extensions.smart_open.smart_open()
-end, "Smart Open Files")
+	require("telescope").extensions.smart_open.smart_open({
+		cwd_only = true,
+		filename_first = true,
+	})
+end, "Smart Open Files (Project)")
 
 -- Live Grep (Search in Project)
 safe_map("n", "<leader>fg", function()
@@ -46,9 +47,6 @@ safe_map("n", "<leader>?", builtin.current_buffer_fuzzy_find, "Search in Current
 
 -- Find Help Tags
 safe_map("n", "<leader>fh", builtin.help_tags, "Find Help Tags")
-
--- Find Man Pages
-safe_map("n", "<leader>fm", builtin.man_pages, "Find Man Pages")
 
 -- Find Keymaps
 safe_map("n", "<leader>fk", builtin.keymaps, "Find Keymaps")
@@ -87,7 +85,8 @@ end, "Search Word Under Cursor")
 
 -- Search Visual Selection (Safe & Reliable)
 safe_map("v", "<leader>fv", function()
-	-- Get text without clobbering registers
 	local text = vim.fn.getregion(vim.fn.getpos("."), vim.fn.getpos("v"), { type = vim.fn.mode() })
-	builtin.grep_string({ search = table.concat(text, "\n") })
-end, "Search Visual Selection (Native)")
+	local query = table.concat(text, "\n")
+	-- Use live_grep if you want to see context, or grep_string for exact matches
+	builtin.grep_string({ search = query })
+end, "Search Visual Selection")

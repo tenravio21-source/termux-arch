@@ -10,7 +10,7 @@ wk.add({
 	{ "<leader>q", group = "Session/Quit", icon = "󰈆 " },
 	{ "<leader>u", group = "UI/User", icon = "󰙵 " },
 	{ "<leader>w", group = "Window", icon = "󱂬 " },
-	{ "<leader>h", group = "Help/Helper", icon = "󰞋 " },
+	{ "<leader>h", group = "Alpha", icon = "󰞋 " },
 	{ "<leader>s", group = "Search", icon = "󱎸 " },
 	{ "<leader>H", group = "File/Directory", icon = "󰓩 " },
 	{ "<leader>z", group = "Leetcode", icon = "󰒋" },
