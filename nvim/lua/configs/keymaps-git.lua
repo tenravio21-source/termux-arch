@@ -1,17 +1,26 @@
 local util = require("utils.keymaps")
-local safe_map = util.safe_map -- The safe-calling map function (renamed here for clarity)
+local safe_map = util.safe_map
 
-local builtin = require("telescope.builtin")
+-- 1. DELETE this line entirely
+-- local builtin = require("telescope.builtin")
 
+-- 2. WRAP the calls in functions
 -- Search Git Files
-safe_map("n", "<leader>gf", builtin.git_files, "Search Git Files (Telescope)")
--- Note: The utility function's error message will be "Git Files (Telescope) not available"
+safe_map("n", "<leader>gf", function()
+	require("telescope.builtin").git_files()
+end, "Search Git Files (Telescope)")
 
 -- Search Git Branches
-safe_map("n", "<leader>gb", builtin.git_branches, "Search Git Branches (Telescope)")
+safe_map("n", "<leader>gb", function()
+	require("telescope.builtin").git_branches()
+end, "Search Git Branches (Telescope)")
 
 -- Search Git Commits
-safe_map("n", "<leader>gc", builtin.git_commits, "Search Git Commits (Telescope)")
+safe_map("n", "<leader>gc", function()
+	require("telescope.builtin").git_commits()
+end, "Search Git Commits (Telescope)")
 
 -- Search Git Commits for Buffer
-safe_map("n", "<leader>gC", builtin.git_bcommits, "Search Git Buffer Commits (Telescope)")
+safe_map("n", "<leader>gC", function()
+	require("telescope.builtin").git_bcommits()
+end, "Search Git Buffer Commits (Telescope)")
