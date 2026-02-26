@@ -21,6 +21,7 @@ function M.setup()
 			section_separators = { left = "", right = "" },
 			component_separators = { left = "", right = "" },
 			globalstatus = true,
+			disabled_filetypes = { statusline = { "alpha", "dashboard" } },
 		},
 		sections = sections.active,
 		winbar = sections.winbar,
