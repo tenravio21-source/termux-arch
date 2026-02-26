@@ -1,6 +1,6 @@
 return {
 	"echasnovski/mini.animate",
-	event = "VeryLazy",
+	event = { "BufReadPost", "BufNewFile" },
 	config = function()
 		local animate = require("mini.animate")
 		require("mini.animate").setup({
