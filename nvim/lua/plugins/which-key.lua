@@ -49,7 +49,7 @@ return {
 		{
 			"<leader>w?",
 			function()
-				require("which-key").show(nil, { mode = "n" })
+				require("which-key").show(nil)
 			end,
 			desc = "WhichKey Look-up",
 		},
