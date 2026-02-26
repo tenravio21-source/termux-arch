@@ -16,6 +16,7 @@ return {
 	{
 		"scottmckendry/cyberdream.nvim",
 		event = "VeryLazy",
+		priority = 1000,
 		opts = {
 			variant = "auto",
 			transparent = true,
