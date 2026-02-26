@@ -1,4 +1,5 @@
 require("core.lazys")
+require("configs.options")
 require("configs.autocmds")
 require("configs.keymaps")
 require("core.runner")

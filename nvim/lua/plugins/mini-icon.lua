@@ -1,7 +1,6 @@
 return {
 	"echasnovski/mini.icons",
-	event = "VeryLazy",
-
+	lazy = true,
 	opts = {
 		file = {
 			[".keep"] = { glyph = "󰊢", hl = "MiniIconsGrey" },
