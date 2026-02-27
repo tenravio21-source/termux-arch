@@ -1,78 +1,78 @@
 return {
-	{
-		"williamboman/mason.nvim",
-		cmd = "Mason",
-		config = function()
-			require("mason").setup({
-				ui = {
-					border = "rounded",
-				},
-			})
-		end,
-	},
-	{
-		"neovim/nvim-lspconfig",
-		event = { "BufReadPre", "BufNewFile" },
-		dependencies = {
-			{ "williamboman/mason-lspconfig.nvim" },
-			"saghen/blink.cmp",
-		},
-		opts = {
-			-- 1. Global Server Settings
-			servers = {
-				lua_ls = {
-          -- Explicitly define the command for Mason-installed lua_ls
-          cmd = { "lua-language-server" },
-          root_dir = function() 
-            return vim.fs.root(0, { ".git", "init.lua", ".luarc.json", ".luarc.jsonc" }) 
-          end,
+  {
+    "williamboman/mason.nvim",
+    cmd = "Mason",
+    opts = {
+      ui = { border = "rounded" },
+    },
+  },
+  {
+    "neovim/nvim-lspconfig",
+    event = { "BufReadPre", "BufNewFile" },
+    dependencies = {
+      "williamboman/mason-lspconfig.nvim",
+      "saghen/blink.cmp",
+    },
+    opts = {
+      servers = {
+        lua_ls = {
           settings = {
             Lua = {
               runtime = { version = "LuaJIT" },
               diagnostics = { globals = { "vim" } },
               workspace = { 
                 checkThirdParty = false,
-                library = { vim.env.VIMRUNTIME }
+                library = vim.api.nvim_get_runtime_file("", true),
               },
             },
           },
         },
-				pyright = {},
-				dartls = {},
-				rust_analyzer = {},
-				gopls = {},
-			},
-		},
-		config = function(_, opts)
-			local capabilities = require("blink.cmp").get_lsp_capabilities()
-			local icons = require("core.icons")
+        pyright = {},
+        rust_analyzer = {},
+        gopls = {},
+        dartls = {},
+      },
+    },
+    config = function(_, opts)
+      require("mason-lspconfig").setup({
+        ensure_installed = vim.tbl_keys(opts.servers),
+      })
 
-			-- 2. Setup Diagnostics
-			vim.diagnostic.config({
-				virtual_text = false,
-				severity_sort = true,
-				float = { border = "rounded", source = "if_many" },
-				signs = {
-					text = {
-						[vim.diagnostic.severity.ERROR] = icons.Error,
-						[vim.diagnostic.severity.WARN] = icons.Warn,
-						[vim.diagnostic.severity.HINT] = icons.Hint,
-						[vim.diagnostic.severity.INFO] = icons.Info,
-					},
-				},
-			})
+      local icons = { Error = "󰅚 ", Warn = "󰀪 ", Hint = "󰌶 ", Info = "󰋽 " }
+      vim.diagnostic.config({
+        virtual_text = false,
+        severity_sort = true,
+        float = { border = "rounded", source = "if_many" },
+        signs = {
+          text = {
+            [vim.diagnostic.severity.ERROR] = icons.Error,
+            [vim.diagnostic.severity.WARN] = icons.Warn,
+            [vim.diagnostic.severity.HINT] = icons.Hint,
+            [vim.diagnostic.severity.INFO] = icons.Info,
+          },
+        },
+      })
 
-			-- 3. The 0.11 Logic: Register and Enable
-			for server, server_opts in pairs(opts.servers) do
-				-- Inject Blink capabilities into each server
-				server_opts.capabilities = vim.tbl_deep_extend("force", capabilities, server_opts.capabilities or {})
+      vim.api.nvim_create_autocmd("LspAttach", {
+        callback = function(args)
+          local client = vim.lsp.get_client_by_id(args.data.client_id)
+          local bufnr = args.buf
 
-				-- Register the config (Discovery)
-				vim.lsp.config(server, server_opts)
+          local map = function(mode, lhs, rhs, desc)
+            vim.keymap.set(mode, lhs, rhs, { buffer = bufnr, desc = "LSP: " .. desc })
+          end
 
-				-- Enable the server (Activation)
-				vim.lsp.enable(server)
-			end
-		end,
-	},
+          if client and client.supports_method("textDocument/inlayHint") then
+            vim.lsp.inlay_hint.enable(true, { bufnr = bufnr })
+          end
+        end,
+      })
+      local blink = require("blink.cmp")
+      for server, server_opts in pairs(opts.servers) do
+        server_opts.capabilities = blink.get_lsp_capabilities(server_opts.capabilities)
+        vim.lsp.config(server, server_opts)
+        vim.lsp.enable(server)
+      end
+    end,
+  },
 }
