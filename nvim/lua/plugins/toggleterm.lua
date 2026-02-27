@@ -1,28 +1,25 @@
 return {
-	{
-		"akinsho/toggleterm.nvim",
-		cmd = { "ToggleTerm", "TermExec" },
-		keys = {
-			{ "<leader>t", "<cmd>ToggleTerm<cr>", desc = "Toggle Terminal" },
-			{ "<esc><esc>", "<cmd>ToggleTerm<cr>", mode = "t", desc = "Exit ToggleTerm" },
-		},
-		config = function()
-			require("toggleterm").setup({
-				start_in_insert = true,
-				shell = "nu",
-				-- shell = "pwsh",
-				insert_mappings = true,
-				close_on_exit = true,
-				direction = "float",
-				persist_size = true,
-				persist_mode = true,
-				size = 20,
-				open_mapping = [[<c-\>]],
-				hide_numbers = true,
-				float_opts = {
-					border = "rounded",
-				},
-			})
-		end,
-	},
+  "akinsho/toggleterm.nvim",
+  -- cmd and keys ensure 0ms impact on startup
+  cmd = { "ToggleTerm", "TermExec" },
+  keys = {
+    { "<leader>t", "<cmd>ToggleTerm<cr>", desc = "Toggle Terminal" },
+    { "<esc><esc>", "<C-\\><C-n><cmd>ToggleTerm<cr>", mode = "t", desc = "Exit Terminal" },
+  },
+  opts = {
+    size = 20,
+    open_mapping = [[<c-\>]], -- Keep the default toggle shortcut
+    hide_numbers = true,
+    shade_terminals = false, -- Disabling shading saves some window redraw cycles
+    start_in_insert = true,
+    insert_mappings = true,
+    persist_size = true,
+    direction = "float",
+    close_on_exit = true,
+    shell = "nu", -- Excellent choice for speed
+    float_opts = {
+      border = "rounded",
+      winblend = 3,
+    },
+  },
 }
