@@ -21,13 +21,15 @@ return {
 			-- 1. Global Server Settings
 			servers = {
 				lua_ls = {
-					settings = {
-						Lua = {
-							diagnostics = { globals = { "vim" } },
-							workspace = { checkThirdParty = false },
-							completion = { callSnippet = "Replace" },
-						},
-					},
+          cmd = { "lua-language-server" },
+          root_dir = function() return vim.fs.root(0, { ".git", "init.lua", ".luarc.json" }) end,
+          settings = {
+            Lua = {
+              diagnostics = { globals = { "vim" } },
+              workspace = { checkThirdParty = false },
+              telemetry = { enabled = false },
+            },
+          },
 				},
 				pyright = {},
 				dartls = {},
