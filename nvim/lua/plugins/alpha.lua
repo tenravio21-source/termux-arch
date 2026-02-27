@@ -14,7 +14,6 @@ return {
 
 		require("core.alpha.theme").setup(dashboard)
 		require("core.alpha.footer").setup(dashboard)
-		require("core.alpha.autocmds").setup()
 
 		alpha.setup(dashboard.opts)
 	end,
