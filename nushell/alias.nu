@@ -11,8 +11,8 @@ alias ... = cd ../../..
 alias p = pwd
 
 #Editor
-alias v = nvim
-alias vi = nvim
+alias v = nvims
+alias vi = nvims
 
 # Git (Enhanced)
 alias gc = git commit -m
@@ -41,7 +41,7 @@ alias ll = lsd -l --color always --icon always
 alias la = lsd -a --color always --icon always
 alias lla = lsd -la --color always --icon always
 alias lt = lsd --tree --color always --icon always
-alias cat = bat
+# alias cat = ^bat
 alias rm-safe = rm -I
 
 # Network
