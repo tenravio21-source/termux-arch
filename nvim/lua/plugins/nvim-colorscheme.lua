@@ -43,7 +43,6 @@ return {
 			neotree = true,
 			mason = true,
 			noice = true,
-			navic = { enabled = true, custom_bg = "lualine" },
 			native_lsp = {
 				enabled = true,
 				underlines = {
