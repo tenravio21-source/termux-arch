@@ -3,34 +3,18 @@ return {
 	cmd = "FzfLua",
 	dependencies = { "echasnovski/mini.icons" },
 	opts = function()
-		local fzf = require("fzf-lua")
-		local config = fzf.config
-		local actions = fzf.actions
+		local actions = require("fzf-lua.actions")
 
-		-- 1. Keymap Overrides (Inside the FZF window)
-		config.defaults.keymap.fzf["ctrl-q"] = "select-all+accept"
-		config.defaults.keymap.fzf["ctrl-u"] = "half-page-up"
-		config.defaults.keymap.fzf["ctrl-d"] = "half-page-down"
-		config.defaults.keymap.fzf["ctrl-x"] = "jump"
-		config.defaults.keymap.fzf["ctrl-f"] = "preview-page-down"
-		config.defaults.keymap.fzf["ctrl-b"] = "preview-page-up"
-
-		-- 2. Image Preview Logic
-		-- Uses chafa or viu if installed on your system to show images in fzf
-		local img_previewer
-		for _, v in ipairs({
-			{ cmd = "ueberzug", args = {} },
-			{ cmd = "chafa", args = { "{file}", "--format=symbols" } },
-			{ cmd = "viu", args = { "-b" } },
-		}) do
-			if vim.fn.executable(v.cmd) == 1 then
-				img_previewer = vim.list_extend({ v.cmd }, v.args)
-				break
-			end
+		-- Pre-detect image previewer once to avoid loops inside setup
+		local img_previewer = nil
+		if vim.fn.executable("chafa") == 1 then
+			img_previewer = { "chafa", "{file}", "--format=symbols" }
+		elseif vim.fn.executable("viu") == 1 then
+			img_previewer = { "viu", "-b" }
 		end
 
 		return {
-			-- Use the "default-title" profile as a base
+			-- Profile base
 			"default-title",
 			fzf_colors = true,
 			fzf_opts = {
@@ -38,7 +22,17 @@ return {
 				["--layout"] = "reverse",
 			},
 			defaults = {
-				formatter = "path.dirname_first", -- Shows folder name first for better scanning
+				formatter = "path.dirname_first",
+				-- Pre-merged keymaps to avoid deep nesting overrides
+				keymap = {
+					fzf = {
+						["ctrl-q"] = "select-all+accept",
+						["ctrl-u"] = "half-page-up",
+						["ctrl-d"] = "half-page-down",
+						["ctrl-f"] = "preview-page-down",
+						["ctrl-b"] = "preview-page-up",
+					},
+				},
 			},
 			previewers = {
 				builtin = {
@@ -50,7 +44,6 @@ return {
 					},
 				},
 			},
-			-- This makes LSP code actions and "Select" menus look amazing
 			ui_select = function(fzf_opts, items)
 				return vim.tbl_deep_extend("force", fzf_opts, {
 					prompt = " ",
@@ -58,7 +51,6 @@ return {
 						title = " " .. vim.trim((fzf_opts.prompt or "Select"):gsub("%s*:%s*$", "")) .. " ",
 						title_pos = "center",
 						width = 0.5,
-						-- Dynamically adjusts height based on number of items
 						height = math.floor(math.min(vim.o.lines * 0.8, #items + 4) + 0.5),
 					},
 				})
@@ -66,59 +58,34 @@ return {
 			winopts = {
 				width = 0.8,
 				height = 0.8,
-				row = 0.5,
-				col = 0.5,
 				border = "rounded",
-				preview = {
-					scrollchars = { "┃", "" },
-					layout = "vertical",
-					vertical = "down:45%",
-				},
+				preview = { layout = "vertical", vertical = "down:45%", scrollchars = { "┃", "" } },
 			},
 			files = {
 				cwd_prompt = false,
 				actions = {
-					["alt-i"] = { actions.toggle_ignore }, -- Toggle hidden/ignored files on the fly
+					["alt-i"] = { actions.toggle_ignore },
 					["alt-h"] = { actions.toggle_hidden },
 				},
 			},
 		}
 	end,
 	config = function(_, opts)
-		-- This block ensures the "default-title" profile is correctly merged
+		-- Efficient profile merging
 		if opts[1] == "default-title" then
-			local function fix(t)
-				t.prompt = t.prompt ~= nil and " " or nil
-				for _, v in pairs(t) do
-					if type(v) == "table" then
-						fix(v)
-					end
-				end
-				return t
-			end
-			opts = vim.tbl_deep_extend("force", fix(require("fzf-lua.profiles.default-title")), opts)
+			local profile = require("fzf-lua.profiles.default-title")
+			opts = vim.tbl_deep_extend("force", profile, opts)
 			opts[1] = nil
 		end
 		require("fzf-lua").setup(opts)
 	end,
 	keys = {
-		-- Basic Navigation
 		{ "<leader>,", "<cmd>FzfLua buffers sort_mru=true sort_lastused=true<cr>", desc = "Switch Buffer" },
 		{ "<leader>/", "<cmd>FzfLua live_grep<cr>", desc = "Grep (Root)" },
 		{ "<leader><space>", "<cmd>FzfLua files<cr>", desc = "Find Files (Root)" },
-
-		-- Find Group
 		{ "<leader>ff", "<cmd>FzfLua files<cr>", desc = "Find Files" },
 		{ "<leader>fr", "<cmd>FzfLua oldfiles<cr>", desc = "Recent Files" },
-		{
-			"<leader>fN",
-			function()
-				require("fzf-lua").files({ cwd = vim.fn.stdpath("config") })
-			end,
-			desc = "Find Config File",
-		},
-
-		-- Search Group
+		{ "<leader>fN", "<cmd>FzfLua files cwd=~/.config/nvim<cr>", desc = "Find Config File" },
 		{ "<leader>sb", "<cmd>FzfLua lines<cr>", desc = "Search Buffer Lines" },
 		{ "<leader>sk", "<cmd>FzfLua keymaps<cr>", desc = "Key Maps" },
 		{ "<leader>sS", "<cmd>FzfLua lsp_document_symbols<cr>", desc = "Goto Symbol" },
