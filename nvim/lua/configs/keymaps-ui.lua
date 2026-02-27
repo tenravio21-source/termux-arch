@@ -14,16 +14,14 @@ safe_map("n", "<leader>ur", function()
 end, "Reload nvim")
 
 safe_map("n", "<leader>ut", function()
-	require("telescope.builtin").colorscheme({
-		enable_preview = true,
-		previewer = false,
-		layout_config = {
-			width = 0.3,
+	require("fzf-lua").colorschemes({
+		winopts = {
 			height = 0.5,
+			width = 0.30,
 		},
-		ignore_builtins = true,
 	})
-end, "Telescope: Colorscheme Picker")
+end, "Fzf-Lua: Colorscheme Picker")
+
 -- Show Lazy logs
 basic_map("n", "<leader>pl", "<cmd>Lazy log<CR>", "Show Lazy logs")
 

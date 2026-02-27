@@ -11,12 +11,9 @@ function M.setup()
 		return
 	end
 
-	local current_cs = vim.g.colors_name
-	local lualine_theme = current_cs or "auto"
-
 	lualine.setup({
 		options = {
-			theme = lualine_theme,
+			theme = "auto",
 			icons_enabled = true,
 			section_separators = { left = "", right = "" },
 			component_separators = { left = "", right = "" },
