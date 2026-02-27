@@ -34,9 +34,7 @@ return {
 			},
 		},
 		config = function(_, opts)
-			require("mason-lspconfig").setup({
-				ensure_installed = vim.tbl_keys(opts.servers),
-			})
+			require("mason-lspconfig").setup({})
 
 			local icons = { Error = "󰅚 ", Warn = "󰀪 ", Hint = "󰌶 ", Info = "󰋽 " }
 			vim.diagnostic.config({
@@ -53,20 +51,6 @@ return {
 				},
 			})
 
-			vim.api.nvim_create_autocmd("LspAttach", {
-				callback = function(args)
-					local client = vim.lsp.get_client_by_id(args.data.client_id)
-					local bufnr = args.buf
-
-					local map = function(mode, lhs, rhs, desc)
-						vim.keymap.set(mode, lhs, rhs, { buffer = bufnr, desc = "LSP: " .. desc })
-					end
-
-					if client and client.supports_method("textDocument/inlayHint") then
-						vim.lsp.inlay_hint.enable(true, { bufnr = bufnr })
-					end
-				end,
-			})
 			local blink = require("blink.cmp")
 			for server, server_opts in pairs(opts.servers) do
 				server_opts.capabilities = blink.get_lsp_capabilities(server_opts.capabilities)
