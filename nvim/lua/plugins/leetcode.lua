@@ -4,7 +4,7 @@ return {
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 		"MunifTanjim/nui.nvim",
-		"nvim-telescope/telescope.nvim", -- Required for 'list' and 'lang' pickers
+		"ibhagwan/fzf-lua",
 	},
 	keys = {
 		-- Core Actions
@@ -33,5 +33,6 @@ return {
 	},
 	opts = {
 		lang = "dart",
+		picker = "fzf-lua",
 	},
 }
