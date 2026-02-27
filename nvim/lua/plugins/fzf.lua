@@ -111,7 +111,7 @@ return {
 		{ "<leader>ff", "<cmd>FzfLua files<cr>", desc = "Find Files" },
 		{ "<leader>fr", "<cmd>FzfLua oldfiles<cr>", desc = "Recent Files" },
 		{
-			"<leader>fn",
+			"<leader>fN",
 			function()
 				require("fzf-lua").files({ cwd = vim.fn.stdpath("config") })
 			end,

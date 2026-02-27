@@ -83,5 +83,3 @@ safe_map("n", "<leader>HP", function()
 	vim.fn.setreg("+", vim.fn.expand("%:p:h"))
 	vim.notify("Copied: " .. vim.fn.expand("%:p:h"), vim.log.levels.INFO, { title = "Path Copy" })
 end, "Copy current file directory")
-
-safe_map("n", "<leader>fN", "FzfLua files cwd=~/.config/nvim", "Edit Neovim Config (Fzf-Lua)")
