@@ -35,7 +35,7 @@ return {
 			fzf_colors = true,
 			fzf_opts = {
 				["--no-scrollbar"] = true,
-				["--layout"] = "reverse", -- Keeps your Telescope-style top-down feel
+				["--layout"] = "reverse",
 			},
 			defaults = {
 				formatter = "path.dirname_first", -- Shows folder name first for better scanning
@@ -50,7 +50,6 @@ return {
 					},
 				},
 			},
-			-- 3. Advanced UI Select (replaces telescope-ui-select)
 			-- This makes LSP code actions and "Select" menus look amazing
 			ui_select = function(fzf_opts, items)
 				return vim.tbl_deep_extend("force", fzf_opts, {

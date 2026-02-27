@@ -1,9 +1,10 @@
 return {
 	"folke/todo-comments.nvim",
-	dependencies = { "nvim-lua/plenary.nvim", "nvim-telescope/telescope.nvim" },
-	cmd = { "TodoTrouble", "TodoTelescope" },
+	dependencies = { "ibhagwan/fzf-lua" },
+	cmd = { "TodoTrouble", "TodoFzfLua" },
 	keys = {
-		{ "<leader>I", "<cmd>TodoTelescope<cr>", desc = "Todo Telescope" },
+		-- Swapped to FzfLua
+		{ "<leader>I", "<cmd>TodoFzfLua<cr>", desc = "Todo Fzf-Lua" },
 		{
 			"]t",
 			function()
@@ -27,16 +28,16 @@ return {
 		},
 		keywords = {
 			FIX = {
-				icon = " ", -- A wrench icon
+				icon = " ",
 				color = "error",
-				alt = { "FIXME", "BUG", "ISSUE" }, -- Aliases
+				alt = { "FIXME", "BUG", "ISSUE" },
 			},
 			TODO = {
-				icon = " ", -- A checkmark icon
+				icon = " ",
 				color = "info",
 			},
 			WARNING = {
-				icon = " ", -- A warning icon
+				icon = " ",
 				color = "warning",
 				alt = { "WARN", "CAUTION" },
 			},
@@ -46,7 +47,6 @@ return {
 				alt = { "PERFORMANCE", "OPTIMIZE" },
 			},
 		},
-
 		search = {
 			command = "rg",
 			args = {
@@ -60,9 +60,3 @@ return {
 		},
 	},
 }
-
--- TODO:  This is Configuration file
--- FIX:
--- WARNING:
---PERF:
---NOTE:

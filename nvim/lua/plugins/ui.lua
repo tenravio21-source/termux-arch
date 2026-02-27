@@ -25,7 +25,6 @@ return {
 			terminal_colors = true,
 			cache = false,
 			extensions = {
-				telescope = true,
 				alpha = true,
 				blinkcmp = true,
 				notify = true,

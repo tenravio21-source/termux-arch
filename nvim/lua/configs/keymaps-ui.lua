@@ -84,9 +84,4 @@ safe_map("n", "<leader>HP", function()
 	vim.notify("Copied: " .. vim.fn.expand("%:p:h"), vim.log.levels.INFO, { title = "Path Copy" })
 end, "Copy current file directory")
 
--- ... (rest of the code) ...
--- Quick access to important files
--- Using safe_map here just in case Telescope is not loaded, though basic_map is also sufficient.
-safe_map("n", "<leader>fN", function()
-	require("telescope.builtin").find_files({ cwd = "~/.config/nvim" })
-end, "Edit Neovim Config (Telescope)")
+safe_map("n", "<leader>fN", "FzfLua files cwd=~/.config/nvim", "Edit Neovim Config (Fzf-Lua)")

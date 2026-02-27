@@ -55,7 +55,6 @@ return {
 			neotest = true,
 			semantic_tokens = true,
 			snacks = true,
-			telescope = true,
 			treesitter_context = true,
 			which_key = true,
 			lsp_trouble = true,
