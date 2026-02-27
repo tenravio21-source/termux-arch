@@ -1,8 +1,7 @@
-
 #!/bin/bash
 
 # Rofi theme
-rofi_theme="$HOME/.config/rofi/config.rasi" # Make sure this path is correct for your system
+rofi_theme="$HOME/.config/rofi/config.rasi" 
 msg='** Neovim Keybinds ** nvim 🚀 Search or press Enter to copy'
 
 # Check if rofi is already running
@@ -11,8 +10,6 @@ if pidof rofi > /dev/null; then
 fi
 
 # Format & show via rofi
-# The sed command removes everything before the '# # NVIM_KEYBINDS # #' marker.
-# It then pipes the hardcoded keybinds to rofi.
 sed '1,/^# # NVIM_KEYBINDS # #$/d' "$0" | \
 rofi -i -dmenu -mesg "$msg" -config "$rofi_theme" | \
 awk '{print $1}' | \
@@ -22,61 +19,72 @@ exit
 
 # # NVIM_KEYBINDS # #
 ⌨️ General
-Control+h/j/k/l             : Navigate windows (Normal Mode)
-Control+b                   : Move to beginning of line (Insert Mode)
-Control+e                   : Move to end of line (Insert Mode)
-Control+h/j/k/l             : Move around (Insert Mode)
-Space                       : Disable space (Normal Mode)
-ALT+j/k                     : Move line up/down (Normal/Insert/Visual Mode)
-jk                          : Exit Insert Mode (Insert Mode)
-Control+s                   : Save File (Normal/Insert Mode)
-Escape                      : Clear highlights (Normal Mode)
-< />                       : Indent/Unindent Selection (Visual Mode)
+Control+h/j/k/l             : Navigate windows (Normal)
+Control+b                   : Move to start of line (Insert)
+Control+e                   : Move to end of line (Insert)
+Space                       : Leader Key (Disabled)
+ALT+j/k                     : Move line up/down
+jk                          : Exit Insert Mode
+Control+s                   : Save File
+Escape                      : Clear highlights
+< / >                       : Indent/Unindent (Visual)
 
 💻 Window Management
 Space+-                     : Split Window Below
 Space+\                     : Split Window Right
 Space+q                     : Close Window
-Space++h/-h                 : Increase/Decrease Window Height
-Space++w/-w                 : Increase/Decrease Window Width
+Space++h/-h                 : Adj. Window Height
+Space++w/-w                 : Adj. Window Width
 
-📁 File & Buffer Management
+📁 File & Buffer
 Space+fn                    : New File
 Space+qa                    : Quit All
 Shift+h                     : Previous Buffer
 Shift+l                     : Next Buffer
+Space+,                     : Switch Buffer (MRU)
 Space+bp                    : Toggle Pin Buffer
 Space+bo                    : Close Non-Pinned Buffers
-Space+bc                    : Close Buffers to the Right
 
-🌳 Neo Tree
-Space+e                     : Toggle File Explorer
-Space+br                    : Buffer Explorer
-
-🔎 Telescope
-Space+ff                    : Find Files
-Space+fg                    : Live Grep
+🔎 Fzf-Lua (Search)
+Space+ff                    : Find Files (Root)
+Space+fF                    : Find Files (CWD)
+Space+fg                    : Live Grep (Glob support)
 Space+fb                    : Find Buffers
-Space+fo                    : Find Old Files
-Space+fz                    : Fuzzy Find in Current Buffer
-Space+fh                    : Find Help Tags
-Space+ft                    : Find string under cursor
+Space+fo                    : Recent Files
+Space+fz                    : Fuzzy Find in Buffer
+Space+ft                    : Search word under cursor
+Space+fv                    : Search selection (Visual)
+Space+fN                    : Edit NVIM Config
+Space+ut                    : Colorscheme Picker (Filtered)
 
-🛠️ LSP
-Space+ld                    : LSP Definition
-Space+lr                    : LSP References
-Space+la                    : LSP Code Action
-Space+ln                    : LSP Rename
-Space+ls                    : LSP Document Symbols
-Space+lws                   : LSP Workspace Symbols
-K                           : LSP Hover
+🛠️ LSP (Fzf-powered)
+gd                          : Go to Definition
+gr                          : Find References
+gi                          : Go to Implementation
+gt                          : Go to Type Definition
+Space+la                    : Code Action (with Preview)
+Space+ln                    : Rename Symbol
+Space+ls                    : Document Symbols
+Space+lS                    : Workspace Symbols (Live)
+Space+dl                    : Workspace Diagnostics
+K                           : Hover Documentation
 
 ✅ Todo
-Space+I                     : Todo Telescope
+Space+I                     : Search Todo Comments (Fzf)
+[t / ]t                     : Prev/Next Todo Jump
 
-💻 Terminal
+🌿 Git (Fzf-powered)
+Space+gf                    : Search Git Files
+Space+gb                    : Search Git Branches
+Space+gc                    : Search Git Commits
+Space+gC                    : Search Buffer Commits
+Space+gs                    : Git Status (Diff view)
+
+💻 Terminal & Tools
 Space+t                     : Toggle Terminal
 Esc+Esc                     : Exit ToggleTerm (Terminal Mode)
+Space+zz                    : LeetCode Dashboard
+Space+zl                    : Search LeetCode Problems
 
 🚀 Flutter Tools
 Space+Ff                    : Flutter Run
@@ -84,8 +92,3 @@ Space+Fq                    : Flutter Quit
 Space+Fr                    : Flutter Hot Reload
 Space+FR                    : Flutter Hot Restart
 Space+Fd                    : Flutter Devices
-
-❓ WhichKey
-Space+?                     : Buffer Local Keymaps
-Space+wk                    : All Global Keymaps
-
