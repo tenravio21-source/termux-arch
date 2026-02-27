@@ -1,21 +1,17 @@
 return {
-	"echasnovski/mini.animate",
-	event = { "BufReadPost", "BufNewFile" },
-	config = function()
-		local animate = require("mini.animate")
-		require("mini.animate").setup({
-			open = {
-				enable = false,
-			},
-			close = {
-				enable = false,
-			},
-			scroll = {
-				timing = animate.gen_timing.linear({ duration = 150, unit = "total" }),
-			},
-			cursor = {
-				timing = animate.gen_timing.linear({ duration = 80, unit = "total" }),
-			},
-		})
-	end,
+  "echasnovski/mini.animate",
+  event = "VeryLazy",
+  opts = function()
+    local animate = require("mini.animate")
+    return {
+      open = { enable = false },
+      close = { enable = false },
+      scroll = {
+        timing = animate.gen_timing.linear({ duration = 150, unit = "total" }),
+      },
+      cursor = {
+        timing = animate.gen_timing.linear({ duration = 80, unit = "total" }),
+      },
+    }
+  end,
 }
