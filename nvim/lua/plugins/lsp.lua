@@ -1,9 +1,19 @@
 return {
 	{
+		"williamboman/mason.nvim",
+		cmd = "Mason",
+		config = function()
+			require("mason").setup({
+				ui = {
+					border = "rounded",
+				},
+			})
+		end,
+	},
+	{
 		"neovim/nvim-lspconfig",
 		event = { "BufReadPre", "BufNewFile" },
 		dependencies = {
-			{ "williamboman/mason.nvim", config = true },
 			{ "williamboman/mason-lspconfig.nvim" },
 			"saghen/blink.cmp",
 		},
@@ -20,7 +30,7 @@ return {
 					},
 				},
 				pyright = {},
-				dart = {},
+				dartls = {},
 				rust_analyzer = {},
 				gopls = {},
 			},
