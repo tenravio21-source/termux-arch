@@ -121,7 +121,7 @@ return {
 		-- Search Group
 		{ "<leader>sb", "<cmd>FzfLua lines<cr>", desc = "Search Buffer Lines" },
 		{ "<leader>sk", "<cmd>FzfLua keymaps<cr>", desc = "Key Maps" },
-		{ "<leader>ss", "<cmd>FzfLua lsp_document_symbols<cr>", desc = "Goto Symbol" },
+		{ "<leader>sS", "<cmd>FzfLua lsp_document_symbols<cr>", desc = "Goto Symbol" },
 		{ "<leader>sw", "<cmd>FzfLua grep_cword<cr>", desc = "Search Word" },
 	},
 }
