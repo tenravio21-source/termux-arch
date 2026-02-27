@@ -40,7 +40,6 @@ return {
 	{
 		"rachartier/tiny-inline-diagnostic.nvim",
 		event = { "BufReadPre", "BufNewFile" },
-		priority = 1000,
 		opts = {
 			preset = "modern",
 			transparent_bg = true,

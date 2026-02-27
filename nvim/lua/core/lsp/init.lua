@@ -4,9 +4,16 @@ function M.setup()
 	local servers = require("core.lsp.servers")
 	local capabilities = require("blink.cmp").get_lsp_capabilities()
 
+	-- Helper to find the project root
+	local function get_root()
+		return vim.fs.root(0, { ".git", "package.json", "pyproject.toml", "go.mod", "Cargo.toml", "init.lua" })
+	end
+
 	for _, lsp in ipairs(servers) do
 		local config = vim.lsp.config[lsp] or {}
 		config.capabilities = capabilities
+		config.root_dir = get_root()
+		vim.lsp.config[lsp] = config
 		vim.lsp.enable(lsp)
 	end
 

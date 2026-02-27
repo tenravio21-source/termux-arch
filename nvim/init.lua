@@ -2,7 +2,13 @@ require("configs.options")
 require("core.lazys")
 require("configs.autocmds")
 require("configs.keymaps")
-require("core.runner")
+
+vim.api.nvim_create_autocmd("User", {
+	pattern = "VeryLazy",
+	callback = function()
+		require("core.runner")
+	end,
+})
 
 -- Use OSC 52 for clipboard (Best for SSH/Termux)
 vim.opt.clipboard = "unnamedplus"
