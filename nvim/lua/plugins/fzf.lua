@@ -57,9 +57,16 @@ return {
 			end,
 			winopts = {
 				width = 0.8,
+				layout = "flex",
 				height = 0.8,
+				row = 0.5,
+				col = 0.5,
 				border = "rounded",
-				preview = { layout = "vertical", vertical = "down:45%", scrollchars = { "┃", "" } },
+				preview = {
+					layout = "flex",
+					flex_flip = 100, -- Flip to vertical only if width < 100 columns
+					scrollbar = "float",
+				},
 			},
 			files = {
 				cwd_prompt = false,
