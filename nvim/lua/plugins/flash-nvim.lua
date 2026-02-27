@@ -1,6 +1,5 @@
 return {
 	"folke/flash.nvim",
-	event = { "BufReadPost", "BufNewFile" },
 	vscode = true,
 	keys = {
 		{
@@ -44,7 +43,16 @@ return {
 			desc = "Toggle Flash Search",
 		},
 	},
-	config = function(_, opts)
-		require("flash").setup(opts)
-	end,
+	-- Use opts instead of config to leverage lazy.nvim's internal optimization
+	opts = {
+		labels = "asdfghjklqwertyuiopzxcvbnm",
+		search = {
+			mode = "search",
+		},
+		label = {
+			after = true,
+			before = false,
+			style = "overlay",
+		},
+	},
 }
