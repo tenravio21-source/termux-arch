@@ -115,7 +115,7 @@ end
 -- ==========================================
 
 -- Used to merge user settings with default settings
-local defaults = { theme = "dark", icons = true, plugins = { "git", "telescope" } }
+local defaults = { theme = "dark", icons = true, plugins = { "git", "fzf-lua" } }
 local user_config = { theme = "nord", plugins = { "fzf" } }
 
 -- "force" means user_config wins if there's a conflict
