@@ -35,7 +35,4 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	end,
 })
 
--- GLOBAL DIAGNOSTICS
-util.safe_map("n", "[d", vim.diagnostic.goto_prev, "Previous Diagnostic")
-util.safe_map("n", "]d", vim.diagnostic.goto_next, "Next Diagnostic")
 util.safe_map("n", "<leader>dl", "FzfLua diagnostics_workspace", "All Diagnostics")
