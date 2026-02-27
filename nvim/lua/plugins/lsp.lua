@@ -21,16 +21,22 @@ return {
 			-- 1. Global Server Settings
 			servers = {
 				lua_ls = {
+          -- Explicitly define the command for Mason-installed lua_ls
           cmd = { "lua-language-server" },
-          root_dir = function() return vim.fs.root(0, { ".git", "init.lua", ".luarc.json" }) end,
+          root_dir = function() 
+            return vim.fs.root(0, { ".git", "init.lua", ".luarc.json", ".luarc.jsonc" }) 
+          end,
           settings = {
             Lua = {
+              runtime = { version = "LuaJIT" },
               diagnostics = { globals = { "vim" } },
-              workspace = { checkThirdParty = false },
-              telemetry = { enabled = false },
+              workspace = { 
+                checkThirdParty = false,
+                library = { vim.env.VIMRUNTIME }
+              },
             },
           },
-				},
+        },
 				pyright = {},
 				dartls = {},
 				rust_analyzer = {},

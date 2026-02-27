@@ -11,7 +11,7 @@ alias ... = cd ../../..
 alias p = pwd
 
 #Editor
-alias v = nvims
+alias v = nvim
 alias vi = nvims
 
 # Git (Enhanced)
