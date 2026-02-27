@@ -24,9 +24,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		util.safe_map("n", "<leader>la", "FzfLua lsp_code_actions", "Code Actions", b_opts)
 		util.safe_map("v", "<leader>la", "FzfLua lsp_code_actions", "Code Actions (Visual)", b_opts)
 		util.safe_map("n", "<leader>ln", vim.lsp.buf.rename, "Rename Symbol", b_opts)
-		util.safe_map("n", "<leader>lf", function()
-			vim.lsp.buf.format({ async = true })
-		end, "Format Document", b_opts)
 
 		-- DOCUMENTATION
 		util.safe_map("n", "K", vim.lsp.buf.hover, "Hover Documentation", b_opts)
