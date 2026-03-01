@@ -31,7 +31,6 @@ return {
 				rust_analyzer = {},
 				gopls = {},
 				dartls = {},
-				clangd = {},
 			},
 		},
 		config = function(_, opts)
@@ -52,8 +51,9 @@ return {
 				},
 			})
 
+			local blink = require("blink.cmp")
 			for server, server_opts in pairs(opts.servers) do
-				server_opts.capabilities = require("blink.cmp").get_lsp_capabilities(server_opts.capabilities)
+				server_opts.capabilities = blink.get_lsp_capabilities(server_opts.capabilities)
 				vim.lsp.config(server, server_opts)
 				vim.lsp.enable(server)
 			end
