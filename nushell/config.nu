@@ -1,5 +1,3 @@
-fastfetch
-
 source ./environment.nu
 
 source ./extract.nu
