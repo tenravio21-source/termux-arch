@@ -62,11 +62,11 @@ local function execute_dart_chunk(chunk)
 		f:write(final_code)
 		f:close()
 	else
-		vim.api.nvim_err_writeln("Error: Could not write temporary file at " .. tmp_file)
+		vim.notify("Error: Could not write temporary file at " .. tmp_file, vim.log.levels.ERROR)
 		return
 	end
 
-	local start_time = vim.loop.hrtime()
+	local start_time = vim.uv.hrtime()
 
 	-- Execution options
 	local opts = {
@@ -75,7 +75,7 @@ local function execute_dart_chunk(chunk)
 	}
 
 	vim.system({ "dart", "run", tmp_file }, opts, function(obj)
-		local duration = (vim.loop.hrtime() - start_time) / 1e6
+		local duration = (vim.uv.hrtime() - start_time) / 1e6
 		vim.schedule(function()
 			local output = {}
 			if obj.code == 0 then

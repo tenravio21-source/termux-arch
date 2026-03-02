@@ -29,6 +29,7 @@ local function execute_lua_chunk(chunk)
 	local output = {}
 	local old_print = _G.print -- Ensure we capture the global print
 
+	---@diagnostic disable-next-line: duplicate-set-field
 	_G.print = function(...)
 		local args = { ... }
 		local str_args = {}

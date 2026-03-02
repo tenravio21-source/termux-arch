@@ -46,7 +46,7 @@ alias rm-safe = rm -I
 
 # Network
 alias ip = ip -c a  # Colorized output
-alias ping = ping -c 5
+alias ping = ping -c 3
 alias wget = wget -c  # Continue interrupted downloads
 
 alias untar = tar -xvf
