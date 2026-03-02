@@ -107,6 +107,7 @@ return {
 				nvimtree = true,
 				dashboard = true,
 				flash = true,
+				fzf = true,
 				treesitter = true,
 				notify = true,
 				neotree = true,
