@@ -61,16 +61,16 @@ return {
 					},
 				},
 			},
-			winbar = {
-				lualine_a = {
-					{
-						"filename",
-						path = 1,
-						symbols = { modified = " ", readonly = " ", unnamed = "[No Name]" },
-						color = { gui = "bold" },
-					},
-				},
-			},
+			-- winbar = {
+			-- 	lualine_a = {
+			-- 		{
+			-- 			"filename",
+			-- 			path = 1,
+			-- 			symbols = { modified = " ", readonly = " ", unnamed = "[No Name]" },
+			-- 			color = { gui = "bold" },
+			-- 		},
+			-- 	},
+			-- },
 		})
 	end,
 }

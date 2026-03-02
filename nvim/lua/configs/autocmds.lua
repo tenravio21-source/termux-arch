@@ -5,7 +5,7 @@ end
 -- 1. Essential UI: Colorscheme
 -- Only set if not already set (prevents double-loading)
 if not vim.g.colors_name then
-	vim.cmd.colorscheme("cyberdream")
+	vim.cmd.colorscheme("onelight")
 end
 
 -- 2. Buffer Behavior (Grouped for efficiency)
