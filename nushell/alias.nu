@@ -13,6 +13,7 @@ alias p = pwd
 #Editor
 alias v = nvim
 alias vi = nvims
+alias vic = NvChad
 
 # Git (Enhanced)
 alias gc = git commit -m
