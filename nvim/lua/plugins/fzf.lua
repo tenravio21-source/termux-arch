@@ -23,6 +23,7 @@ return {
 				["--no-unicode"] = false,
 			},
 			defaults = {
+				prompt = "  ",
 				formatter = "path.dirname_first",
 				git_icons = true,
 				file_icons = "mini",
@@ -50,7 +51,6 @@ return {
 			},
 			ui_select = function(fzf_opts, items)
 				return vim.tbl_deep_extend("force", fzf_opts, {
-					prompt = " ",
 					winopts = {
 						title = " " .. vim.trim((fzf_opts.prompt or "Select"):gsub("%s*:%s*$", "")) .. " ",
 						title_pos = "center",
