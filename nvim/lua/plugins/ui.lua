@@ -1,22 +1,5 @@
 return {
 	{
-		"rebelot/kanagawa.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = {
-			compile = true,
-			undercurl = true,
-			transparent = false,
-			terminalColors = true,
-			theme = "wave", -- Options: "wave", "dragon", "lotus"
-			commentStyle = { italic = true },
-			functionStyle = { italic = true },
-			keywordStyle = { italic = true },
-			statementStyle = { italic = true },
-			typeStyle = { italic = true },
-		},
-	},
-	{
 		"folke/tokyonight.nvim",
 		lazy = true,
 		opts = {
