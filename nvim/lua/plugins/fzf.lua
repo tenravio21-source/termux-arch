@@ -20,9 +20,13 @@ return {
 			fzf_opts = {
 				["--no-scrollbar"] = true,
 				["--layout"] = "reverse",
+				["--no-unicode"] = false,
 			},
 			defaults = {
 				formatter = "path.dirname_first",
+				git_icons = true,
+				file_icons = "mini",
+				color_icons = true,
 				-- Pre-merged keymaps to avoid deep nesting overrides
 				keymap = {
 					fzf = {
