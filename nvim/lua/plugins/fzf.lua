@@ -21,9 +21,13 @@ return {
 				["--no-scrollbar"] = true,
 				["--layout"] = "reverse",
 				["--no-unicode"] = false,
+				["--pointer"] = "",
+				["--marker"] = "󰄱",
 			},
 			defaults = {
 				prompt = "  ",
+				selected = "  ",
+				multi_icon = " 󰄱 ",
 				formatter = "path.dirname_first",
 				git_icons = true,
 				file_icons = "mini",
@@ -67,6 +71,8 @@ return {
 				col = 0.5,
 				border = "rounded",
 				preview = {
+					width = 0.70,
+					hidden = "nohidden",
 					layout = "flex",
 					flex_flip = 100, -- Flip to vertical only if width < 100 columns
 					scrollbar = "float",
