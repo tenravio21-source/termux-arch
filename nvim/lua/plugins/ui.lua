@@ -9,40 +9,11 @@ return {
 			transparent = false,
 			terminalColors = true,
 			theme = "wave", -- Options: "wave", "dragon", "lotus"
-
-			-- Mapping your OneDark styles to Kanagawa
 			commentStyle = { italic = true },
 			functionStyle = { italic = true },
 			keywordStyle = { italic = true },
 			statementStyle = { italic = true },
 			typeStyle = { italic = true },
-
-			-- For specific overrides (Variables, Numbers, etc.)
-			overrides = function(colors)
-				local theme = colors.theme
-				return {
-					-- Variables and Parameters
-					["@variable"] = { italic = true },
-					["@variable.parameter"] = { italic = true },
-					["@variable.builtin"] = { italic = true },
-
-					-- Constants and Numbers
-					["@constant"] = { italic = true },
-					["@number"] = { italic = true },
-					["@float"] = { italic = true },
-
-					-- Strings and Operators
-					["@string"] = { italic = true },
-					["@operator"] = { italic = true },
-
-					-- Conditionals and Virtual Text
-					["@conditional"] = { italic = true },
-					["DiagnosticVirtualTextError"] = { italic = true },
-					["DiagnosticVirtualTextWarn"] = { italic = true },
-					["DiagnosticVirtualTextInfo"] = { italic = true },
-					["DiagnosticVirtualTextHint"] = { italic = true },
-				}
-			end,
 		},
 	},
 	{
