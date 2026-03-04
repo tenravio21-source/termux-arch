@@ -50,7 +50,7 @@ return {
 			},
 			ui_select = function(fzf_opts, items)
 				return vim.tbl_deep_extend("force", fzf_opts, {
-					prompt = " ",
+					prompt = " ",
 					winopts = {
 						title = " " .. vim.trim((fzf_opts.prompt or "Select"):gsub("%s*:%s*$", "")) .. " ",
 						title_pos = "center",
