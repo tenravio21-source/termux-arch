@@ -40,10 +40,6 @@ return {
 			},
 			highlights = {
 				Comment = { fg = "#9c9c9c", bg = "NONE", italic = true },
-				Keyword = { italic = true },
-				Statement = { italic = true },
-				Type = { italic = true },
-				Function = { italic = true },
 			},
 		},
 	},
