@@ -35,7 +35,7 @@ return {
 
 	{
 		"saghen/blink.cmp",
-		event = { "InsertEnter", "BufReadPost" },
+		event = "InsertEnter",
 		opts = function(_, opts)
 			return opts
 		end,

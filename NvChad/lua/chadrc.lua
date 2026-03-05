@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "carbonfox",
+	theme = "nightowl",
 
 	hl_override = {
 		Comment = { italic = true },
@@ -14,8 +14,20 @@ M.base46 = {
 	},
 }
 
-M.nvdash = { load_on_startup = true }
+M.nvdash = {
+	load_on_startup = true,
+}
+
 M.ui = {
+
+	cmp = {
+		lspkind_text = true,
+		style = "default", -- default/flat_light/flat_dark/atom/atom_colored
+		format_colors = {
+			tailwind = false,
+		},
+	},
+
 	telescope = {
 		style = "bordered", -- This prevents the "floating text" look on custom layouts
 	},
