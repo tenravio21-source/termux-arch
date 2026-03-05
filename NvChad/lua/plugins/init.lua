@@ -59,6 +59,12 @@ return {
 		"nvim-telescope/telescope.nvim",
 		opts = {
 			defaults = {
+				border = true,
+				borderchars = {
+					prompt = { "─", "│", "─", "│", "╭", "╮", "╯", "╰" },
+					results = { "─", "│", "─", "│", "╭", "╮", "╯", "╰" },
+					preview = { "─", "│", "─", "│", "╭", "╮", "╯", "╰" },
+				},
 				initial_mode = "insert",
 				prompt_prefix = "   ",
 				selection_caret = "  ",
@@ -71,6 +77,18 @@ return {
 					},
 					width = 0.87,
 					height = 0.80,
+				},
+				vimgrep_arguments = {
+					"rg",
+					"--color=never",
+					"--no-heading",
+					"--with-filename",
+					"--line-number",
+					"--column",
+					"--smart-case",
+					"--hidden",
+					"--glob",
+					"!{.git,node_modules,.DS_Store}",
 				},
 				file_ignore_patterns = {
 					"node_modules",
