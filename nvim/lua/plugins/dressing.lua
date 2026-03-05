@@ -11,7 +11,7 @@ return {
 			},
 		},
 		select = {
-			enabled = false,
+			backend = { "fzf_lua", "telescope", "builtin" },
 		},
 	},
 }
