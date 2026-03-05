@@ -16,6 +16,9 @@ M.base46 = {
 
 M.nvdash = { load_on_startup = true }
 M.ui = {
+	telescope = {
+		style = "bordered", -- This prevents the "floating text" look on custom layouts
+	},
 	statusline = {
 		separator_style = "block", --  default, round, block, arrow
 		theme = "minimal",
