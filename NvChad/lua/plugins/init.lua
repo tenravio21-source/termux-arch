@@ -4,6 +4,19 @@ return {
 		event = "BufWritePre", -- uncomment for format on save
 		opts = require("configs.conform"),
 	},
+	{
+		"williamboman/mason.nvim",
+		opts = {
+			ui = {
+				border = "rounded",
+				icons = {
+					package_pending = " ",
+					package_installed = "󰄲 ",
+					package_uninstalled = " 󰚌 ",
+				},
+			},
+		},
+	},
 
 	-- These are some examples, uncomment them if you want to see them work!
 	{
