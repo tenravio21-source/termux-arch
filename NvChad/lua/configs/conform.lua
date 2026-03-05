@@ -1,6 +1,7 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
+    rust = {"rust_analyzer"}
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
