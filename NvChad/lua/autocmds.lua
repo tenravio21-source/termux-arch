@@ -2,6 +2,13 @@ require("nvchad.autocmds")
 
 local autocmd = vim.api.nvim_create_autocmd
 
+autocmd("FileType", {
+	pattern = "*",
+	callback = function()
+		vim.opt_local.formatoptions:remove({ "r", "o" })
+	end,
+})
+
 autocmd("BufReadPost", {
 	pattern = "*",
 	callback = function()
