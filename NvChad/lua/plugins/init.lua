@@ -107,11 +107,6 @@ return {
 	{ import = "nvchad.blink.lazyspec" },
 
 	{
-		"saghen/blink.cmp",
-		event = { "BufReadPre", "BufNewFile" },
-	},
-
-	{
 		"nvim-tree/nvim-tree.lua",
 		opts = {
 			actions = {
