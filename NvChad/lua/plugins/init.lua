@@ -4,6 +4,36 @@ return {
 		event = "BufWritePre", -- uncomment for format on save
 		opts = require("configs.conform"),
 	},
+
+	{
+		"lukas-reineke/indent-blankline.nvim",
+		enabled = false,
+	},
+
+	{
+		"folke/which-key.nvim",
+		opts = {
+			preset = "modern", -- v3 optimization: uses a much faster internal engine
+			win = {
+				border = "rounded",
+				padding = { 1, 2 },
+			},
+			spec = {
+				{ "<leader>c", group = "CheatSheet", icon = "󰓩 " },
+				{ "<leader>f", group = "Find/File", icon = "󰈞 " },
+				{ "<leader>g", group = "Git", icon = "󰊢 " },
+				{ "<leader>p", group = "Plugins/Package", icon = "󰏖 " },
+				{ "<leader>u", group = "UI/User", icon = "󰙵 " },
+				{ "<leader>w", group = "LSP", icon = "󱂬 " },
+				{ "<leader>x", group = "Trouble", icon = " " },
+				{ "<leader>d", group = "Diagnostic", icon = "󱒇 " },
+				{ "<leader>t", group = "Theme", icon = "" },
+				{ "<leader>m", group = "Mark", icon = "" },
+				{ "<leader>r", group = "Rename", icon = "" },
+			},
+		},
+	},
+
 	{
 		"williamboman/mason.nvim",
 		opts = {
@@ -18,13 +48,13 @@ return {
 		},
 	},
 
-	-- These are some examples, uncomment them if you want to see them work!
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
 			require("configs.lspconfig")
 		end,
 	},
+
 	{
 		"nvim-telescope/telescope.nvim",
 		opts = {
@@ -56,16 +86,18 @@ return {
 		},
 	},
 
-	-- test new blink
 	{ import = "nvchad.blink.lazyspec" },
 
-	-- {
-	-- 	"nvim-treesitter/nvim-treesitter",
-	-- 	opts = {
-	-- 		ensure_installed = {
-	-- 			"vim", "lua", "vimdoc",
-	--      "html", "css"
-	-- 		},
-	-- 	},
-	-- },
+	{
+		"nvim-treesitter/nvim-treesitter",
+		opts = {
+			ensure_installed = {
+				"vim",
+				"lua",
+				"vimdoc",
+				"dart",
+				"rust",
+			},
+		},
+	},
 }
