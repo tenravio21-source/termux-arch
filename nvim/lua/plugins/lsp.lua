@@ -7,6 +7,14 @@ return {
 		},
 	},
 	{
+		"rachartier/tiny-inline-diagnostic.nvim",
+		event = { "BufReadPre", "BufNewFile" },
+		opts = {
+			preset = "modern",
+			transparent_bg = true,
+		},
+	},
+	{
 		"neovim/nvim-lspconfig",
 		event = { "BufReadPre", "BufNewFile" },
 		dependencies = {
@@ -40,6 +48,9 @@ return {
 			local icons = { Error = "󰅚 ", Warn = "󰀪 ", Hint = "󰌶 ", Info = "󰋽 " }
 			vim.diagnostic.config({
 				virtual_text = false,
+				virtual_lines = false,
+				underline = true,
+				update_in_insert = false,
 				severity_sort = true,
 				float = { border = "rounded", source = "if_many" },
 				signs = {
