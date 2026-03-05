@@ -39,11 +39,11 @@ return {
 		opts = {
 			ui = {
 				border = "rounded",
-				icons = {
-					package_pending = " ",
-					package_installed = "󰄲 ",
-					package_uninstalled = " 󰚌 ",
-				},
+				-- icons = {
+				-- 	package_pending = " ",
+				-- 	package_installed = "󰄲 ",
+				-- 	package_uninstalled = " 󰚌 ",
+				-- },
 			},
 		},
 	},
@@ -87,6 +87,11 @@ return {
 	},
 
 	{ import = "nvchad.blink.lazyspec" },
+
+	{
+		"saghen/blink.cmp",
+		event = { "BufReadPre", "BufNewFile" },
+	},
 
 	{
 		"nvim-treesitter/nvim-treesitter",
