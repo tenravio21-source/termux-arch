@@ -6,11 +6,30 @@
 local M = {}
 
 M.base46 = {
-	theme = "tokyonight",
+	theme = "carbonfox",
 
 	hl_override = {
 		Comment = { italic = true },
 		["@comment"] = { italic = true },
+
+		-- Functions
+		["Function"] = { italic = true },
+		["@function"] = { italic = true },
+		["@function.builtin"] = { italic = true },
+		["@function.method"] = { italic = true },
+
+		-- Variables
+		["@variable"] = { italic = true },
+		["@variable.builtin"] = { italic = true },
+		["@variable.parameter"] = { italic = true },
+		["@variable.member"] = { italic = true }, -- Fields/Properties
+
+		-- Classes & Types
+		["Type"] = { italic = true },
+		["@type"] = { italic = true },
+		["@type.builtin"] = { italic = true },
+		["@constructor"] = { italic = true }, -- Class constructors
+		["@lsp.type.class"] = { italic = true },
 	},
 }
 
