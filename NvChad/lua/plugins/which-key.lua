@@ -1,10 +1,26 @@
 return {
 	"folke/which-key.nvim",
 	opts = {
-		preset = "modern", -- v3 optimization: uses a much faster internal engine
+		timeout = 500,
 		win = {
 			border = "rounded",
-			padding = { 1, 2 },
+			padding = { 1, 2, 1, 2 },
+		},
+		layout = {
+			align = "center",
+		},
+		icons = {
+			breadcrumb = "»",
+			separator = "➜",
+			group = "+",
+		},
+		plugins = {
+			marks = true,
+			registers = true,
+			spelling = {
+				enabled = true,
+				suggestions = 20,
+			},
 		},
 		spec = {
 			{ "<leader>c", group = "Cheatsheet", icon = "󰚩 " },
