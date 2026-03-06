@@ -53,6 +53,7 @@ return {
 				"vimdoc",
 				"dart",
 				"rust",
+				"python",
 			},
 			highlight = {
 				enable = true,

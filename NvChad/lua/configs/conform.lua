@@ -3,6 +3,7 @@ local options = {
 		lua = { "stylua" },
 		rust = { "rustfmt" },
 		dart = { "dart_format" },
+		python = { "ruff_organize_imports", "ruff_format" },
 		-- c = { "clang-format" },
 		-- cpp = { "clang-format" },
 		-- go = { "gofumpt", "goimports-reviser", "golines" },
