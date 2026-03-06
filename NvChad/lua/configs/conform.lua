@@ -1,8 +1,8 @@
 local options = {
 	formatters_by_ft = {
 		lua = { "stylua" },
-		rust = { "rust_analyzer" },
-		dart = { "dartls" },
+		rust = { "rustfmt" },
+		dart = { "dart_format" },
 		-- c = { "clang-format" },
 		-- cpp = { "clang-format" },
 		-- go = { "gofumpt", "goimports-reviser", "golines" },
