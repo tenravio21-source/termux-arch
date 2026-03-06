@@ -11,7 +11,7 @@ return {
 			},
 		},
 		select = {
-      backend = { "fzf_lua", "telescope", "builtin" },
+			backend = { "telescope", "fzf_lua", "builtin" },
 		},
 	},
 }
