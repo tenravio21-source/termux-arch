@@ -25,6 +25,7 @@ return {
 		spec = {
 			{ "<leader>c", group = "Cheatsheet", icon = "󰚩 " },
 			{ "<leader>f", group = "Finder", icon = "󰍉 " },
+			{ "<leader>F", group = "Flutter", icon = "󱓞 " },
 			{ "<leader>g", group = "Git", icon = "󰊢 " },
 			{ "<leader>p", group = "Packages", icon = "󰏖 " },
 			{ "<leader>u", group = "Interface", icon = "󰙵 " },
