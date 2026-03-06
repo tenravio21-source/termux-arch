@@ -17,6 +17,7 @@ return {
 			{ "<leader>t", group = "Theme", icon = "󰚌 " },
 			{ "<leader>m", group = "Mark", icon = "󰄲" },
 			{ "<leader>r", group = "Rename", icon = "" },
+			{ "<leader>s", group = "Flash", icon = "󰛛" },
 		},
 	},
 }
