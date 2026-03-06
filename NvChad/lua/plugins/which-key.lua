@@ -10,7 +10,7 @@ return {
 			{ "<leader>c", group = "CheatSheet", icon = "󰓩 " },
 			{ "<leader>f", group = "Find/File", icon = "󰈞 " },
 			{ "<leader>g", group = "Git", icon = "󰊢 " },
-			{ "<leader>p", group = "Terminal", icon = "󰏖 " },
+			{ "<leader>p", group = "Terminal/File", icon = "󰏖 " },
 			{ "<leader>u", group = "UI/User", icon = "󰙵 " },
 			{ "<leader>w", group = "LSP", icon = "󱂬 " },
 			{ "<leader>d", group = "Diagnostic", icon = "󱒇 " },
