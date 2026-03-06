@@ -10,6 +10,8 @@ return {
 		enabled = false,
 	},
 
+	{ "nvim-tree/nvim-web-devicons", enabled = false },
+
 	{
 		"williamboman/mason.nvim",
 		opts = {
