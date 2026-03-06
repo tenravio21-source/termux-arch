@@ -1,6 +1,7 @@
 return {
 	"nvim-flutter/flutter-tools.nvim",
-	ft = { "dart" },
+	--	ft = { "dart" },
+	lezy = true,
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 		"stevearc/dressing.nvim",

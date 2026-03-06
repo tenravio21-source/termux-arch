@@ -54,6 +54,14 @@ M.ui = {
 	statusline = {
 		separator_style = "block", --  default, round, block, arrow
 		theme = "minimal",
+		order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "lsp", "cwd", "cursor", "time" },
+		modules = {
+			time = function()
+				local time = os.date("%H:%M")
+				return "%#St_pos_sep#" .. "%#St_pos_bg#   " .. time .. " " .. "%#St_pos_sep#"
+				-- return "%#St_pos_sep#" .. "%#St_pos_bg#  " .. time .. "%#St_pos_sep#"
+			end,
+		},
 	},
 	--  default, vscode, vscode_colored, minimal
 	tabufline = {
