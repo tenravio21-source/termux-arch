@@ -48,11 +48,17 @@ return {
 		opts = {
 			ensure_installed = {
 				"vim",
+				"html",
 				"lua",
 				"vimdoc",
 				"dart",
 				"rust",
 			},
+			highlight = {
+				enable = true,
+				use_languagetree = true,
+			},
+			indent = { enable = true },
 		},
 	},
 }
