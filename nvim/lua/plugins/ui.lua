@@ -1,5 +1,9 @@
 return {
 	{
+		"b0o/lavi",
+		lazy = true,
+	},
+	{
 		"folke/tokyonight.nvim",
 		lazy = true,
 		opts = {
