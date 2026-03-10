@@ -16,6 +16,6 @@ path add ($env.HOME | path join ".sdk" "gradle" "bin")
 
 path add ($env.HOME | path join ".sdk" "maven" "bin")
 
-path add ($env.HOME | path join ".sdk" "dart" "bin")
+path add ($env.HOME | path join ".sdk" "flutter" "bin")
 
 zoxide init nushell | save -f ~/.zoxide.nu
