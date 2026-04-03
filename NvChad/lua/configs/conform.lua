@@ -11,8 +11,8 @@ local options = {
 		-- c = { "clang-format" },
 		-- cpp = { "clang-format" },
 		-- go = { "gofumpt", "goimports-reviser", "golines" },
-		-- css = { "prettier" },
-		-- html = { "prettier" },
+		css = { "prettier" },
+		html = { "prettier" },
 		-- python = { "isort", "black" },
 	},
 
