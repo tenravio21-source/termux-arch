@@ -1,5321 +1,2083 @@
-pomo 30m
-git clone https://github.com/NvChad/starter ~/.config/NvChad; NvChad
-cd frameworks/
-rm -r superfile/
-ysearch
-cp -r ~/.local/share/nvim/ share/
-surge https://github.com/andrewmd5/dawn/releases/download/v0.1.3/dawn-macos-arm64.tar.gz
-histoy
-surge https://github.com/rivoten05/oxwms.git --exit-on-done
-eget --download-only derekwisong/datui
-dart create server
-wget https://github.com/casey/just/releases/download/1.46.0/just-1.46.0-arm-unknown-linux-musleabihf.tar.gz
-gc 'added prepend'
-date to-timezone local
-git add .
-cat anagram.dart
-rm -r node
-fresh
-pam switch db.sqlite
-znv
-gc 'fix telescop'
-z cli/
-yay -S jq
-z do
-gc "fix nushell"
-dart compile exe --help
-ped
-date now | date to-timezone Mumbai
-yremove
-sudo rm /var/cache/pacman/pkg/uv-0.9.28-1-aarch64.pkg.tar.xz
-sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo where id=1;"
-z cong
-http delete http://localhost:8080/todos/3
-gc "arch-on-termux"
-node server.ts
-rm dawn dawn-macos-arm64.tar.gz
-{ content: "Buy milk" } | to json | http post --content-type application/json http://localhost:8080/todos $in
-git clone https://github.com/rivoten05/oxwms.git
-rm -r lua/core/lualine/
-cat lib/anagram.dart
-gc 'reverse string program'
-z ../../dart-lang/
-exit
-gr lua/configs/keymaps-lsp.lua
-cat init.lua
-l
-cat flutter.json
-gh codespace ssh
-ip add
-fx --version
-mv deleteor deletor
-onefetch
-cd .cli/
-cd algo/
-yay -S lld
-eget --download-only cli/cli
-./nvim --version
-tar -xvf surge_0.5.4_linux_arm64.tar.gz
-gc 'refactor'
-git remote add origin https://github.com/tenravio21-source/rust_todo.git
-sudo rm -f /var/lib/pacman/db.lck
-tar -xvf dawn-macos-arm64.tar.gz
-git add gh/hosts.ymlgit add gh/hosts.yml
-pwe
-uv tool update posting
-c
-fzf toggle-preview-fullscreen
-pam tables
-dart run --enable-vm-service bin/server.dart
-histroy
-cul
-git commit -m "first commit"
-mv gradle-9.3.1 ~/.sdk/gradle
-upx --brute cli.exe
-dysk
-lls
-dart -help
-nvim lua/configs/keymaps-core.lua
-a
-cli.exe
-cargo generate ratatui/templates hello-world
-rustup update
-gh codespace list
-npm run dev
-gc 'add mongo schema'
-{ content: "Buy HDD" } | to json | http put --content-type application/json http://localhost:8080/todos/1 $in
-so how to create struct in rust
-v ~/.cargo/env.nu
-gc 'created anagram'
-z rusty
-gc 'initial commit'
-z rust dec
-tar -xvf pomo_Darwin_arm64.tar.gz
-ex flutter_linux_3.41.2-stable.tar.xz
-pp
-yay -S clangd
-ex jolt-1.2.0-linux-arm64.tar.gz
-gc 'crating linklist'
-dart mcp-server --help
-mkdir .sdk
-z rust cli
-./dart --version
-source ~/.config/nushell/config.nu
-hazelnut
-touch lua/core/lazys/init.lua
-mkdir elib
-npm i mongoose
-tar -xvf node-v24.13.0-linux-arm64.tar.xz
-yazi
-npm i http-errors
-sys hosts
-gc 'add leetcode plugins'
-npm install mongodb
-mv nerdfetch ~/.cli/bin/
-gc 'added test'
-z link_list/
-git config --global init.defaultBranch main
-rm hi.go
-nvim .tmux.conf
-git remote add origin https://@github.com/tenravio21-source/dart_algo.git
-yay -Ps
-surge https://services.gradle.org/distributions/gradle-9.3.1-bin.zip --exit-when-done
-pomo
-date to-timezone IN
-http delete http://localhost:8080/todos/2
-df -h
-tar -xvf surge_0.4_linux_arm64.tar.gz
-gc 'added reverse'
-yay -S fastfetch
-v nushell/history.txt
-fd --help
-uv tools install posting
-gr src/main.rs
-z algo/
-ys
-lla
-eget --download-only andrewmd5/dawn
-pip --version
-scc --version
-dart create logger
-eget --upgrade-only upx
-so --site tex how to put tilde over character
-yay -S nerdfetch
-mv hazelnut ~/.cli/bin/
-yr 
-gc 'add leetcode keymap'
-tar -xvf cull_linux_arm64.tar.gz
-surge https://github.com/thewizardshell/froggit/releases/download/v1.2.0-beta/linux-arm64.zip
-sudo nvim /etc/pacman.conf
-go version
-yay --save --answerclean All --answerdiff None
-pk
-sudo pacman -S gcc make pkgconf
-cp ~/.config/nvim/ ./
-nvim lua/core/lazys/init.lua
-cd ~/.config/nushell/
-p
-sudo pacman -Scc
-scp
-deletor demo.txt
-surge https://nodejs.org/dist/v25.6.1/node-v25.6.1-linux-arm64.tar.xz --exit-when-close
-rm -rf ~/.local/share/nvim/mason/bin/rust-analyzer
-fd flutter
-z cli bin 
-grep -r 'require("telescope.builtin")' .
-eget --download-only jordond/jolt
-gc 'create login route'
-cp -r ~/.config/vim ./ 
-tar -xvf bit_0.3.0_Linux_arm64.tar.gz
-gc 'improve lazy load'
-http http://127.0.0.1:8080/todos/2
-http http://127.0.0.1:8080/
-z ../lib/
-surge https://github.com/zyedidia/eget/releases/download/v1.3.4/eget-1.3.4-linux_arm64.tar.gz
-sc
-z tool
-jiq history.json
-pomo break
-date to-timezone --help
-pam init db.sqlite
-z go-lang/
-ll -a
-npm i bcrypt
-cd
-wget https://github.com/Bahaaio/pomo/releases/download/v1.0.5/pomo_Linux_arm64.tar.gz
-fzf --preview bat
-eget --help
-z .rustup/
-pacman -Qi | lines | split row "\n\n" | str trim
-tar -xvf superfile-linux-v1.5.0-arm64.tar.gz
-lua -v
-eget --upgrade-only pomo
-f
-sqlite
-ld
-z oxwm
-zi cli
-npm i nodemon
-git branch -M main
-surge https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz
-nvim lua/utils/keymaps.lua
-git commit -m "chore: remove history file and sensitive data"
-lsd
-npm i -D @types/jsonwebtoken
-rm cli.exe
-rm bbcli-aarch64-unknown-linux-gnu.tar.gz
-rm so-aarch64-unknown-linux-gnu.tar.gz
-sqlite3 db.sqlite
-cd ~/coding/node-lang/nvim/
-rm eget-1.3.4-linux_arm64.tar.gz
-rm LICENSE whosthere
-rm scc_Linux_arm64.tar.gz LICENSE
-touch -p lua/core/lazys/init.lua
-pomo 15m
-gc 'add: tool'
-$env:RUST_LOG="info"; cargo watch -c -x r
-unzip gradle-9.3.1-bin.zip
-uv --version
-rm oxwms.git
-sys temp
-uv pip list
-gc 'flash'
-npm uninstall http-error
-z sdk 
-yay -S bat
-surge help
-nerdfetch
-surge https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-NF-unhinted.zip
-cp ~/Downloads/backup/history.txt ./
-source $"($nu.home-path)/.cargo/env.nu"
-lgs
-z conf
-http localhost:8080/todo_lits
-z lsd
-cargoinstall cargo-watch
-mv jdk-25.0.2/ ~/.sdk/java
-yay -Sy
-gc 'refactor code'
-yay -S vim
-nvim .gitignore
-ex bbcli-aarch64-unknown-linux-gnu.tar.gz
-cat .gitignore
-surge https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz --exit-when-done
-ps
-gc 'fix dressing'
-cat link_list.dart
-gc "add node and dart sdk"
-pam disconnect
-dart pub add relic
-cd coding/
-cargo binstall cargo-watch
-rm -r jolt-1.2.0-linux-arm64/
-wget https://github.com/yorukot/superfile/releases/download/v1.5.0/superfile-linux-v1.5.0-arm64.tar.gz
-history | grep ssh
-gc 'fix blink key override of c-k'
-gc 'fix treesitter'
-gc 'fib'
-git diff
-cargo c
-cat cli.dart
-rm hazelnutd
-tar -xvf whosthere_0.5.1_linux_arm64.tar.gz
-./mvn -v
-cp ~/coding/node-lang/nvim/lua/plugins/bufferline.lua ./
-fx h
-zi todo
-mv gh ~/.cli/bin/
-tar -xvf just-1.46.0-arm-unknown-linux-musleabihf.tar.gz
-pam
-nvim
-upx --help
-wget https://github.com/upx/upx/releases/download/v5.1.0/upx-5.1.0-arm64_linux.tar.xz
-gc 'improve time complexity'
-z node
-dart -h
-./dawn demo.txt
-zi algo
-zi dart
-cd nvim/
-sudo nano /etc/pacman.d/mirrorlist
-uv tool install posting
-fzf --preview
-mv scc ~/.cli/bin/
-ls -a
-curl -O https://storage.googleapis.com/dart-archive/channels/beta/release/3.11.0-296.4.beta/sdk/dartsdk-linux-arm64-release.zip
-eget --upgrade-only froggit
-mv deletor ~/.cli/bin/
-mv hi.go ~/coding/
-gc 'move flutter.lua to utils for only use in flutter project'
-yay -S dysk
-{ content: "Buy milk" } | to json | http post http://localhost:8080/todos $in
-eget --upgrade-only bit
-git clone https://github.com/NvChad/starter ~/.config/nvim; NvChad
-z cof
-rm -r csvlens-aarch64-unknown-linux-gnu/
-mv surge ./bin/
-rm -r target/
-mv eget ~/.cli/bin/
-ls toolchains/
-which npm
-touch index.ts
-rm dawn-linux-arm64.tar.gz
-gc 'add basic lua code'
-mkdir  lua/core/lazys/
-./jolt
-pam add db.sqlite
-gc 'nushell'
-rust run
-gc 'clean keymap'
-open history.csv | grep surge
-ox
-yay -Q | grep ff
-cat nvim.md
-git rm -r --cached surge/
-mv ~/Downloads/node-v25.6.1-linux-arm64/ ./node
-yay -Rns trash-cli
-z ~/coding/
-source ~/.config/nushell/env.nu
-ex nvim-linux-arm64.tar.gz
-dart test -r compact
-gc 
-cargo new server
-gc 'fix yazi'
-gc 'add dotenv'
-ex eget-1.3.4-linux_arm64.tar.gz
-history | grep pacman
-fx -h
-csvlens history.csv
-storage
-gr fzf.nu
-;ls
-z mason
-gc 'add mini-ai'
-gh auth login
-yay
-z confi
-cargo install cargo-watch
-gc 'improved'
-so "how to create struct in rust programming language"
-lsg | grid -c
-pomo stats
-open
-cargo --version
-ping google.com
-gh --version
-eget --download-only gh
-z
-mkdir backup
-npm install -D @types/express
-surge
-mvn -v
-gc 'add global error handler'
-./dawn
-cat lib/capitalize.dart
-froggit
-wget https://github.com/surge-downloader/surge/releases/download/v0.4/surge_0.4_linux_arm64.tar.gz
-z Dow
-cd rust
-sys mem
-wd
-history | grep git
-cd todo/
-mv pam-linux-arm64 ~/.cli/bin/pam
-mv dart-sdk/ ./dart
-surge https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.2-stable.tar.xz4
-q d
-gc 'stack program'
-rm mcdu-linux-aarch64-musl.tar.gz
-z ~/.config/
-rm LICENSE
-unrar
-./eilmeldung
-time help
-tar -xvf so-aarch64-unknown-linux-gnu.tar.gz
-sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo;"
-gc 'remove autopairs and add mini pair'
-eget --upgrade-only csvlens
-git commit --amend --no-edit
-v hi.go
-surge https://github.com/antonmedv/fx/releases/download/39.2.0/fx_linux_arm64
-dart pub add dart_console
-sys net
-sudo nvim /etc/pacman.d/mirrorlist
-history | grep pam
-Llsg
-pwd
-cd Downloads/
-cat pages/home_page.dart
-mkdir my-cli-app && cd my-cli-app
-nvim codeium-token-key.md
-echo "nushell/history.txt" >> .gitignore
-./pomo
-npm install -D @types/node
-yay -Q lld
-z algo
-mv dawn ~/.cli/bin/
-git branch
-python --version
-v config.toml
-which pam
-z comf
-pomo 3m
-git add .gitignore
-rm env.nu
-z rust
-go
-rm nvim-linux-arm64.tar.gz
-http http://127.0.0.1:8080/todos/1
-mkdir node-lang
-sys
-gr lua/core/blink/sources.lua
-rm -r jiq-aarch64-unknown-linux-gnu/
-wdp
-gc 'fix key'
-jiq
-nano config.nu
-la
-z bin/
-history
-gc 'fix window padding'
-unzip linux-arm64.zip
-pam init my_db sqlite ./db.sqlite
-./bbcli
-cp nvim/ ~/coding/
-z co
-pam tables users
-rm  -r lua/core/lsp/settings
-...
-mv ~/coding/node-lang/nvim/lua/core/conform-formate/ lua/core/
-mv surge ~/.cli/bin/
-mkdir rust-lang
-yclean
-dart create algo
-mv NvChad/ ~/Downloads/
-cat
-cp -r ~/.config/nvim/ ./
-z elib
-mv fx ~/.cli/bin/
-surge 
-dash
-cargo watch -x r -q
-sudo pacman-key --init
-eget --download-only mikalv/mcdu
-cat bloc/counter_state.dart
-yay -Q | grep ffmpeg
-dart test --name "capitalize"
-clear
-make
-z todo
-cd server/
-./snitch
-cat codeium-token-key.md
-node -v
-eget --version
-ip addr
-z ~/.local/share/nvim/mason
-surge https://github.com/pashkov256/deletor/releases/download/v1.5.0/deletor-v1.5.0-linux-arm64
-{ content: "Buy Cake" } | to json | http put --content-type application/json http://localhost:8080/todos/1 $in
-z 
-z dart
-rm *.*
-cd cong
-7z
-lsg -a
-rm dartsdk-linux-arm64-release.zip
-gc 'fix lsp config'
-z dow
-dart ---
-nvim lua/plugins.lua
-gc 'added pop'
-unzip apache-maven-3.9.12-bin.zip
-git rm -r --cached gh/
-mv nvim/ ~/coding/node-lang/
-rm datui-0.2.49-cp38-abi3-manylinux_2_39_x86_64.whl
-just --version
-cd elib/
-mv nvim/ ~/coding/dart-lang/
-pw
-z todo/
-z logger/
-tock calendar
-gcl https://github.com/rivoten05/counter_bloc.git
-touch demo.txt
-gh --help
-gradle init
-fastfetch
-rm ./.*
-eget --download-only jesseduffield/lazygit
-z ~/.config/nvim/
-dart test -r expanded
-pip list
-gh codespace stop
-rm rio.txt
-./bin/dart --version
-ex superfile-linux-v1.5.0-arm64.tar.gz
-gc 'create jwt'
-date now | date to-timezone AS/Kolkatta
-./gradle --version
-yay -S reflector
-cd nv
-dart 
-sys host
-date to-timezone
-cd cli/
-mv upx ~/.cli/bin/
-cp -r nvim/ ~/coding/
-mv ~/coding/node-lang/nvim/lua/plugins/conform.lua lua/plugins/
-mv deletor-v1.5.0-linux-arm64 deleteor
-mv lua/ nvim/
-rm LICENSE README.md surge_0.4_linux_arm64.tar.gz
-surge https://dlcdn.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.zip --exit-when-done
-lsg
-llls
-timedatectl
-gcc --version
-ex node-v25.6.1-linux-arm64.tar.xz 
-cd backup/
-ga
-grep -r "require('telescope.builtin')" .
-rm linux-arm64.zip
-date now | date to-timezone AS/Kolkata
-rustc -vV
-cd ..
-nodemon --exec tsx server.ts
-rm node-v24.13.0-linux-arm64.tar.xz
-surge https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-CN-unhinted.zip --exit-when-done
-sudo pacman -Sy archlinuxarm-keyring
-rm apache-maven-3.9.12-bin.zip
-dart info
-tar -xJf csvlens-aarch64-unknown-linux-gnu.tar.xz
-cp -r ~/Downloads/backup/nvim/ ./
-surge https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.2-stable.tar.xz
-bit
-surge https://raw.githubusercontent.com/ThatOneCalculator/NerdFetch/main/nerdfetch
-du /var/cache/pacman/pkg/ -d 0 | split column "\t" size path
-npm i jsonwebtoken
-git pull
-yay -Q
-tmux
-pacman -Qdt
-nvim --vershin
-mv ~/Downloads/dart/ ./
-ex dawn-linux-arm64.tar.gz
-mv node-v24.13.0-linux-arm64 ./node
-yay -S code
-cat config.nu
-gi
-git init
-gc history.json
-rm ox
-cd dec
-cp -r !/.config/vim ./ 
-dart
-dart compile exe cli.dart
-git clone https://github.com/NvChad/starter ~/.config/nvim && NvChad
-which nvim
-mv jiq ~/.cli/bin/
-rm spf
-yay -Q | to csv | save packages.csv
-mv mcdu ~/.cli/bin/
-chmod +x deletor
-touch .gitignore
-tock calender
-tar -xvf pomo_Linux_arm64.tar.gz
-git fetch
-mv ~/coding/node-lang/nvim/lua/core/lualine/ lua/core/
-lll
-gc 'added bubble sort'
-yay -S tmux
-vit
-z coding
-npm i -D @types/bcrypt
-cargo add tokio
-sudo ip add
-git https://github.com/rivoten05/todo-cli-app.git
-z coding/
-bash
-tock
-npm i typescript
-cd ~/.config/nvim/
-cd dec/
-perl
-java -version
-http post http://localhost:8080/add_todo { content: "Buy milk" }
-tar superfile-linux-v1.5.0-arm64.tar.gz
-gc 'fix autocommand'
-gc 'add vtls for neovim'
-..
-yay -Sy 
-rm ~/.local/state/nvim/shada/main.shada
-yc
-z dek
-cat .zoxide.nu
-./nerdfetch
-cargo
-ex eilmeldung-aarch64-unknown-linux-musl-0.9.6.tar.gz
-tar surge_0.4_linux_arm64.tar.gz
-nvim duplicate.py
-zi rust
-which dart
-pam --version
-lt
-surge https://nodejs.org/dist/v25.6.1/node-v25.6.1-linux-arm64.tar.xz --exit-when-done
-rm -r backup/
-z Downloads/
-ll
-z node-lang/
-mkdir saple_clode
-top
-gcl https://github.com/rivoten05/todo-cli-app.git
-z  tui
-cargo new cli
-npm i -D @types/http-error
-eget --download-only sminez/ad
-rm -r eilmeldung/
-gcc
-sudo rm -rf /var/lib/pacman/sync/*
-gc 'fizzbuzz program'
-mv fx_linux_arm64 ./fx
-in
-gpo
-cargo r -q
-surge https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz
-la .ssh/
-cat clock_home.dart
-cull 
-mv ~/coding/node-lang/nvim/lua/plugins/dressing.lua lua/plugins/
-nvim /etc/pacman.d/mirrorlist
-z nv
-wget https://github.com/samtay/so/releases/download/v0.4.10/so-aarch64-unknown-linux-gnu.tar.gz
-gc 'finish delete route'
-mkdir coding
-open history.csv | table
-http http://127.0.0.1:8080/todos
-rm -r LICENSE upx-5.1.0-arm64_linux/
-eget --upgrade-only fx
-pomo completion
-pomo 10m
-rm -r completions/
-wget https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-TTF.zip
-cull --version
-tar -xvf scc_Linux_arm64.tar.gz
-ls4
-pgrep sshd
-rm -r flutter
-fd init
-git add README.md
-gc 'changes lualine and increase nvim conform formate time'
-gc 'added get'
-gc 'changes'
-gc 'todo-comments'
-npm init
-time
-rm -r dart
-gc 'trouble'
-cd core
-fzf --preview cat
-rm -r tui
-cat home_page.dart
-mkdir nvim
-sudo pacman -S reflector
-dart analyze
-eget --download-only christo-auer/eilmeldung
-gs 
 v history.json
-gh codespace view
-eget --download-only andrewmd5/tap/dawn
-surge https://github.com/eduardofuncao/pam/releases/download/v0.2.0-beta/pam-linux-arm64 
-ex tock_Linux_arm64.tar.gz
-chmod +x fx
-surge https://github.com/rivoten05/oxwms.git --exit-when-done
-mv ~/coding/node-lang/nvim/lua/plugins/blink-cmp.lua lua/plugins/
-curl -O https://nodejs.org/dist/v24.13.0/node-v24.13.0-linux-arm64.tar.xz
-v history.txt
-btm
-mkdir .cli
-node index.ts
-./mcdu
-rm ~/.cli/bin/surge
-cargo add axum
-ls
-gradle --version
-gemini
-source ~/.cargo/env.nu
-http post http://localhost:8080/todos { content: "Buy milk" }
-yay -Syu
-ls ~/coding/
-la -l
-dart test --color
-deletor
-dart compile exe cli.dart -o cli.exe
-ipconfig
-sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo where id = 1;"
-gc 'add timely plugins'
-gc 'change options'
-rm LICENSE README.md
-eget --download-only kriuchkov/tock
-hz dow
-jiq packages.json
-chmod +x nerdfetch
-{ content: "Buy HDD" } | to json | http post --content-type application/json http://localhost:8080/todos/1 $in
-open history.csv 
-dart test --color -r expanded
-z lib
-eget --upgrade-only gh
+tar surge_0.4_linux_arm64.tar.gz
+gcl https://github.com/rivoten05/login-ui.git
+cp ~/.config/nvim/snippets/ lua/custom/
+gc 'trouble'
 tar jiq-aarch64-unknown-linux-gnu.tar.xz
-rm jolt-1.2.0-linux-arm64.tar.gz
-z bin
-ys 
-rm so
-http http://127.0.0.1:8080/todos/
-gr lua/
-ex snitch_0.2.2_linux_arm64.tar.gz
-ls /usr/share/zoneinfo/
-git log | cat
-so how do i reverse a list in python
-spf
-npm i express
-git reset --soft HEAD~1
-cd lib/
-systemctl list-units --state=failed | lines
-lua --version
-ex
-gc 'reverse int program'
-cst lib/anagram.dart
-gss
-./gradle --help
-v fzf.nu
-cat ~/.config/nushell/alias.nu
-mv ~/coding/node-lang/nvim/lua/core/blink/ lua/core/
-cat anagram_test.dart
-which go
-surge https://github.com/boyter/scc/releases/download/v3.6.0/scc_Linux_arm64.tar.gz
-rm superfile-linux-v1.5.0-arm64.tar.gz
-ex lazygit_0.59.0_linux_arm64.tar.gz
-sudo pacman -Syu
-gc 'fix code'
-cargo new todo
-echo "gh/" >> .gitignore
-gc 'add flutter keymap'
-tr
-npm i -D @types/dotenv
-yay -Q | to json | save packages.json
-uv
-surge https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz
-gc 'fix which key'
-z .sdk/
-uname
-z lib/
-nv
-cd media/
-surge https://github.com/surge-downloader/surge/releases/download/v0.5.4/surge_0.5.4_linux_arm64.tar.gz
-ex gh_2.86.0_linux_arm64.tar.gz
-yay -S pomo
-mv NvChad/ tinyvim/ ./backup/
-cargo new tui
-history | to csv | save history.csv
-sqlite3
-dart run
-mkdir go-lang
+gc 'added pop'
 cull
-rm jdk-25_linux-aarch64_bin.tar.gz
-cargo run
-npm i -D tsx
-z code
-rm name.py
-cargo new media
-safe-rm jolt-1.2.0-linux-arm64/
-btop
-http delete http://localhost:8080/todos/5
-sg --==-
-surge https://github.com/hako/bbcli/releases/download/1.0.3/bbcli-aarch64-unknown-linux-gnu.tar.gz
-lsd --tree --depth 2
-z saple_clode/
-dart run --enable-vm-service bin/example.dart
-mime
-eget --upgrade-only just
-mv froggit ~/.cli/bin/
-z dart server
-posting
-tar M superfile-linux-v1.5.0-arm64.tar.gz
-nvim lua/configs/options.lua
-history | to json | save history.json
-npm install -D ts-node
-pomo completion nu
-rm pomo_Darwin_arm64.tar.gz
-rm -r so
-source ~/.tmux.conf
-gs
-yay -Rns dysk
-timezone
-z con
-z sdk
-gc 'add surround'
-perl --version
-http localhost::8080/todo_lits
-gc 'steps program'
-sudo pacman -S --needed base-devel python-pip
-mv tock ~/.cli/bin/
-curl -O https://github.com/Bahaaio/pomo/releases/download/v1.0.5/pomo_Darwin_arm64.tar.gz
-yay -Rns neovim
-history | grep ghh
-sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo where id = 2;"
-surge https://storage.googleapis.com/dart-archive/channels/stable/release/3.11.0/sdk/dartsdk-linux-arm64-release.zip
-mv lazygit ~/.cli/bin/
-date now
-brm
-lsd -l --icon always --group-dirs first
-e
-whoami
-gr init.lua
-z jolt-1.2.0-linux-arm64/
-cargo new dec
-rm lua/plugins/rust.lua
-dart pub add mason_logger
-pomo --help
-rm snitch
-which nvi
-rm -r eget-1.3.4-linux_arm64/
-gc 'modify: blink cmp'
-rm lua/plugins/lualine.lua
-nvim --version
-eget --upgrade-only scc
-du
-nvim leetcode.nvim
-ga 
-z server
-date now | date to-timezone local
-gc 'change comment plugins'
-rm -r dist/
-sudo pacman -S --needed  python-pip
-sudo pacman-key --populate archlinuxarm
-eget --upgrade-only bbcli
-gd --help
-cargo build -v
-gp
-gc 'fix install lld'
-gc 'remove history from git'
-z elib/
-z gemini
-z nushell
-z cod
-gc 'add history'
-mv ~/coding/node-lang/nvim/lua/plugins/comment.lua lua/plugins/
-mkdir bin
-nls
-gc 'chunk program'
-npm i -D @types/http-errors
-eget --upgrade-only surge
-ls ~/.cargo/env.nu
-mcdu
-rm csvlens-aarch64-unknown-linux-gnu.tar.xz
-cd my-cli-app/
-owd
-rm gradle-9.3.1-bin.zip
-sudo chmod +x pam
-gh
-dart test 
-yay -S ffmpeg
-dart run cli.dart
-z cli bin
-rm hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz
-tar -xvf hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz
-yr
-ping 
-lsd --icon always --group-dirs first
-find init
-gc 'maxchar program'
-gc 'queue program'
-rm eilmeldung-aarch64-unknown-linux-musl-0.9.6.tar.gz
-surge https://github.com/ricardodantas/hazelnut/releases/download/v0.2.39/hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz 
-time --help
-gc 'fix routes'
-mkdir lua/utils
-pam 
-g
-yay -S uv 
-gc 'added lua runner'
-surge https://github.com/legostin/cull/releases/download/v0.6.1/cull_linux_arm64.tar.gz --exit-when-done
-uv tool list
-v y
-v ~/.config/nushell/env.nu
-cd rust-lang/
-ffmpeg
-rm flutter_linux_3.41.2-stable.tar.xz
-just
-yay -sy
-z .cli
-dart --help
-gc 'add validator'
-rm node-v25.6.1-linux-arm64.tar.xz
-lazygit
-gc 'add navic plugins'
-z dec
-gc 'add leetcode plugins default language as dart'
-npm i http-error
-rm `csvlens-aarch64-unknown-linux-gnu.tar(1).xz`
-chmod +x ox
-rm MapleMono-NF-unhinted.zip
-surge https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz
-ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
-cal
-dart formate anagram.dart
-z server/
-surge https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-arm64.tar.gz
-wget https://github.com/curlpipe/ox/releases/download/0.7.7/ox
-mkdir share
-npx tsc --init
-rm -r *.*
-fxf
-time now
-cd .sdk/
-ip 
-git add gh/hosts.yml
-mv ~/coding/node-lang/nvim/lua/core/bufferline/ ./
-z conmf
-http http://127.0.0.1:3000
-em my-cli-app/
-yay -Q | to csv
-gc 'add outline plugins'
-wget https://github.com/superstarryeyes/bit/releases/download/v0.3.0/bit_0.3.0_Linux_arm64.tar.gz
-http http://127.0.0.1:3000/1
-zi
-rm deletor
-git log
-cat bloc/counter_bloc.dart
-git rm --cached nushell/history.txt
-cargo run -q
-sys cpu
-clang --version
-mv ~/coding/node-lang/nvim/lua/plugins/lualine.lua lua/plugins/
-sudo ip
-lsd -l
-sys users
-jit
-cargo add rand
-sl
-gc 'change lualine'
-surge https://github.com/yorukot/superfile/releases/download/v1.5.0/superfile-linux-v1.5.0-arm64.tar.gz
-pam ls
-dart format anagram.dart
-upx --version
-cat ~/coding/codeium-token-key.md
-rm do
-rm README.md
-rm .*
-cd yazi/
-gc 'options'
-tar -xvf upx-5.1.0-arm64_linux.tar.xz
-rm -r nvim oxwms 
-./whosthere
-rm -r my-cli-app/
-gc 'added maple mono font'
-surge --version
-nu
-dart create cli
-gc 'add lazy-dev'
-tar -xvf jdk-25_linux-aarch64_bin.tar.gz
-gc 'fix core key'
-git push -u origin main
-npm -v
-fx help
-mkdir my-cli-app; cd my-cli-app
-rm jiq-aarch64-unknown-linux-gnu/
-date
-eget --download-only neovim/neovim
-ks
-git clone https://github.com/NvChad/tinyvim.git
-gc 'added popFirst'
-pomo 5m
-/etc/pacman.d/mirrorlist
-nvim lua/configs/keymaps.lua
-./hazelnut
-git diff | cat
-cargo r
-gc 'added merge sort'
-npm i dotenv
-touch lua/configs/options.lua
-mkdor share
-./cli.exe
-s
-bbcli
-zoxide init nushell | save -f ~/.zoxide.nu
-mkdir lua/configs
-mv cull ~/.cli/bin/
-dart compile exe cli.dart --optimize --output-type=exe
-rm lazygit_0.59.0_linux_arm64.tar.gz
-v
-unzip dartsdk-linux-arm64-release.zip
-mv ~/coding/node-lang/nvim/lua/plugins/colorify.lua ../plugins/
-pef
-v codeium-token-key.md
-dart test
-z ~/.local/share/nvim/mason/ls
-dart --version
-fx --help
-cat env.nu
-gc 'key'
-z config
-yay -Syy
-gh codespace status
-yay -S trash-cli
-x conf
-ls ~/.config/
-history | grep remote
-nvims
-fzf
-eget --download-only karol-broda/snitch
-dart test -r json
-gc 'remove printd'
-touch codeium-token-key.md
-gc 'fix get'
-cargo watch -x r
-sshd
-http http://127.0.0.1:8080/todo_lits
-gc 'update nvim'
-z tui
-nvim init.lua
-v .gitignore
-eget --download-only ahkohd/oyo
-mv bbcli ~/.cli/bin/
-mv jolt ~/.cli/bin/
-mv apache-maven-3.9.12/ ~/.sdk/maven
-fd
-pomo break 3m
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-gc 'alpha'
-z cli
-z ~/.config/nushell/
-pomo help
-sys disks
-trash-list
-./tock
-yay -S tree-sitter-cli
-ex mcdu-linux-aarch64-musl.tar.gz
-fx history.json
-scc
-cd lua/plugins/
-y
-yay -S starship
-dart compile exe cli.dart --optimize
-pacman -Rs $(pacman -Qdtq)
-zi 
-npm i https-error
-cd tui/
-dart test -v
-yay -S bottom
-gr lua/core/lsp/init.lua
-mv csvlens ~/.cli/bin/
-y
-history
-ls
-z conf
-ls
-gs
-ga
-gc 'nu'
-gp
-gs
-ls
-pwd
+http delete http://localhost:8080/todos/2
+mkdir node-lang
 l
-ls
-pwd
-gs
-z
-ls
-ll
-pwd
-ls
-pwd
-z cli bin
-ls
-tock calender
-tock calendar
-z nv
-scc
-z server
-ls
-p
-scc
-y
-scc
-y
-ls
-v
-z nv
-v
-ls
-pwd
-ls
-ll
-p
-ll
-ls
-pwd
-ll
-z dec
-ls
-lt
-ls
-pwd
-ll
-pwd
-ls
-pwd
-ll
-ls
-pwd
-ll
-nvims
-z conf
-ls
-gs
-nvims
-ls
-tmux
-z 
-z conf
-ls
-z
-ls
-cp .tmux.conf ~/Downloads/backup/
-nvim .tmux.conf
-tmux
-nvim .tmux.conf
-ls
-z
-tmux
-nvim .tmux.conf
-v
-tmux
-nvim .tmux.conf
-tmux
-ls
-cat .tmux.conf
-y
-z
-z conf
-fd tmux
-z
-fd tmux
-ls
-cp .tmux.conf ~/.config/
-z conf
-gs
-ga
-gc 'tmux'
-gp
-z
-nvim .tmux.conf
-ln -s ~/.config/.tmux.conf ~/.tmux.conf
-ls
-rm .tmux.conf
-ln -s ~/.config/.tmux.conf ~/.tmux.conf
-ls
-ll
-la
-y
-ls
-z nv
-v
-ls
-gs
-gr lua/
-ls
-y
-v
-gs
-gr init.lua
-v
-gs
-ga
-gc 'fix key'
-gp
-v
-z dart
-ls
-y
-tmux
-z nv
-v
-gs
-z lua-lang
-ls
-v
-sl
-ls
-z code
-ls
-z dart
-ls
-gcl https://github.com/rivoten05/blm.git
-y
-z
-ls
-z cli bin
-ls
-bbcli
-ls
-ll
-p
-ls
-yay -Syy
-ls
-yay -Syy
-yay -Syu
-vim --version
-ls
-pwd
-ll
-ls
-vim
-z nv
-v
-z dart server
-ls
-gs
-la
-gi
-gs
-ga
-gc 'server'
-la
-v
-z nv
-v
-gs
-ga
-gc 'lsp setup'
-gp
-v
-z dart server
-v
-z nv
-gs
-ls
-btm
-ls
-z nushell
-ls
-cat nvims.nu
-v nvims.nu
-nvims
-source ~/.config/nushell/env.nu
-source ~/.config/nushell/config.nu
-nvims
-z conf
-ls
-gs
-nvims
-z nushell
-v nvims.nu
-source ~/.config/nushell/config.nu
-nvims
-which nvim
-ls
-cat alias.nu
-v alias.nu
-nvims
-source ~/.config/nushell/config.nu
-v
-nvims
-y
-cat alias.nu
-bat alias.nu
-v
-vi
-ls
-nvims
-v alias.nu
-source ~/.config/nushell/config.nu
-nvims
-cat alias.nu
-gs
-ga
-gc 'nu'
-gp
-ls
-nvims
-tmux
-ls
-v nvims.nu
-0;10;1cnvims
-nvims
-tmux
-v nvims.nu
-0;10;1cnvims
-nvims
-alias | where name == "fzf"
-tmux
-gs
-gr nvims.nu
-ls
-v nvims.nu
-ls
-nvims
-nvim-lazy
-tmux
-gs
-ga
-gc 'nu'
-gp
-ls ~/.config | where type == dir
-ls ~/.local/share | where type == dir
-z conf
-ls
-open history.json
-ls
-z ~/.local/share/
-ls
-y
-ls
-z nv
-v
-te
-gs
-v
-ls
-pwd
-v
-ls
-v
-ls
-v
-gs
-ga
-gc 'remove devicons'
-gp
-v
-gs
-ga
-gc 'remove devicons'
-gp
-v
-gs
-v
-fd navic
-gs
-ga
-gc 'remove navic'
-gp
-v
-fd minty
-v
-ls
-gs
-v
-s
-gs
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-v
-gs
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-v
-ga
-gc 'replacing telescope with fzf'
-z nv
-gs
-v
-nvim
-ga
-gc 'replacing telescope with fzf'
-v
-nvim
-v
-gs
-yay -S viu
-v
-gs
-git diff | cat
-gs
-git diff | cat
-ls
-gs
-gr lua/
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-gp
-v
-gs
-ga
-gc 'replacing telescope with fzf'
-gp
-v
-gs
-ga
-gc 'modify: cmp'
-v
-gs
-ga
-gc 'modify: cmp'
-gp
-y
-gs
-ga
-gc 'modify: cmp'
-gp
-v
-gs
-ga
-gc 'modify: indent'
-ga
-gc 'modify: indent'
-p
-...
-gs
-p
-ga
-gc 'modify: indent'
-gp
-v
-gs
-p
-ga
-gc 'modify: bufferline'
-gp
-v
-y
-gs
-ga
-gc 'modify: conform'
-gp
-v
-gs
-git diff | cat
-git diff | bat
-ga
-gc 'modify: dressing'
-v
-gs
-ga
-gc 'modify: flash'
-gp
-v
-gs
-git diff | bat
-v
-ga
-gc 'modify: fzf'
-gp
-v
-nvim
-gs
-ga
-gc 'modify: lsp'
-z dart server
-v
-z nv
-nvim
-z dart server
-v
-z nv
-v
-gs
-ga
-gc 'modify: lsp'
-nvim
-v
-gs
-ga
-gc 'modify: mini'
-gs
-ga
-gc 'modify: mini'
-v
-gs
-ls
-nvims
-gs
-ga
-gc 'modify: neotree'
-v
-gs
-ga
-gc 'modify: noice'
-gs
-ga
-gc 'modify: notify'
-v
-gs
-ga
-gc 'modify: plugin'
-v
-ga
-gc 'modify: plugin'
-v
-gs
-ga
-gc 'modify: plugin'
-v
-ls
-pwd
-ll
-v
-gs
-ga
-gc 'modify: plugin'
-gp
-v
-gs
-ga
-gc 'modify: plugin'
-gp
-ls
-gs
-z dart server
-v
-z nv
-v
-z dart server
-v
-z nv
-v
-gs
-ga
-gca
-gc 'modify: plugin'
-gp
-v
-z lua
-ls
-z lua-lang
-v
-ls
-z 
-z dec
-v
-z nushell
-v
-source ~/.config/nushell/config.nu
-z dec
-v
-z nv
-v
-z conf
-gs
-ga
-gc 'modify: plugin'
-gp
-z nv
-v
-z dec
-v
-z nv
-v
-gs
-git diff | bat
-v
-gs
-fe lua/
-gr lua/
-v
-gs
-gr init.lua
-gr lua/
-v
-z dart server
-v
-z nv
-v
-ga
-gc 'modify: lsp'
-gp
-v
-gs
-fe lua/
-gr lua/
-v
-gs
-ga
-gc 'modify: lsp'
-gp
-v
-gs
-gr lua/
-v
-gs
-ga
-gc 'modify: lsp'
-gp
-z dart server
-v
-z nv
-v
-gs
-gr lua/
-v
-gs
-v
-gs
-ga
-gc 'modify: lsp'
-gp
-ls
-v
-z dart server
-v
-z dec
-v
-ls
-z nv
-gs
-v
-gs
-ga
-gc 'modify: lsp'
-gp
-v
-fd telescope
-v
-ls
-gs
-ga
-gc 'modify: plugins'
-gp
-v
-ls
-gs
-a
-z lua-lang
-v
-z nv
-gs
-ga
-gc 'modify: plugins'
-gp
-v
-gs
-v
-gs
-ga
-gc 'modify: plugins'
-gp
-v
-gs
-gr lua/
-v
-gs
-ls 
-cd dow
-z dow
-ls
-cp cp /data/data/com.termux/files/home/downloads/.*.csv ./
-cp  /data/data/com.termux/files/home/downloads/.*.csv ./
-cp  /data/data/com.termux/files/home/downloads/*.csv ./
-ls
-csvlens Transaction_Report.csv
-ls
-yay -Syu
-uv tool update posting
-z nv
-v
-z conf
-ls
-pwd
-ll
-z
-ls
-d
-cd dow
-z dow
-ls
-csvlens Transaction_Report.csv
-ls
-z nv
-v
-z nv
-v
-ls
-pwd
-lls
-ls
-lsd
-ll
-z yazi
-y
-ls
-nerdfetch
-y
-ls
-cat codeium-token-key.md
-yay -Syu
-z nv
-v
-nerdfetch
-z dow
-ls
-gcl https://github.com/tenravio-source/oxwm
-gcl https://github.com/tenravio21-source/oxwm
-y
-v
-z nv
-v
-z conf
-gs
-ga
-gc 'modify: plugins'
-gp
-v
-ls
-cull
-mcdu
-ls
-pwd
-z
-ls
-pwd
-ll
-ls
-pwd
-ll
-nerdfetch
-ls
-nerdfetch
-ls
-pwd
-ll
-ls
-pwd
-y
-ls
-cat codeium-token-key.md
-ls
-cat codeium-token-key.md
-ls
-pwd
-yay -Syu
-z nv
-gs
-v
-gs
-z conf
-z nv
-v
-ls
-yay -Syu
-cargo --version
-z nv
-ls
-z nv
-v
-ls
-pwd
-ll
-z nv
-v
-ls
-z
-ls
-pwd
-ls
-pwd
-ll
-y
-csvlens Transaction_Report.csv
-ls
-pwd
-la
-ls
-pwd
-ll
-pwd
-ll
-ls
-z conf
-ls
-gs
-z dow
-ls
-7zz
-ls
-7z a relex@1243 Upi-Transaction_Report.csv
-y
-ls
-7z a -prelex@1243 Upi-Transaction_Report.csv
-ls
-7z a -prelex@1243 Upi-Transaction_Report.7z Upi-Transaction_Report.csv
-y
-ls
-y
-gs
-ga
-gc 'modify: plugins'
-gp
-git remote origin
-s
-ls
-pwd
-rm Upi-Transaction_Report.7z
-gs
-ga
-gc 'modify: plugins'
-gp
-ls
-cull
-ls
-pwd
-ll
-dart --version
-nerdfetch
-z dart
-y
-lsa
-ls
-l
-dart test -v
-dart test 
-dart test --name "capitalize"
-dart test -r expanded
-nerdfetch
-z dart algo
-scc
-v
-ls
-pwd
-z nushell
-v
-ls
-pw
-ls
-pw
-ll
-z nv
-v
-ls
-pwd
-z conf
-ks
-ls
-gs
-ga
-gc 'nu'
-gp
-v
-z dart algo
-v
-z nv
-v
-gs
-ga
-gc 'nu'
-gp
-v
-z dart algo
-v
-z yazi
-v
-y
-z conf
-gs
-ga
-gc 'yazi'
-gp
-y
-z nv
-v
-ls
-pomo 3m
-z conf
-froggit
-z cli bin
-pomo --version
-ls
-eget --upgrade-only pomo
-pomo --version
-bbcli
-ls
-pwd
-ls
-joly
-jolt
-c
-lsd
-l
-ls
-l
-ls
-z nv
-v
-ls
-pwd
-ll
-date now | date to-timezone local
-pwd
-ll
-z nv
-lt
-z nushell
-yc
-ls
 gl
-lsg
-ll
 pwd
-ll
-v
-z cod
-ls
-y
-z nv
-v
-z conf
-gs
-ga
-gc "neovim"
-gp
-ls
-froggit
-mcdu
-y
-z cod
-y
-z nv
-v
-z server
-ls
-y
-ls
-gs
-v
-z code
-ls
-z
-z nv
-v
-ls
-y
-ls
-pwd
-ls
-z nv
-v
-ls
-pwd
-ll
-ls
-pwd
-ll
-ls
-z sdk
-ls
-node -v
-ls
-node -v
-go
-ls
-yay -Syu
-ls
-ll
-ls
-pwd
-ll
-pwd
-ll
-lsg
-ll
-lsg
-z cli bin
-ls
-bit
-ls
-z dow
-ls
-eget hzqtc/cashd
-ls
-y
-ls
-./cashd --version
-mv cashd ~/.cli/bin/
-ls
-cashd 
-cashd --help
-cashd Upi-Transaction_Report.csv
-cashd --csv Upi-Transaction_Report.csv
-y
-ls
-cashd --csv Upi-Transaction_Report.csv
-y
-history | to csv | save history.csv
-ls
-cashd --csv history.csv
-cashd --csv Upi-Transaction_Report.csv
-ls
-cashd --csv Upi-Transaction_Report.csv --date-column "Transaction Date" --amount-column "Amount" --description-column "Description"
-y
-ls
-cat <<EOF > cashd-config.json<\n>{<\n>  "date_column": "date",<\n>  "amount_column": "transaction_amount",<\n>  "description_column": "name",<\n>  "date_format": "2006-01-02"<\n>}<\n>EOF
-bash
-ls
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-bash
-ls
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-y
-z Trash
-z ~/.local/share/Trash/
-ls
-y
-ls
-pwd
-ll
-z
-ls
-y
-ls
-z
-ls
-pw
-ll
-pwd
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ls
-z conf
-ls
-gs
-ls
-tock
-tock calendar
-ls
-pwd
-z todo
-ls
-pam init my_db sqlite ./db.sqlite
-pam tables users
-pam tables
-pam disconnect
-ls
-pwd
-ll
-y
-ls
-z
-z dow
-ls
-bash
-ls
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-rm *.json
-bash
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-y
-ls
-rm *.json
-ls
-bash
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-rm *.json
-bash
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-y
-z dow
-ls
-rm *.json
-bash
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-v
-sed -i 's/,\([0-9]\{2,3\}\)/ \1/g' Upi-Transaction_Report.csv
-cacacashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-open Upi-Transaction_Report.csv | save -f clean_report.csv
-v cashd-config.json
-cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
-open Upi-Transaction_Report.csv | save -f clean_report.csv
-grep -E "^(date|202)" Upi-Transaction_Report.csv > clean_report.csv
-ls
-pwd
-ls
-z
-ls
-ll
-lsd
-ls
-lsd
-ll
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ll
-pwd
-ll
-pwd
-zi
-z dart algo
-v
-z cli bin
-ls
-cull
-rm cashd
-z conf
-ls
-gs
-y
-ls
-p
-lazygit
-ls
-gs
-gp
-ls
-z
-ls
-pwd
-ll
-ls
-pwd
-ll
-z nv
-v
-z conf
-gs
-ga
-gc "neovim"
-gp
-v
-z nv
-gs
-z conf
-gs
-ga
-gc "neovim"
-gp
-v
-ls
-y
-z dow
-eget Lymphatus/caesium-clt
-ls
-y
-./caesiumclt --version
-mv caesiumclt ~/.cli/bin/
-ls
-pwd
-ll
-z nv
-v
-ls
-z vonf
-z conf
-ls
-gs
-ga
-gc "neovim"
-gp
-v
-z conf
-ls
-gs
-ga
-gc "neovim"
-gp
-ls
-z nv
-v
-ls
-z cli bin
-ls
-caesiumclt 
-ls
-ll
-pwd
-z 
-ls
-pwd
-ll
-z nv
-v
-ls
-z nv
-ls
-pwd
-ll
-pwd
-ll
-z conf
-gs
-v
-ls
-pwd
-ls
-pwd
-v
-gs
-p
-z nv
-gs
-v
-ls
-nerdfetch
-ls
-yay -Syu
-ls
-v
-z nv
-v
-ls
-z
-ls
-pwd
-cargo --version
-ls
-pwd
-ll
-fzf
-ls
-pwd
-ll
-ls
-yay -Syu
-uv tool update posting
-z nv
-v
-ls
-zlld
-ls
-z cli bin
-ls
-eget --help
-ls
-pwd
-lsg
-z nv
-lsg
-ll
-ls
-pwd
-z nv
-lt
-ls
-pwd
-ll
-surge
-z cli bin
-ls
-z
-ls
-pwd
-ll
-ls
-pwd
-ll
-z rust todo
-ls
-v
-gs
-git diff | bat
-gr src/
-gs
-git diff | bat
-rustc -vV
-ls
-z nv
-v
-z cli bin
-ls
-ad
-ls
-eget pythops/impala
-ls
+mkdir leetcode
+gc 'key'
+touch -p lua/core/lazys/init.lua
 impala
-eget shazow/wifitui
-ls
-wifitui
-ls
-..
-ls
-cull
-z
-z cli bin
+gc 'reverse int program'
+nvim lua/utils/keymaps.lua
+octosql "SELECT * FROM ./Transaction_Report.csv"
+eget vincelwt/gloomberb
+pomo 10m
+joly
+git pull
+mvn -v
+gr lua/configs/keymaps-lsp.lua
+cacacashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
+git diff | cat
+rm name.py
+zi algo
+gc 'replacing telescope with fzf'
+./dawn demo.txt
+lsg -a
+ox
+rm hi.go
+node -v
+dart analyze
+fe lua/
+time help
+git fetch
+gc 'created anagram'
+yay -S lld
+fr lazy-lock.json
+history | grep ssh
+cd lua/plugins/
+mv ~/coding/node-lang/nvim/lua/plugins/comment.lua lua/plugins/
+z jolt-1.2.0-linux-arm64/
+eget --download-only gh
+fx help
+z py lib
+mkdir my-cli-app; cd my-cli-app
+cat init.lua
+node server.ts
+z oxwm
+z ~/coding/
+pomo break 20m
+Nvi
+scc
+flutter config no-enable-web
+gcl https://github.com/tenravio21-source/portfolio.git
+gc 'remove navic'
+gc 'todo-comments'
+source $"($nu.home-path)/.cargo/env.nu"
+rm scc_Linux_arm64.tar.gz LICENSE
+mkdir lua/utils
+curl -O https://nodejs.org/dist/v24.13.0/node-v24.13.0-linux-arm64.tar.xz
+ipconfig
+eget AlexsJones/llmfit/
+git branch 
+unrar
+cd cli/
+gr fzf.nu
+surge --version
+which pam
+gc 'change lualine'
+rm datui-0.2.49-cp38-abi3-manylinux_2_39_x86_64.whl
+http delete http://localhost:8080/todos/3
+rm eget-1.3.4-linux_arm64.tar.gz
+cd nvim/
+fs
+mv ~/coding/node-lang/nvim/lua/plugins/colorify.lua ../plugins/
+sudo rm -rf /var/lib/pacman/sync/*
+ys
+caesiumclt --help
+mv eget ~/.cli/bin/
+so how do i reverse a list in python
+ls /data/
+http http://127.0.0.1:3000
+eget nabekou29/trev
+c dart
+flutter --help
+sl
+v config.toml
+gcl https://github.com/tenravio-source/oxwm
+z yazi
+gc 'added plugins surround and nvzone'
+z rust server
+mkdir go-lang
+ex eilmeldung-aarch64-unknown-linux-musl-0.9.6.tar.gz
+yay -Sy
+mv hi.go ~/coding/
+jiq Transaction_Report.csv
+rm -r so
+mv ~/coding/node-lang/nvim/lua/plugins/conform.lua lua/plugins/
+eget --download-only jordond/jolt
+cls
+rm lua/plugins/trev.lua
+rm LICENSE README.md
+gc 'modify: notify'
+yay -S nerdfetch
+gc 'fix window padding'
+ex nvim-linux-arm64.tar.gz
+cd stoolap/
+z NvChad
+dart test
+cashd --csv Upi-Transaction_Report.csv
+{ content: "Buy Cake" } | to json | http put --content-type application/json http://localhost:8080/todos/1 $in
+rm apache-maven-3.9.12-bin.zip
+pwqd
+rm Upi-Transaction_Report.7z
+sys mem
+ll
+cat home_page.dart
+z py
+gc 'changes'
+ls /data/data/com.termux/files/
+z Trash
+ls /data/app/
+gcc
+z rust dec
+open history.json
+ex eget-1.3.4-linux_arm64.tar.gz
+eget --download-only jesseduffield/lazygit
+rm lazygit_0.59.0_linux_arm64.tar.gz
+c
+v hi.go
+gc 'add flutter keymap'
+mv csvlens ~/.cli/bin/
+https://youtube.com/playlist?list=PLSIwrmYmDTq2YPi4i-FrV_nlxvR23dNFz&si=CpWUxRAK3aHN-ZZe
+flutter doctor 
+git commit 'initial commit'
+git diff | bat
+rm rio.txt
+sudo nvim /etc/pacman.d/mirrorlist
+z .cli
+z conmf
+gc 'fix autocommand'
+rm -r backup/
+ks
+dl
+z dek
+find init
+chmod +x nerdfetch
+tar -xvf scc_Linux_arm64.tar.gz
+yay -S tmux
+z lsd
+lsp
+luarocks
+z Downloads/
+gr lib/main.dart
+dart run
+npx create-expo-app@latest -template default@sdk-56
+mv surge ~/.cli/bin/
+gc 'modify: indent'
+flutter pub get
+cp -r nvim/ ~/coding/
+gemini
+eget atuinsh/atuin
+eget alexpasmantier/television
+eget --upgrade-only csvlens
+ga 
+gc 'yazi'
+gc 'modify: lsp'
+pomo
+mkdir NvChad
+cargo install cargo-watch
+hs
+surge https://github.com/ramonvermeulen/whosthere/releases/download/v0.5.1/whosthere_0.5.1_linux_arm64.tar.gz
+fd minty
+ex flutter_linux_3.41.4-stable.tar.xz
+gc 'leet'
+octosql "SELECT * FRO0 ./Transaction_Report.csv"
+gc 'maxchar program'
+ls /usr/share/zoneinfo/
+npx create-expo-app@latest -0template default@sdk-56
+lll
+tar M superfile-linux-v1.5.0-arm64.tar.gz
+lua main.lua
+cargo new tui
+dart pub add dart_console
+gc 'Remove: oxwm'
+cat
+z nv
+dart mcp-server --help
+pomo completion
+gh extension install dlvhdr/gh-dash
+date to-timezone
+ex snitch_0.2.2_linux_arm64.tar.gz
+tar -xvf jdk-25_linux-aarch64_bin.tar.gz
+git rm -r --cached surge/
+mv deletor-v1.5.0-linux-arm64 deleteor
+atuin register
+gc 'add: tool'
+tar -xvf pomo_Darwin_arm64.tar.gz
+gh login
+dawn
+npm i -D tsx
+mv fx ~/.cli/bin/
+just
+gcl https://github.com/rivoten05/love2D.git
+fx --version
+z nvim
+yay -Q | to csv
+pam 
+./dawn
+v .gitignore
+gpo
+uv add request
+z bmi/
+surge https://github.com/atuinsh/atuin/releases/download/v18.13.6/atuin-x86_64-unknown-linux-gnu.tar.gz --exit-when-done
+trev
+which go
+bbcli --version
+ksd
+mkdir app
+z ~/.config/
+gc 'fix key'
+./cli.exe
+ps
+mv gradle-9.3.1 ~/.sdk/gradle
+surge https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.2-stable.tar.xz4
+cat ~/coding/codeium-token-key.md
+du /var/cache/pacman/pkg/ -d 0 | split column "\t" size path
+fastfetch
+echo "nushell/history.txt" >> .gitignore
+dart pub add relic
+dart run --enable-vm-service bin/server.dart
+which npm
+gc 'remove printd'
+scp -P 8022 -r u0_a303@10.158.248.64:"/home/rio/Downloads/books" .
+npm i http-error
+te
+lsd
+gc 'fix yazi'
+d
+cp ~/coding/node-lang/nvim/lua/plugins/bufferline.lua ./
+git rm --cached nushell/history.txt
+z ..
+http http://127.0.0.1:8080/todos
+z work
+surge https://dlcdn.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.zip --exit-when-done
+gc 'added api'
+cd .cli/
+cd rust
+flutter config --no-enable-web
+npm i nodemon
+surge https://github.com/rivoten05/oxwms.git --exit-when-done
+termshark
+rm .tmux.conf
+gc 'nv: themes'
+./dart --version
+gcl https://github.com/rivoten05/todo-cli-app.git
+rm  -r lua/core/lsp/settings
+gc 'added lua runner'
+cal
+gc "add node and dart sdk"
+z ...
+z apps
+sys net
+date now | date to-timezone local
+rm dawn-linux-arm64.tar.gz
+rm LICENSE
+rclone
+history
+pam init my_db sqlite ./db.sqlite
+wget https://github.com/casey/just/releases/download/1.46.0/just-1.46.0-arm-unknown-linux-musleabihf.tar.gz
+eget --upgrade-only pomo
+make
+mv ~/coding/node-lang/nvim/lua/plugins/dressing.lua lua/plugins/
+fr lua/plugins/init.lua
+z despicable_me/
+mkdir lua/configs
+cd ~/.sdk/
+rm *.json
+eget hzqtc/cashd
+yay -S fastfetch
+dart test -v
+z conf 
+uname
+sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo where id = 1;"
+eget abhixdd/ghgrab
+dart create logger
+yay -S cmake
+./termshark
+gc 'nv: flash plugins add'
+rm flutter_linux_3.41.4-stable.tar.xz
+dart test test/stack_v2_test.dart
+darya
+git clone https://github.com/NvChad/starter ~/.config/NvChad; NvChad
+source ~/.cargo/env.nu
+sudo pacman-key --init
+z ../lib/
+rm lazycut
+rm -r node
+ex gh_2.86.0_linux_arm64.tar.gz
+lsd --icon always --group-dirs first
+rm -r dart/
+cst lib/anagram.dart
+wdp
+npm i dotenv
+touch demo.txt
+surge https://github.com/atuinsh/atuin/releases/download/v18.13.6/atuin-aarch64-unknown-linux-gnu.tar.gz --exit-when-done
+gc history.json
+gc 'add leetcode plugins default language as dart'
+rm atuin-server
+z bin/
+cd node-lang/
+z todo
+rm so-aarch64-unknown-linux-gnu.tar.gz
+gr src/main.rs
+nx
+z con
+dart test --color
+w
+cp ../nvim/learn_basic.lua .//
+yay -S reflector
+tar -xvf so-aarch64-unknown-linux-gnu.tar.gz
+z Nvchad
+flutter doctor -v
+nu
+ghgrab
+z lua
+eget --download-only andrewmd5/dawn
+eget pythops/bluetui
+btop
+cmdu
+uv init server
+gc 'vtls'
+ls where size > 10M
+mkdrr app
+mv apache-maven-3.9.12/ ~/.sdk/maven
+git reset --soft HEAD~1
+uv add djangorestframework --link-mode copy
+z dow
+surge https://github.com/zyedidia/eget/releases/download/v1.3.4/eget-1.3.4-linux_arm64.tar.gz
+overlay use venv/bin/activate.nu 
+git branch -M main
+z server
+rsync --version
+rm linux-arm64.zip
+gh-dash
+mv nvim/ ~/coding/node-lang/
+sudo pacman -S gcc make pkgconf
+gc 'improve time complexity'
+z sdk
+mv deletor ~/.cli/bin/
+fxf
+rm -r tui
+cat config.nu
+uv tools install posting
+ln -s ~/.config/.tmux.conf ~/.tmux.conf
+gr lua/core/blink/sources.lua
+dart test 
+yay -S love
+z lib/
+npm uninstall http-error
+rm -r flutter
+pomo --help
+gc 'options'
+git remote add origin https://github.com/tenravio21-source/rust_todo.git
+gc 'alpha'
+gh codespace
+uv tool list
+rm *.*
+pop --version
+cd ~/.config/nvim/
+mv dawn ~/.cli/bin/
+gr lua/autocmds.lua
+eget --upgrade-only gh
+nvim lua/configs/options.lua
+wget https://github.com/upx/upx/releases/download/v5.1.0/upx-5.1.0-arm64_linux.tar.xz
+e
+yay -S jq
+open history.csv 
+z Nserver
+tar -xvf surge_0.4_linux_arm64.tar.gz
+mkdir elib
+git log | cat
+gc 'fix get'
+./jolt
+sudo nvim /etc/pacman.conf
+ls ~/.cargo/env.nu
+pam --version
+gc 'modify: plugin'
+v history.txt
+gc 'fizzbuzz program'
+yazi
+cd my-cli-app/
+dart create server
+gc 'modify: flash'
+./caesiumclt --version
+history | grep pam
+cashd Upi-Transaction_Report.csv
+chmod +x deletor
+z nushe
+gc 'add history'
+Llsg
+rm cashd
+daylight
+gc 'added reverse'
+mcdu
+;ls
+v nvims.nu
+cd ~/.config/nushell/
+fzf --preview cat
+jiq cashd-config.json
+uv run main.py
+csvlens Transaction_Report.csv
+mv caesiumclt ~/.cli/bin/
+cd rust-lang/
+cargo watch -x r -q
+cashd --csv Upi-Transaction_Report.csv --csv-config cashd-config.json
+uv venv venv
+nvim init.lua
+ip 
+https://youtube.com/playlist?list=PLSIwrmYmDTq2YPi4i-FrV_nlxvR23dNFz&si=t-g8YrtaRD_mCrrN
+surge https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-NF-unhinted.zip
+flutter config --no-enable-window-desktop
+lazygit
+brm
+dart 
+surge https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.2-stable.tar.xz
+tar -xJf csvlens-aarch64-unknown-linux-gnu.tar.xz
+pomo break 10m
+yay -S ninja gtk3
+0;10;1cls
+pam tables
+gcl https://github.com/tenravio21-source/oxwm
+gh codespace list
+rm mcdu-linux-aarch64-musl.tar.gz
+histoy
+git remote origin
+gc "fix nushell"
+gc 'flutter'
+gss
+rm -r zathura/
+flutter config --no-enable-android
+source ~/.config/nushell/env.nu
+gloomberb
+ex lazygit_0.59.0_linux_arm64.tar.gz
+{ content: "Buy HDD" } | to json | http put --content-type application/json http://localhost:8080/todos/1 $in
+gc 'cursor plugins'
+$env:RUST_LOG="info"; cargo watch -c -x r
+gcl https://github.com/tenravio21-source/login_ui.git
+systemctl list-units --state=failed | lines
+mkdir flutter-apps
+dysk
+./mcdu
+cargo add tokio
+ip add
+bat lib/main.dart
+z flavors/
+dart run cli.dart
+z app
+chmod +x fx
+yay -Q
+rm lua/plugins/rust.lua
+mv NvChad/ tinyvim/ ./backup/
+vim --version
+gr lazy-lock.json lua/
+top
+lt
+pomo break
+touch .gitignore
+mv cashd ~/.cli/bin/
+fr lua/autocmds.lua
+dart --version
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+csvlens
+cp -r ~/.config/vim ./ 
+z cli/
+eget --upgrade-only fx
+eget pythops/impala
+cliamp
+zi todo
+eget cube2222/octosql
+gc 'add html support'
+rustc -vV
+flutter --version
+touch file.md
+open
+z Nv
+sys temp
+date now | date to-timezone Mumbai
+flutter pub outdated
+yay -S clangd
+dart info
+vi
+z coding
+flutter config --no-enable-windows-desktop
+rm /home/rio/.config/.git/index.lock
+gc 'refactor code'
+v alias.nu
+z ../../dart-lang/
+yay -S mesa-utils
+fa
+gh codespace create
+surge https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-CN-unhinted.zip --exit-when-done
+so --site tex how to put tilde over character
+tar -xvf superfile-linux-v1.5.0-arm64.tar.gz
+mkdor app
+nvim lua/configs/keymaps.lua
+cat flutter.json
+fresh
+gc 'remove autopairs and add mini pair'
+gc 'clean keymap'
+z algo/
+hz dow
+v nushell/history.txt
+date now
+./bbcli
+z .sdk/
+wget https://github.com/yorukot/superfile/releases/download/v1.5.0/superfile-linux-v1.5.0-arm64.tar.gz
+bat markdown.lua
+rm -r eget-1.3.4-linux_arm64/
+git init
+cashd --help
+fx Transaction_Report.csv
+lazycut 
+git add .gitignore
+nvim .tmux.conf
+go version
+cat nvims.nu
+cd frameworks/
+cp  /data/data/com.termux/files/home/downloads/*.csv ./
+znv
+gc "mini: icon"
+lgs
+rm LICENSE README.md surge_0.4_linux_arm64.tar.gz
+pip list
+z co
+z vonf
+touch lua/configs/options.lua
+z todo/
+yay -S pomo
+eget --download-only karol-broda/snitch
+history | to json | save history.json
+daWM
+z cli
+cargo build -v
+z dec
+autin
+nchad
+dart ---
+gc 'steps program'
+rsync -ah --progress
+dart create cli
+uv remove djangorestframework
+nvim lua/configs/keymaps-core.lua
+gr lua/core/lsp/init.lua
+eget --download-only sminez/ad
+git branch | bat
+0;10;1cnvims
+nvim codeium-token-key.md
+timedatectl
+mv upx ~/.cli/bin/
+cat .tmux.conf
+gradle init
+gh dash
+yay -S bat
+rm dawn dawn-macos-arm64.tar.gz
+yay -Syy
+z go
+rg
+sudo pacman -S --needed base-devel python-pip
+gc 'fix core key'
+perl --version
+python manage.py runserver
+ex bbcli-aarch64-unknown-linux-gnu.tar.gz
+cat link_list.dart
+cd todo/
+rm -r dist/
+cat codeium-token-key.md
+ls | where size > 10M
+tar -xvf bit_0.3.0_Linux_arm64.tar.gz
+fx history.json
+surge https://github.com/antonmedv/fx/releases/download/39.2.0/fx_linux_arm64
+gloomberb ticker AAPL
+gc 'added merge sort'
+rm ~/.cli/bin/surge
+ls -l .venv/bin/python
+rm jolt-1.2.0-linux-arm64.tar.gz
+cp -r /home/rio/Downloads/books /data/data/com.termux/files/home/
+pdw
+gcl https://github.com/rivoten05/bmi.git
+git add gh/hosts.ymlgit add gh/hosts.yml
+pl
+/etc/pacman.d/mirrorlist
+surge
+dart -help
+z py-lang/
+wd
+mkdir .cli
+unzip apache-maven-3.9.12-bin.zip
+nvim .gitignore
+fzf
+surge https://github.com/atuinsh/atuin/releases/download/v18.13.6/atuin-x86_64-unknown-linux-gnu.tar.gz --exit-on-done
+z  tui
+z nvchad
+git log | bat
+gc 'change options'
+du
 gs
+vic
+gc 'added prepend'
+cp cp /data/data/com.termux/files/home/downloads/.*.csv ./
+7zz
+zlld
+em my-cli-app/
+npm run dev
+tr
+pomo help
+rgx  main.lua
+zi rust
+lla
+atuin ligin
+mv hazelnut ~/.cli/bin/
+tar -xvf cull_linux_arm64.tar.gz
+rm pomo_Darwin_arm64.tar.gz
+z cond
+gr nvims.nu
+nerdfetch
+z confi
+gc 'add dotenv'
+cp -r ~/.local/share/nvim/ share/
+gc 'modify: cmp'
+jolt
+gc 'modify: mini'
+rm ~/.local/state/nvim/shada/main.shada
+gs 
+nodemon --exec tsx server.ts
+flutter config --no-enable-
+rm -r lua/core/lualine/
+gc 'statusline'
+eget --upgrade-only bbcli
+lsd --tree --depth 2
+git add gh/hosts.yml
+rm lua/plugins/signup.lua
+gc "nv"
+rm node-v24.13.0-linux-arm64.tar.xz
+gc 'add vtls for neovim'
+sqlite3
+lsd -l --icon always --group-dirs first
+http http://127.0.0.1:8080/todos/1
+z go-lang/
+dart --help
+eget mrkatebzadeh/darya
+cp -r  ~/.config/nvim/snippets/ lua/custom/
+dart formate anagram.dart
+rm MapleMono-NF-unhinted.zip
+z nc
+ad
+zls
+z node-lang/
+z ~/.local/share/
+uv add djangorestframework
+scc --version
+yay -S rsync
+gc 'change comment plugins'
+nc file.md
+sudo ip
+...
+date to-timezone --help
+./bin/dart --version
+git https://github.com/rivoten05/todo-cli-app.git
+cat pages/home_page.dart
+yay -Q | grep ffmpeg
+jiq history.json
+la .ssh/
+ex tock_Linux_arm64.tar.gz
+cd backup/
+gc 'add lazy-dev'
+tv
+time now
+dart compile exe cli.dart --optimize
+sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo where id=1;"
+gc 'modify: bufferline'
+gcl https://github.com/tamton-aquib/nvim.git
+cat alias.nu
+z md
+alias | where name == "fzf"
+g
+gc 'add outline plugins'
+ff
+z N
+npm i mongoose
+dart format anagram.dart
+pomo 15m
+gc 'theme'
+fzf toggle-preview-fullscreen
+pomo 10m break
+yc
+rm snitch
+z cod
+npm i
+mkdir backup
+npx expo start
+pqw
+eget marlocarlo/omp-manager
+tock
+chmod +x ox
+cp -r ~/Downloads/backup/nvim/ ./
+bash
+z television/
+bmt
+cargo run
+yay -Q | to json | save packages.json
+gc 'finish delete route'
+yay -S btop
+./cashd --version
+sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo where id = 2;"
+uv tool install posting
+ping google.com
+mv ~/coding/node-lang/nvim/lua/core/lualine/ lua/core/
+surge https://github.com/legostin/cull/releases/download/v0.6.1/cull_linux_arm64.tar.gz --exit-when-done
+http http://127.0.0.1:3000/1
+gcl https://github.com/rivoten05/blm.git
+ya
+upx --help
+v ~/.config/nushell/env.nu
+gc 'modify: neotree'
+rm do
+lsa
+surge https://github.com/bellicose100xp/jiq/releases/download/v3.20.3/jiq-aarch64-unknown-linux-gnu.tar.xz
+rm -r jolt-1.2.0-linux-arm64/
+ex superfile-linux-v1.5.0-arm64.tar.gz
+mkdir share
+git clone https://github.com/stoolap/stoolap.git<\n>
+cargo
+gc 'move flutter.lua to utils for only use in flutter project'
+gc "arch-on-termux"
+cd Downloads/
+surge https://github.com/ricardodantas/hazelnut/releases/download/v0.2.39/hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz 
+uv pip list
+nv
+ghh
+z lazy
+cp nvim/ ~/coding/
+yay -Q | grep ff
+eget emin-ozata/lazycut
+npx create-expo-app@latest --template default@sdk-56
+nvim --version
+z rust cli
+v y
+z ~/.config/nvim/
+sqlite3 db.sqlite
+fx history.csv
+npm install mongodb
+dart
+dart test -r json
+pam ls
+rm superfile-linux-v1.5.0-arm64.tar.gz
+sshd
+gc 'nv'
+history | grep eget
+mv ~/coding/node-lang/nvim/lua/core/bufferline/ ./
+lsd -l
+a
+{ content: "Buy milk" } | to json | http post --content-type application/json http://localhost:8080/todos $in
+tock calendar
+npm install -D @types/express
+z NvChad/
+flutter config --no-enable-window-sesktop
+rm -r eilmeldung/
+http localhost:8080/todo_lits
+gh auth refresh -h github.com -s codespace
+fd tmux
+eget brevity1swos/rgx
+cat anagram.dart
+ls /data/data/
+ls ~/.config/
+gc 'lsp setup'
+z sdk 
+ls
+gc 'added test'
+yremove
+wget https://github.com/samtay/so/releases/download/v0.4.10/so-aarch64-unknown-linux-gnu.tar.gz
+z elib
+cull --version
+gc 'blink'
+dart compile exe cli.dart -o cli.exe
+gh codespace create -r tenbivi/codespace
+cargo binstall cargo-watch
+eget --download-only neovim/neovim
+gc 'fix routes'
+gc 'remove devicons'
+surge https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz
+yay -Ps
+gcl https://github.com/rivoten05/despicable_me.git
+git clone https://github.com/NvChad/tinyvim.git
+mv tock ~/.cli/bin/
+z elib/
+rm -r nvim oxwms 
+rm cli.exe
+ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+surge https://github.com/rivoten05/oxwms.git --exit-on-done
+cat env.nu
+mv dart-sdk/ ./dart
+flutter config --no-enable-macos-desktop
+pip lits
+z nushell
+upx --brute cli.exe
+cd .sdk/
+eget shazow/wifitui
+z leetcode
+tar -xvf dawn-macos-arm64.tar.gz
+cargo new media
+yay -S uv 
+gc 'add basic lua code'
+wget https://github.com/Bahaaio/pomo/releases/download/v1.0.5/pomo_Linux_arm64.tar.gz
+cargo new server
+gc 'fix blink key override of c-k'
+nvchad
+npm i https-error
+cat clock_home.dart
+./gradle --version
+z .local
+cd elib/
+mv jiq ~/.cli/bin/
+rm node-v25.6.1-linux-arm64.tar.xz
+yay -S
+z logger/
+unzip linux-arm64.zip
+pacman -Qi | lines | split row "\n\n" | str trim
+cd portfolio/
+java -version
+eget --help
+./pomo
+eget AlexsJones/llmfit
+yay -S ffmpeg
+z lua-lang
+http localhost::8080/todo_lits
+gc 'queue program'
+ysearch
+dart compile exe cli.dart --optimize --output-type=exe
+gc 'modify: conform'
+rm ./.*
+gr lua/mappings.lua
+mkdor share
+yay -S code
+cd cong
+wifitui
+mv nvim/ ~/coding/dart-lang/
+cargo install omp-manager
+z server/
+history | grep pacman
+z
+vit
+z bin
+sys
+gc 'Features: converting cubit to bloc event'
+rm jiq-aarch64-unknown-linux-gnu/
+eget --upgrade-only surge
+tar -xvf upx-5.1.0-arm64_linux.tar.xz
+sudo pacman -Sy archlinuxarm-keyring
+jiq packages.json
+dawm
+yay -S dysk
+cargo c
+mv lua/ nvim/
+dash
+pomo 3m
+gd --help
+pam tables users
+ls /data
+cargo r -q
+wget https://github.com/curlpipe/ox/releases/download/0.7.7/ox
+which dart
+npm i -D @types/bcrypt
+surge https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-arm64.tar.gz
+climp --version
+unzip gradle-9.3.1-bin.zip
+surge https://nodejs.org/dist/v25.6.1/node-v25.6.1-linux-arm64.tar.xz --exit-when-done
+./hazelnut
+z cli bin
+gcl https://github.com/rivoten05/counter_bloc.git
+rm -r *.*
+date now | date to-timezone AS/Kolkata
+mkdir books/templates
+yay -S trash-cli
+gradle --version
+grep -r 'require("telescope.builtin")' .
+gc 'tmux'
+z task
+ls /data/data/com.termux/
+;s
+git rm -r --cached gh/
+gc "tool"
+z cof
+mv cull ~/.cli/bin/
+gc 'added toggle term'
+z alfo
+mv ~/Downloads/dart/ ./
+npm -v
+ex atuin-aarch64-unknown-linux-gnu.tar.gz
+clang --version
+npm install -D ts-node
+lua -v
+fzf --preview bat
+date
+rm -r my-cli-app/
+git remote add origin https://@github.com/tenravio21-source/dart_algo.git
+..
+mv jolt ~/.cli/bin/
+mv ~/coding/node-lang/nvim/lua/plugins/lualine.lua lua/plugins/
+z rust
+opwd
+time
+nc config.toml
+z coding/
+npm i -D @types/http-errors
+mkdir todo; cd todo
+cd lib/
+rm `csvlens-aarch64-unknown-linux-gnu.tar(1).xz`
+la
+gc 'fib'
+z ../NvChad/
+df -h
+nc 
+s
+git clone https://github.com/rivoten05/oxwms.git
+btm
+dart compile exe --help
+cd counter_bloc/
+rm -r superfile/
+surge https://github.com/andrewmd5/dawn/releases/download/v0.1.3/dawn-macos-arm64.tar.gz
+rm deletor
+gc 'improve lazy load'
+ffmpeg
+mkdir  lua/core/lazys/
+eget --upgrade-only scc
+gc "Nvchad"
+uv init .
+wget https://github.com/superstarryeyes/bit/releases/download/v0.3.0/bit_0.3.0_Linux_arm64.tar.gz
+ex jolt-1.2.0-linux-arm64.tar.gz
+surge https://nodejs.org/dist/v25.6.1/node-v25.6.1-linux-arm64.tar.xz --exit-when-close
+gc 'todo: comment'
+gc 'stack program'
+hazelnut
+cd yazi/
+gc 'change yazi theme'
+ls ~/.config | where type == dir
+gc 'chunk program'
+nvim github.txt
+nvim-lazy
+yay -S build-essential
+yay
+cd despicable_me/
+joq history.csv
+yay -S tree-sitter-cli
+deletor
+./mvn -v
+fd
+gc 'fix telescop'
+sys hosts
+fd telescope
+gc 'nu'
+gc 'add navic plugins'
+gr blink-cmp.lua
+rm gradle-9.3.1-bin.zip
+pomo 30m
+cull 
+rm atuin-x86_64-unknown-linux-gnu.tar.gz
+z tool
+overlay hide venv
+fx h
+deactivate
+lsg | grid -c
+ner
+z code
+tar -xvf hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz
+gc 
+cat bloc/counter_state.dart
+rm README.md
+lls
+zi
+mkdir rust-lang
+./nvim --version
+{ content: "Buy HDD" } | to json | http post --content-type application/json http://localhost:8080/todos/1 $in
+git add yazi/flavors/tokyo-night.yazi
+z py todo
+mv froggit ~/.cli/bin/
+pomo stats
+./gradle --help
+rsync
+mv ~/Downloads/node-v25.6.1-linux-arm64/ ./node
+nano config.nu
+gc 'create jwt'
+pop
+pam add db.sqlite
+npm i http-errors
+yay -Sy 
+sys disks
+rm spf
+yay -Q lld
+sudo pacman -S reflector
+z conf
+spf
+npm i jsonwebtoken
+7z a -prelex@1243 Upi-Transaction_Report.csv
+http http://127.0.0.1:8080/todos/2
+uv
+pam disconnect
+yay -Rns trash-cli
+rm nvim-linux-arm64.tar.gz
+open history.csv | table
+cp .tmux.conf ~/Downloads/backup/
+gc 'add leetcode plugins'
+nvim /etc/pacman.d/mirrorlist
+gc 'create login route'
+wget https://github.com/surge-downloader/surge/releases/download/v0.4/surge_0.4_linux_arm64.tar.gz
+mkdir bin
+yay -S rclone
+rm eilmeldung-aarch64-unknown-linux-musl-0.9.6.tar.gz
+gc 'add timely plugins'
+npm i -D @types/http-error
+fp
+nls
+rm -rf ~/.local/share/nvim/mason/bin/rust-analyzer
+mv jdk-25.0.2/ ~/.sdk/java
+pop --help
+surge https://github.com/thewizardshell/froggit/releases/download/v1.2.0-beta/linux-arm64.zip
+gc 'add mongo schema'
+sed -i 's/,\([0-9]\{2,3\}\)/ \1/g' Upi-Transaction_Report.csv
+z portfolio/
+which nvi
+echo "gh/" >> .gitignore
+touch lua/core/lazys/init.lua
+cp .tmux.conf ~/.config/
+csvlens history.csv
+cargo run -q
+mv scc ~/.cli/bin/
+mkdir nvim
+gc 'added popFirst'
+pacman -Rs $(pacman -Qdtq)
+git add .
+7z
+dart test -r expanded
+bat lib/src/database/task_db.dart
+gc 'flash'
+gc 'crating linklist'
+nvim
+cashd 
+date now | date to-timezone AS/Kolkatta
+wget http://songs.apniisp.com/Drama%20OST%20Songs/ARY/01%20-%20Bay%20Khudi%20-%20OST%20-%20ARY%20(ApniISP.Com).mp3
+gh codespace ssh
+gc 'blink-cmp'
+rpx expo start
+z saple_clode/
+cd tui/
+7z a -prelex@1243 Upi-Transaction_Report.7z Upi-Transaction_Report.csv
+gr lazy-lock.json
+cd coding/
+python manage.py makemigrations books
+caesiumclt 
+rm -r completions/
+gc 'remove history from git'
+ip addr
+rm flutter_linux_3.41.2-stable.tar.xz
+z bmi
+tar -xvf pomo_Linux_arm64.tar.gz
+pacman -Qdt
+cargo watch -x r
+gc 'modify: dressing'
+gc 'add mini-ai'
+omp-manager
+mv NvChad/ ~/Downloads/
+bluetui
+http delete http://localhost:8080/todos/5
+pip
+npm i bcrypt
+git commit --amend --no-edit
+git diff
+gi
+llmfit
+gr init.lua
+storage
+gc 'add surround'
+rm -r flutter/
+z cong
+dart -h
+pomo 5m
+open Upi-Transaction_Report.csv | save -f clean_report.csv
+sudo rm -f /var/lib/pacman/db.lck
+lua --version
+in
+gc 'nushell'
+nvims
+fd navic
+http http://127.0.0.1:8080/
+ls4
+mv ~/coding/node-lang/nvim/lua/core/conform-formate/ lua/core/
+gh auth login
+nvim --vershin
+gc 'initial commit'
+sys cpu
+touch index.ts
+sys host
+gc 'added maple mono font'
+date to-timezone local
+gp
+eget charmbracelet/pop
+surge help
+eget --download-only mikalv/mcdu
+cashd
+eget --download-only andrewmd5/tap/dawn
+git commit -m "chore: remove history file and sensitive data"
+grep -E "^(date|202)" Upi-Transaction_Report.csv > clean_report.csv
+gh codespace view
+tar -xvf just-1.46.0-arm-unknown-linux-musleabihf.tar.gz
+source ~/.config/nushell/config.nu
+gr src/
+zi 
+history | grep ghh
+sg --==-
+z dart
+pef
+surge https://github.com/hako/bbcli/releases/download/1.0.3/bbcli-aarch64-unknown-linux-gnu.tar.gz
+gc 'nv: rust plugins add'
+wget https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-TTF.zip
+llls
+z lib
+mkdir .sdk
+yay -S vim
+rm .*
+bit
+vim
+eget --upgrade-only froggit
+pgrep sshd
+cargo add rand
+gc 'fix dressing'
+z ~/.local/share/nvim/mason
+z ~/.local/share/nvim/mason/ls
+rm -r stoolap/
+cp -r !/.config/vim ./ 
+python manage.py createsuperuser
+so how to create struct in rust
+x conf
+npm install -D @types/node
+gc 'add api testcase'
+flutter config --no-enable-no-enable-web
+z dart server
+eget --download-only christo-auer/eilmeldung
+eget jbreckmckye/daylight
+bat alias.nu
+rgx --help
+v ~/.cargo/env.nu
+cp -r  ~/.config/nvim/snippets/ ./
+gc 'reverse string program'
+gh
+surge https://github.com/yorukot/superfile/releases/download/v1.5.0/superfile-linux-v1.5.0-arm64.tar.gz
+yay -S bottom
+surge https://raw.githubusercontent.com/ThatOneCalculator/NerdFetch/main/nerdfetch
+cp -r ~/.config/nvim/ ./
+z rust todo
+pam switch db.sqlite
+eget --download-only ahkohd/oyo
+z flutter-apps/
+rm init.lua
+pip --version
+./tock
+z blm
+ys 
+surge 
+clear
+cargo add axum
+gh --help
+rm LICENSE whosthere
+dart test -r compact
+python manage.py test apis
+cat bloc/counter_bloc.dart
+z cli bit
+ex mcdu-linux-aarch64-musl.tar.gz
+flutter config --no-enable-ios
+eget gcla/termshark
+./whosthere
+surge https://github.com/boyter/scc/releases/download/v3.6.0/scc_Linux_arm64.tar.gz
+rm oxwms.git
+rm so
+z port
+ex node-v25.6.1-linux-arm64.tar.xz 
+python manage.py runserver 8080
+tmux
+zconf
+cd ~/coding/node-lang/nvim/
+yay -Rns neovim
+yay -S viu
+rm trev
+z node
+npm i typescript
+gh codespace stop
+cd NvChad/
+surge https://github.com/eduardofuncao/pam/releases/download/v0.2.0-beta/pam-linux-arm64 
+gc 'changes lualine and increase nvim conform formate time'
+./eilmeldung
+gc 'fix install lld'
+atuin
+gc 'Remove: rust'
+rm -r jiq-aarch64-unknown-linux-gnu/
+exit
+rm csvlens-aarch64-unknown-linux-gnu.tar.xz
+nvim duplicate.py
+fd init
+casiumcli
+z share
+flutter upgrade
+sudo nano /etc/pacman.d/mirrorlist
+gc "neovim"
+ld
+gc 'fix lsp config'
+mv gh ~/.cli/bin/
+http post http://localhost:8080/add_todo { content: "Buy milk" }
+flutter config --no-enable-window-sedktop
+7z a relex@1243 Upi-Transaction_Report.csv
+cat github.txt
+just --version
+cli.exe
+yr 
+v fzf.nu
+posting
+mime
+dart create algo
+time --help
+cashd --csv history.csv
+cp ~/Downloads/backup/history.txt ./
+cargo --version
+gc 'add mini animate plugins'
+gr lua/options.lua
+ex
+dart test --color -r expanded
+surge https://download.oracle.com/java/25/latest/jdk-25_linux-aarch64_bin.tar.gz --exit-when-done
+dart pub add mason_logger
+so "how to create struct in rust programming language"
+z ~/.config/nushell/
+tar -xvf whosthere_0.5.1_linux_arm64.tar.gz
+eget olivier-w/climp
+git status
+ls ~/.sdk
+cat .zoxide.nu
+yay -Q | to csv | save packages.csv
+v codeium-token-key.md
+npm i -D @types/jsonwebtoken
+dart compile exe cli.dart
+rm dartsdk-linux-arm64-release.zip
+pqwd
+rm -rf /home/rio/.sdk/flutter/bin/cache
+flutter config --no-enable-macos
+z .rustup/
+cat lib/main.dart
+{ content: "Buy milk" } | to json | http post http://localhost:8080/todos $in
+grmini
+git log
+z algo
+gc 'modify: fzf'
+history | grep remote
+rsync -ah --progress flutter ~/.sdk/
+la -l
+fd --help
+pk
+cd task/
+cd dec/
+which nvim
+rgx 
+git clone https://github.com/NvChad/starter ~/.config/nvim; NvChad
+fd flutter
+cat anagram_test.dart
+history | to csv | save history.csv
+sys users
+LS
+python manage.py startapp apis
+f
+z config
+lusrocks
+go
+surge https://storage.googleapis.com/dart-archive/channels/stable/release/3.11.0/sdk/dartsdk-linux-arm64-release.zip
+gc 'add validator'
+gc 'server'
+gc "nc"
+fx -h
+rm -r LICENSE upx-5.1.0-arm64_linux/
+z sak
+gh --version
+cat lib/anagram.dart
+node index.ts
+rm lua/plugins/lualine.lua
+x ../NvChad/
+surge https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.4-stable.tar.xz
+eget --download-only kriuchkov/tock
+mv node-v24.13.0-linux-arm64 ./node
+python manage.py migrate
+rm lua/configs/keymaps-rust.lua
+dart test --name "capitalize"
+surge https://github.com/pashkov256/deletor/releases/download/v1.5.0/deletor-v1.5.0-linux-arm64
+npm init
+tar -xvf surge_0.5.4_linux_arm64.tar.gz
+gc 'add global error handler'
+rust run
+mkdir library
+npm i express
+rm -r target/
+z library/
+gc 'fix treesitter'
+eget --upgrade-only upx
+uv --version
+rustfmt
+uv add django --link-mode copy
+git add README.md
+gc 'added bubble sort'
+eget --download-only cli/cli
+http http://127.0.0.1:8080/todo_lits
+sudo ip add
+nvim leetcode.nvim
+z mason
+zcli bin
+rm -r csvlens-aarch64-unknown-linux-gnu/
+cd dow
+yay -Rns dysk
+mkdir todo && cd todo
+cliamp 
+npx create-expo-app@latest --template default@sdk-54 ./
+pwe
+mv ~/coding/node-lang/nvim/lua/plugins/blink-cmp.lua lua/plugins/
+unzip dartsdk-linux-arm64-release.zip
+cargo new todo
+rm ox
+lw
+curl -O https://github.com/Bahaaio/pomo/releases/download/v1.0.5/pomo_Darwin_arm64.tar.gz
+z dart leet
+sudo pacman -Scc
+pwdl
+eget --download-only derekwisong/datui
+v
+trash-list
+zi dart
+upx --version
+yay --save --answerclean All --answerdiff None
+cd core
+eget --upgrade-only just
+grep -r "require('telescope.builtin')" .
+cargo new cli
+tar superfile-linux-v1.5.0-arm64.tar.gz
+neofetch
+gh codespace status
+gc 'added get'
+pw
+pam init db.sqlite
+eget --version
+cp  /data/data/com.termux/files/home/downloads/.*.csv ./
+ll -a
+timezone
+date to-timezone IN
+cat lib/capitalize.dart
+gc 'improved'
+perl
+eget bjarneo/cliamp
+git branch
+rustup update
+python manage.py test
+cat ~/.config/nushell/alias.nu
+rm bbcli-aarch64-unknown-linux-gnu.tar.gz
+cat cli.dart
+rm jdk-25_linux-aarch64_bin.tar.gz
+eget --upgrade-only bit
+pam
+nvim lua/plugins.lua
+gc 'update nvim'
+surge https://github.com/surge-downloader/surge/releases/download/v0.5.4/surge_0.5.4_linux_arm64.tar.gz
+bbcli
+yay -sy
+gc 'modify: plugins'
+git push -u origin main
+gc 'modify: blink cmp'
+sudo pacman-key --populate archlinuxarm
+z 
+git config --global init.defaultBranch main
+mv atuin ~/.cli/bin/
+gc 'modify: noice'
+sudo pacman -S --needed  python-pip
+pp
+cp ~/.config/nvim/ ./
+rm hazelnutd
+cd ..
+cd algo/
+gca
+gc 'fix code'
+sqlite3 db.sqlite ".mode table" "SELECT * FROM Todo;"
+cat <<EOF > cashd-config.json<\n>{<\n>  "date_column": "date",<\n>  "amount_column": "transaction_amount",<\n>  "description_column": "name",<\n>  "date_format": "2006-01-02"<\n>}<\n>EOF
+tock calender
+ls 
+gc 'added cliamp music player'
+z Dow
+gc 'fastfetch'
+atuin-server
+ex flutter_linux_3.41.2-stable.tar.xz
+q d
+pomo break 3m
+z work/
+touch codeium-token-key.md
+fzf --preview
+yay -S starship
+mv bbcli ~/.cli/bin/
+mv deleteor deletor
+owd
+git clone https://github.com/NvChad/starter ~/.config/nvim && NvChad
+cd
+eget Lymphatus/caesium-clt
+ls ~/coding/
+z dart algo
+z task/
+./snitch
+curl -O https://storage.googleapis.com/dart-archive/channels/beta/release/3.11.0-296.4.beta/sdk/dartsdk-linux-arm64-release.zip
+mv surge ./bin/
+z tui
+mv ~/coding/node-lang/nvim/lua/core/blink/ lua/core/
+jit
+ls -a
+z rusty
+gc 'fix which key'
+pomo --version
+./nerdfetch
+z link_list/
+ped
+rm  lua/plugins/rustaceanvim.lua
+mkdir work
+cd server/
+p
+rm -r server/
+history 
+cd dec
+cashd --csv Upi-Transaction_Report.csv --date-column "Transaction Date" --amount-column "Amount" --description-column "Description"
+v cashd-config.json
+cat .gitignore
+cd py
+ls /data/data/com.termux/files/home/
+ping 
+octosql SELECT * FROM ./Transaction_Report.csv
+scp
+http post http://localhost:8080/todos { content: "Buy milk" }
+cul
+yr
+jiq
+sqlite
+uv python find
+mv nerdfetch ~/.cli/bin/
+tar -xvf node-v24.13.0-linux-arm64.tar.xz
+surge https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz
+zoxide init nushell | save -f ~/.zoxide.nu
+yclean
+pomo completion nu
+z comf
+cat nvim.md
+cargoinstall cargo-watch
+atuin login
+gc 'pyrefly'
+z leet
+rm -r oxwm/
+lsg
+git clone https://github.com/BennyOe/tokyo-night.yazi.git ~/.config/yazi/flavors/tokyo-night.yazi
+vtm
+overlay use .venv/bin/activate.nu 
+cargo generate ratatui/templates hello-world
+cat markdown.lua
+z do
+gr lua/
+sc
+mkdir coding
+mv pam-linux-arm64 ~/.cli/bin/pam
+z gemini
+mv lazygit ~/.cli/bin/
+mkdir saple_clode
+git commit -m "first commit"
+sudo rm /var/cache/pacman/pkg/uv-0.9.28-1-aarch64.pkg.tar.xz
+z leetcode/
+sudo pacman -Syu
+python --version
+imp-manager
+overlay hide .venv
+z ~/.local/share/Trash/
+deletor demo.txt
+source ~/.tmux.conf
+rm hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz hazelnut-0.2.39-aarch64-unknown-linux-gnu.tar.gz
+dart run --enable-vm-service bin/example.dart
+rm -r dart
+uv add django
+npm i -D @types/dotenv
+gcc --version
+rm `01 - Bay Khudi - OST - ARY (ApniISP.Com).mp3`
+wget "http://songs.apniisp.com/Drama%20OST%20Songs/ARY/01%20-%20Bay%20Khudi%20-%20OST%20-%20ARY%20(ApniISP.Com).mp3"
+pws
+sudo chmod +x pam
+y
+z cli bin 
+open history.csv | grep surge
+nvim lua/core/lazys/init.lua
+npx tsc --init
+ex dawn-linux-arm64.tar.gz
+z books/
+lazycut  --version
+cd media/
+nc
+tar -xvf flutter_linux_3.41.4-stable.tar.xz
+yay -Syu
+cargo new dec
+rm env.nu
+http http://127.0.0.1:8080/todos/
+gr lua/plugins/init.lua
+git clone https://github.com/NvChad/starter
+fx --help
+git rm --cached nvim/build/.nvim/data/nvim/lazy/lazy.nvim
+whoami
+flutter create task
+history | grep git
+github.com/gcla/termshark
+z fastfetch
+gc 'add leetcode keymap'
+rm lua/plugins/code-refactor.lua
+gc "tools"
+onefetch
+powd
+ls toolchains/
+mkdir my-cli-app && cd my-cli-app
+mv fx_linux_arm64 ./fx
+cd nv
+surge https://services.gradle.org/distributions/gradle-9.3.1-bin.zip --exit-when-done
+froggit
+mv mcdu ~/.cli/bin/
+cargo r
+gc 'update'
+safe-rm jolt-1.2.0-linux-arm64/
+realpath ~/Downloads/books
+flutter config --no-enable -h
+ls ~/.local/share | where type == dir
+uv pip lits
+zi cli
+gc 'refactor'
+ppwd
+ga
+uv tool update posting
+histroy
+y
+histroy
+hist
+history
+history | grep git
+history | grep ghh
+z conf
+gs
+ga
+gc 'refactor'
+gp
+ls
+ll
+pwd
+z cli bin 
+ls
+pwd
+ll
+gss
 ga
 gc "tools"
 gp
+nc
 ls
+pwd
+yay -Syu
+flutter --version
+z nv
+pwd
+nc
+ls
+pwd
+ll
+z conf
+ls
+froggit
+btm
+fas
+fastfetch
+ls
+pwd
+ll
+pwd
+btm
+bbcli
+ls
+pwd
+ll
+pwd
+ll
+wdp
+ll
+pwd
+ll
+pwd
+ll
+pwd
+ll
+z cl
+pwd
+ll
+y
+ls
+./cli.exe
+y
+v
+nc
+y
+lls
+l
+v
+nc
+y
+ls
+pwd
+ll
+pwd
+ll
+pwd
+l
+pwd
+l
+pwd
+l
+pwd
+l
+pwd
+l
 z
+pwd
+l
+ls
+pwd
+ll
+pwd
+ll
+pwd
+ll
+pwd
+ll
+pd
+z nushell
+lsg
+yc
+bat alias.nu
+ls
+pwd
+y
+gss
+z
+cull
+ls
+pwd
+ll
+pwd
+ls
+pwd
+ll
+yay -Syu
 ls
 pw
 ll
-ls
-pwd
-ll
-z nv
-ls
-zi
-ls
-lsg
-ls
-ll
-l
-cls
-ll
-pwd
-ll
-ls
-z dart algo
-ls
-mcdu
-ls
-pwd
-ll
-z nv
-gs
-gr lua/
-v
-z dart algo
-v
-z nv
-v
-gs
-gr lua/
-v
-gs
-ls
-pwd
-ll
-y
-v
-..
-ls
-y
-v
-z rust todo
-v
-z nv
-v
-y
-gs
-gr blink-cmp.lua
-gs
-z nv
-v
-z conf
-gs
-z cli bin
-ls
-eget cube2222/octosql
-z dow
-ls
-octosql SELECT * FROM ./Transaction_Report.csv
-octosql "SELECT * FROM ./Transaction_Report.csv"
-LS
-ls
-pwd
-octosql "SELECT * FRO0 ./Transaction_Report.csv"
-octosql "SELECT * FROM ./Transaction_Report.csv"
-csvlens Transaction_Report.csv
-ls
-z cli bin
-ls
-..
-du
-cull
-ls
-z bin/
-cull
-ls
-z nv
-gs
-z conf 
-gs
-ga
-gc 'update nvim'
-gp
-v
-z conf 
-gs
-git diff | bat
-ga
-gc 'update nvim'
-gp
-ls
-rm -r oxwm/
-rm -r zathura/
-gs
-ga
-gc 'Remove: oxwm'
-gp
-ls
-z nv
-lt
-ls
-pwd
-ll
-ls
-gs
-v
-z dart
-ls
-y
-ls
 pwd
 ll
 pwd
-ll
-gs
-la
-dart test -r expanded
-v
-mkdir leetcode
-z leetcode/
-ls
-v
-ls
-z 
-ls
-pwd
-ll
-ls
-z conf
-gs
-git diff | bat
-z nv
-v
-z leetcode
-ls
-p
-z dart leet
-ls
-v
-z nv
-v
-y
-gs
-v
-z conf
-gs
-git diff | bat
-ga
-gc 'nv'
-gp
-ls
-pwd
-z nv
-ls
-z dow
-y
-ls
-rm init.lua
-gcl https://github.com/tamton-aquib/nvim.git
-y
-z nv
-v
-ls
-y
-ls
-z cli bit
-z cli bin
-ls
-bbcli
-ls
-lazygit
-ls
-z
-z cof
-z nv
-ls
-pwd
-z nv
-v
-z nv
-v
-z conf
-ga
-gc 'nv: themes'
-gp
-v
-gs
-ga
-gc 'nv: themes'
-v
-ls
-v
-gs
-cd nv
-z nv
-ls
-gs
-ga
-gc 'nv: themes'
-gp
-v
-gs
-ga
-gc 'nv: themes'
-gp
-ls
-v
-ls
-pwd
-ls
-pwd
-ll
-ls
-pwd
-l
-ll
-lsd
-pwd
-ll
-ls
-pwd
-ll
-pwd
-ls
-pwd
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ls
-pwd
-ll
-ls
-pwd
-ll
-ls
-pwd
-ll
-ls
-pwd
-ls
-yay -Syu
-z nv
-ys
-yr
-ys
-yay -S viu
-v
-gs
-ls
-pwd
-z nv
-v
-ls
-v
-ls
-y
-z yazi
-ls
-gs
-ga
-gc 'nv: themes'
-gs
-ga
-p
-z conf
-gs
-ga
-gc 'nv: themes'
-gs
-v
-y
 z conf
 ls
-y
-lazygit
-gs
-p
-gs
-ga
-gc 'nv: themes'
-gp
-y
-z nv
-v
-ls
-pwd
-ll
-z conf
-y
-tmux
-z
-ll
-la
-y
-ls
-tmux
-z nv
-v
-z nv
-v
-z conf
-gs
-ga
-gc 'nv: themes'
-gp
-v
-gs
-ga
-gc 'nv: themes'
-gp
-ls
-v
-gs
-ga
-gc 'nv: themes'
-gp
-v
-z dart leet
-z lsd
-ls
-y
-ll
-ls
-pwd
-ls
-ll
-lsd
-ll
-l
-z nv
-ll
-z conf
-gs
-ga
-gc 'nv: themes'
-gp
-bbcli
-ls
-y
-z nv
-gs
-v
-ls
-pwd
-ls
-gs
-fr lazy-lock.json
-gr lazy-lock.json lua/
-v
-ls
-z nv
-gs
-p
-z nv
-ls
-v
-z rust todo
-v
-z nv
-v
-z rust todo
-v
-z nv
-v
-z nv
-v
-z rust todo
-v
-nv
-z nv
-v
-z dart leet
-z rust todo
-v
-z nv
-gs
-rm lua/configs/keymaps-rust.lua
-rm  lua/plugins/rustaceanvim.lua
-gr lua/
-gr lazy-lock.json
-ls
-ga
-v
-z rust todo
-v
-ls
-v
-ls
-z conf
-ls
-vi
-ls
-z .local
-z share
-ls
-y
-z conf
-ls
-mkdir NvChad
-cd NvChad/
-ls
-git clone https://github.com/NvChad/starter
-ls
-y
-v
-vi
-ls
-z share
-y
-z conf
-z NvChad/
-ls
-v
-vi
-v
-vi
-z dart algo
-vi
-z NvChad/
-zi
-vi
-z NvChad/
-z NvChad
-vi
-v
-z nushell
-v
-source ~/.config/nushell/config.nu
-z NvChad
-vic
-vi
-z conf
-gs
-ga
-gc "Nvchad"
-gp
-v
-vi
-z NvChad
-vi
-ls
-pwd
-vi
-z conf
-gs
-ga
-gc "Nvchad"
-gp
-ls
-pwd
-ll
-pwd
-y
-ls
-z NvChad
-vi
-z rust todo
-vi
-z NvChad
-v
-z rust todo
-vi
-z NvChad
-gs
-ga
-gc "Nvchad"
-gp
-ls
-v
-ls
-pwd
-ls
-vi
-v
-vi
-Nvi
-vi
-gs
-gr lua/
-ls
-ga
-vi
-ls
-pwd
-ll
-fastfetch
-ls
-pwd
-ll
-pwd
-ls
-pwd
-ll
-pwd
-yay -Syu
-z nv
-v
-z NvChad
-vi
-y
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ls
-pwd
-ll
-wdp
-ls
-z dart
-ls
-y
-ls
-vi
-ls
-pwd
-ls
-z cli bin
-ls
-pwd
-ll
-z nv
-v
-z NvChad
-vi
-z nv
-v
-z conf
-gs
-ga
-gc "Nvchad"
-gp
-ls
-z NvChad
-v
-z cod
-y
-z 
-z coding/
-ls
-cd node-lang/
-ls
-cd elib/
-v
-ls
-y
-vi
-ls
-pwd
-ls
-y
-ls
-v
-ls
-pwd
-ls
-v
-z nv
-v
-z conf
-gs
-ga
-gc "Nvchad"
-gp
-ls
-z dart algo
-v
-z nv
-v
-z conf
-ls
-ga
-gc "Nvchad"
-gp
-pwd
-y
-zls
-ls
-z dart algo
-v
-z rust
-ls
-cd dec
-vi
-z NvChad
-vi
-z dec
-vi
-z nv
-ls
-pwd
-z dec
-v
-z algo
-v
-vi
-z conf
-gs
-ga
-gc "Nvchad"
-gp
-ls
-ga
-z server
-p
-ls
-pwd
-vi
-y
-z conf
-ls
-gs
-ls
-pwd
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ls
-z alfo
-z algo
-vi
-ls
-yay -Syu
-ls
-pwd
-ls
-z nv
-v
-z algo
-vi
-z NvChad
-vi
-v
-vi
-v
-vi
-z conf
-gs
-ga
-gc "Nvchad"
-gp
-z nushell
-v
-source ~/.config/nushell/config.nu
-nvchad
-source ~/.config/nushell/config.nu
-nvchad
-ls
-v
-source ~/.config/nushell/config.nu
-nvchad
-nchad
-z conf
-gs
-ga
-gc 'nu'
-gp
-z server
-nc
-nchad
-z NvChad
-ls
-pwd
-ll
-pwd
-ls
-pwd
-gs
-pwd
-ls
-pwd
-nchad
-ls
-nvchad
-nchad
-ls
-z NvChad
-gs
-nchad
-z nushell
-v
-z NvChad
-source ~/.config/nushell/config.nu
-z conf
-gs
-ga
-gc 'nu'
-gp
-nchad
-gs
-fr lua/autocmds.lua
-gr lua/autocmds.lua
-nchad
-v
-nchad
-gs
-gr lua/options.lua
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ls
-nchad
-z conf
-gs
-fa
-ga
-gc 'nv'
-gp
-z nv
-v
-ls
-z NvChad
-ls
-pwd
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-ga
-gc 'nv'
-gp
-ls
-gs
-ga
-gc 'nv'
-nchad
-ls
-gs
-ga
-gc 'nv'
-gp
-ls
-nchad
-gs
-ls
-cp ~/.config/nvim/snippets/ lua/custom/
-cp -r  ~/.config/nvim/snippets/ lua/custom/
-nchad
-gs
-ga
-gc 'nv'
-gp
-y
-nchad
-gs
-z server
-v
-nchad
-ls
-pwd
-ll
-ls
-nchad
-z NvChad
-nchad
-z server
-nchad
-z NvChad
-nchad
-z server
-v
-ls
-nchad
-z Nserver
-z NvChad
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-ga
-gc 'nv'
-gp
-z server
-nchad
-z NvChad
-y
-ls
-z server
-nchad
-z NvChad
-nchad
-z server
-nchad
-z NvChad
-v
-z server
-nchad
-z NvChad
-lt
-lsd
-cls
-lsd
-ls
-y
-z server
-nchad
-z NvChad
-y
-nchad
-gs
-y
-gs
-ga
-gc 'nv'
-gp
-y
-z server
-nchad
-ls
-pwd
-ls
-z NvChad
-nchad
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ls
-pwd
-ll
-pwd
-ls
-z NvChad
-nchad
-z NvChad
-p
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-nchad
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-ls
-nchad
-gs
-ga
-gc 'nv'
-gp
-gs
-nchad
-ga
-gc 'nv'
-gp
-ls
-z NvChad
-ls
-pwd
-ll
-ls
-pwd
-yay -Syu
-p
-nchad
-ls
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-ga
-gc 'nv'
-gp
-nchad
-ls
-pwd
-ll
-p
-ls
-pwd
-ll
-ls
-nchad
-ls
-pwd
-ll
-p
-nchad
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-ga
-gc 'nv'
-gp
-nvchad
-nchad
-rg
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-ga
-gc 'nv'
-gp
-ls
-nchad
-gs
-git diff | bat
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-ga
-gc 'nv'
-gp
-gc 'nv'
-nchad
-gs
-ga
-gc 'nv'
-fp
-gp
-gs
-nchad
-ls
-pwd
-nchad
-gs
-ga
-gc 'nv'
-gp
-nchad
-gs
-ga
-gc 'nv'
-gp
-nchad
-z nv
-v
-z server
-p
-v
-z nv
-v
-gs
-ls
-ga
-gs
-z
-z NvChad
-nerdfetch
-ls
-pwd
-p
-ls
-cp -r  ~/.config/nvim/snippets/ ./
-ls
-nchad
-g
-hs
-gs
-ga
-gc 'blink-cmp'
-gp
-z server
-nchad
-z NvChad
-nchad
-z algo
-nchad
-z NvChad
-gs
-ga
-gc 'blink-cmp'
-gp
-nchad
-gs
-git diff | bat
-gr lua/mappings.lua
-gs
-ls
-pwd
-ll
-ls
-yay -Syu
-ls
-pwd
-ll
-ls
-z nv
-ls
-z nushe
-ls
-v
-source ~/.config/nushell/config.nu
-ls
-z NvChad
-nc
-z dec
-nc
-z NvChad
-gs
-z conf
-ga
-gc 'nv'
-gp
-nc
-gs
-ga
-gc 'nv: flash plugins add'
-gp
-nc
-gs
-ga
-gc 'nv: flash plugins add'
-gp
-ls
-gs
-gp
-nc
-z dec
-nc
-z N
-ls
-z NvChad
-nc
-gs
-ga
-gc 'nv: rust plugins add'
-nc
-z dec
-nc
-z nv
-z NvChad
-z dec
-ls
-nc
-nc
-tmux
-p
-nc
-z NvChad
-v
-z dec
-nc
-z NvChad
-y
-gs
-ga
-gc 'Remove: rust'
-gp
-p
-...
-p
-nc
-z dec
-ls
-cargo r -q
-nc
-z NvChad
-nc
-z server
-ls
-nc
-z NvChad
-gs
-gr lua/plugins/init.lua
-nc
-z server
-nc
-ls
-z NvChad
-nc
-gs
-ga
-gc 'todo: comment'
-gs
-gp
-nc
-gs
-ga
-gc "mini: icon"
-gp
-ls
-pwd
-lls
-ll
-z nv
-nc
-ls
-pwd
-ll
-z NvChad
-gs
-nc
-ga
-gc "nv"
-gp
-z algo
-nc
-z NvChad
-gs
-nc
-ls
-pwd
-ll
-pwd
-ll
-p
-ls
-pwd
-ll
-ls
-pwd
-z nc
-z NvChad
-nc
-z NvChad
-p
-nc
-gs
-ga
-gc "nv"
-gp
-gs
-gcc
-yay -S build-essential
-rustfmt
-z NvChad
-nc
-z NvChad
-p
-nc
-ls
-gs
-ga
-gc "nc"
-gp
-ls
-pwd
-ll
-nc
-gs
-ga
-gc "nc"
-gp
-nc
-gs
-ls
-pwd
-ll
-ls
-pwd
-nc
-gs
-ls
-z cli bin
-gs
-ga
-gc "tool"
-gp
-l
-ls
-z NvChad
 froggit
-nc
-z algo
-ls
-dart run
-nc
-y
-gs
-ga
-gc 'flutter'
+neofetch
+tv
+lazygit
 ls
 pwd
-ll
 ls
-pwd
-ll
-gs
-gp
-ll
-z nv
-v
-z algo
-v
-l
-ls
-pwd
-ll
-pwd
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ll
-ls
-yay -Syu
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ll
-z NvChad
-nc
-ls
-uv tool update posting
-ls
-python --version
-pip
-pip --version
-ls
-pwd
-ll
-l
-ls
-nc
-z NvChad
-nc
-z NvChad
-p
-nc
-ga
-gc 'leet'
-gp
-p
-nc
-gs
-ga
-gc 'leet'
-gp
-ls
-pwd
-v
-ls
-nc
-gs
-ga
-gc 'blink'
-gp
-ls
-ll
-gs
-z NvChad
-p
-ga
-z NvChad
-p
-gs
-ga
-gc 'blink'
-z conf
-gs
-ga
-gc 'blink'
-gp
-ls
-pwd
-ll
-z dec
-ls
-y
-ls
-gs
-ls
-lua main.lua
-ls
-nc
-p
-z NvChad
-p
-nc
-gs
-ga
-gc 'pyrefly'
-gp
-ls
-gs
-gp
-z cod
-y
-ls
-uv run main.py
-nc
-ls
-pwd
-ll
-ls
-pwd
-ll
-z conf
-gs
-z nv
-y
-nc
-gs
-ga
-gc 'pyrefly'
-gp
-ls
-pwd
-ll
-y
-ls
-..
-ls
-..
-ls
-nc
-gs
-ga
-gc 'flutter'
-gp
-nc
-ls
-gs
-ls
-pwd
-ll
+btm
+mcdu
 z py
-zi
 ls
+z todo/
+ls
+overlay use .venv/bin/activate.nu 
 nc
-z NvChad
-p
-ls
-v
-nc
-gs
-nc
-gs
-fr lua/plugins/init.lua
-gr lua/plugins/init.lua
-nc
-y
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-ls
-l
-z algo
-v
-nc
-z NvChad
-p
-nc
-ls
-z algo
-nc
-ls
-ll
-l
-ls
-pwd
-ll
-pwd
-ll
-y
-nc
-z NvChad
-p
-nc
-ls
-z NvChad
-nc
-gs
-ga
-gc 'statusline'
-gp
-z leet
-ls
-p
-c dart
-zi
-ls
-nc
-z NvChad
-p
-gs
-ga
-gc 'statusline'
-gp
-nc
-ls
-pwd
-ll
-ls
-nc
-ls
-pwd
-ll
-ls
-pwd
-ls
-pwd
-z NvChad
-ls
-nc
-z NvChad
-gs
-pwd
-z conf
-gs
-ga
-gc 'add mini animate plugins'
-gp
-ls
-pwd
-ls
-pwd
-z algo
-nc
-ls
-yay -Syu
-ls
-pwd
-ls
-pwd
-ll
-ls
-pwd
-ls
-pwd
-z cond
-z 
-z coding/
-ls
-cat codeium-token-key.md
-ls
-pwd
-ls
-ll
-z cli bin
-surge
-ls
-pwd
-ls
-btm
-ls
-z nv
-pwd
-which nvim
-y
-ls
-z nv
-ls
-pwd
-z fastfetch
-z conf
-y
-fs
-ff
-fastfetch
-ls
-pwd
-ls
-pwd
-y
-v codeium-token-key.md
-cargo --version
-rustup update
-ls
-pwd
-ll
-z NvChad
-nc
-ls
-yay -Syu
-ls
-z NvChad
-cargo --version
-nc
-gs
-ga
-gc 'added plugins surround and nvzone'
-gp
-nc
-z nc
-nc
-gs
-ga
-gc 'cursor plugins'
-gp
-nc
-ls
-pwd
-ll
-pwd
-ll
-pwd
-z conf
-gs
-ga
-gc 'fastfetch'
-gp
-ls
-pwd
-ll
-ls
-pwd
-ll
-ls
-pwd
-ll
-pwd
-gs
-pwd
-ls
-pwd
-ls
-z nv
-p
-v
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-l
-ll
-gs
-nc
-ls
-pwd
-ll
-uv tool update posting
-ls
-cargo --version
-z dec
-v
-nc
-ls
-y
-nc
-z dow
-ls
-git clone https://github.com/stoolap/stoolap.git<\n>
-z cli bin
-ls
-eget olivier-w/climp
-climp --version
-ls
-pwd
-ll
-z dow
-ls
-pwd
-cd stoolap/
-ls
-z dow
-y
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-pwd
-ls
-y
-cull
-rm -r stoolap/
-ls
-cull
-ls
-fx history.csv
-fx Transaction_Report.csv
-csvlens Transaction_Report.csv
-ls
-pwd
-ll
-zcli bin
-z cli bin
-l
-dawn
-ls
-nerdfetch
-ll
-ls
-gh codespace status
-gh codespace ssh
-gh codespace stop
-ls
-pwd
-ll
-jolt
-jiq
-z dow
-jiq Transaction_Report.csv
-joq history.csv
-ls
-jiq cashd-config.json
-ls
-pwd
-ls
-pwd
-ls
-pwd
-ll
-p
-ll
-y
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-l
-pwd
-ll
-pwd
-l
-ls
-pwd
-l
-ll
-p
-ls
-pwd
-ll
-ls
-pwd
-ll
-ls
-pwd
-ll
-ls
-pwd
-ll
-ls
-pwd
-ll
-pwd
-ls
-pwd
-z nv
-p
-nc
-z conf
-y
-btm
-btop
-ls
-pwd
-btm
-yay -S btop
-btop
-yr 
-z nv
-v
-z nvim
-pwd
-v
-z conf
-gs
-ga
-pwd
-git rm --cached nvim/build/.nvim/data/nvim/lazy/lazy.nvim
-gs
-ga
-gc 'nv'
-gp
-ls
-ll
-ls
-pwd
-ll
-ls
-pwd
-ls
-yay -Syu
-ls
-pwd
-ll
-z nv
-p
-z Nv
-ls
-pwd
-ls
-pwd
-nc
-ls
-pwd
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-btm
-ls
-pwd
-ll
-pwd
-nc
-ls
-yay -Syu
-ls
-pwd
-ll
-pwd
-ll
-pwd
-lll
-pwd
-ll
-z Nv
-p
-z NvChad
-p
-nc
-ls
-pwd
-ll
-gs
-pwd
-zconf
-z conf
-gs
-ls
-pwd
-ll
-btm
-ls
-pwd
-l
-z dart algo
-p
-ls
-pwd
-dart test -r expanded
-nc
-z NvChad
-v
-nc
-ls
-gs
-nc
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ls
-z conf
-ls
-gs
-ga
-gc 'added toggle term'
-gp
-ls
-pwd
-ll
-ls
-pwd
-ll
-ls
-z leet
-ls
-z
-z dart leet
-ls
-pwd
-y
-ls
-nc
-ls
-z cli bin
-mcdu
-froggit
-ls
-pwd
-ll
-ls
-pwd
-ls
-z sdk
-ls
-z dow
-ls
-surge https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.4-stable.tar.xz
-ls
-tar -xvf flutter_linux_3.41.4-stable.tar.xz
-ls
-cull
-ls
-z dow
-ls
-ls ~/.sdk
-cd ~/.sdk/
-ls
-rm -r flutter/
-cd dow
-z dow
-ls
-rm -r flutter/
-ex flutter_linux_3.41.4-stable.tar.xz
-ls
-rsync --version
-rclone
-rsync
-yay -S rsync
-rsync -ah --progress
-yay -S rclone
-ls
-rsync -ah --progress flutter ~/.sdk/
-ls
-rm -r flutter/
-ls
-z sdk
-pwd
-ls
-y
-ls
-z nushe
-ls
-dart --version
-v
-ls
-pwd
-source ~/.config/nushell/env.nu
-dart --version
-rm -rf /home/rio/.sdk/flutter/bin/cache
-dart --version
-ls
-pwd
-flutter --version
-ls
-z dart algo
-dart run
-dart test -r expanded
-ls
-flutter doctor 
-yay -S cmake
-yay -S ninja gtk3
-ls
-flutter config --no-enable-android
-flutter config --no-enable-ios
-flutter config --no-enable-macos
-flutter config --no-enable-
-flutter config --no-enable -h
-flutter config --no-enable-window-sedktop
-flutter config --no-enable-window-sesktop
-flutter config --no-enable-window-desktop
-flutter config --no-enable-windows-desktop
-flutter config --no-enable-macos-desktop
-flutter doctor 
-flutter doctor -v
-yay -S mesa-utils
-flutter doctor -v
-flutter config --no-enable-no-enable-web
-flutter config no-enable-web
-flutter config --no-enable-web
-flutter doctor -v
-ls
-pwd
-z coding
-ls
-mkdir flutter-apps
-z flutter-apps/
-ls
-gcl https://github.com/rivoten05/bmi.git
-ls
-z bmi/
-z NvChad
-nc
-ls
-nc
-z flutter-apps/
-ls
-flutter pub get
-nc
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-lll
-pwd
-ll
-l
-z nv
-pwd
-z flutter-apps/
-ls
-nc
-ls
-nc
-ls
-z conf
-ls
-y
-ls
-pwd
-ls
-pwd
-ll
-pwd
-y
-ls
-pwd
-gs
-z nv
-v
-nc
-z bmi
-ls
-pwd
-ll
-z conf
-ls
-gs
-y
-gs
-z conf
-gs
-ga
-gc 'theme'
-gp
-nc
-..
-ls
-gcl https://github.com/rivoten05/counter_bloc.git
-ls
-l
-gcl https://github.com/rivoten05/despicable_me.git
-ls
-cd counter_bloc/
-ls
-flutter pub get
-nc
-ls
-pwd
-cd ..
-ls
-cd despicable_me/
-flutter pub get
-btm
-btop
-ls
-pwd
-ll
-pwd
-flutter pub get
-y
-gss
-nc
-grmini
-ls
-pwd
-ll
-ls
-pwd
-cull
-ls
-pwd
-ll
-ls
-l
-ga
-gc 'refactor'
-nc
-ls
-pwd
-ll
-nc
-ls
-pwd
-yay -S love
-z lua
-ls
-gcl https://github.com/rivoten05/love2D.git
-ls
-y
-ls
-v
-..
-lt
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-z go
-ls
-y
-ls
-y
-ls
-z
-ls
-pwd
-ll
-p
-ll
-p
-ll
-l
-ll
-c
-ll
-mcdu
-ls
-cd Downloads/
-rm flutter_linux_3.41.4-stable.tar.xz
-ls
-z sak
-z sdk
-rm -r dart/
-cull
-z cli bin
-ls
-dawn
-cashd
-l
-casiumcli
-caesiumclt 
-caesiumclt --help
-c
-l
-ls
-pwd
-ll
-ls
-ll
-l
-eget pythops/bluetui
-ls
-tmux
-gs
-eget pythops/bluetui
-bluetui
-ls
-ll
-pwd
-ll
-ls
-pwd
-ls
-pwd
-ll
-fastfetch
-ll
-ls
-pwd
-ll
-ls
-pwd
-ls
-pwd
-ll
-ner
-nerdfetch
-ls
-pwd
-ll
-ls
-pwd
-ll
-z NvChad
-ls
-nc
-z flutter-apps/
-ls
-..
-ls
-gcl https://github.com/tenravio21-source/portfolio.git
-ll
-cd portfolio/
-ls
-flutter pub get
-ls
-nc
-ls
-z ..
-ls
-gcl https://github.com/rivoten05/blm.git
-ls
-pwd
-z blm
-flutter pub get
-flutter pub outdated
-ls
-nc
-z cli bin
-cargo install omp-manager
-eget marlocarlo/omp-manager
-ls
-imp-manager
-omp-manager
-ls
-omp-manager
-ls
-pwd
-ls
-eget charmbracelet/pop
-ls
-l
-pop --version
-pop --help
-pop
-ls
-pwd
-ll
-pwd
-ll
-ls
-yay -S
-yay -Syu
-ls
-z nv
-pwd
-z NvChad
-ls
-pwd
-ls
-pwd
-z NvChad
-nc
-ls
-pwd
-ls
-uv tool update posting
-flutter --version
-flutter --help
-ls
-date now | date to-timezone local
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-z NvChad
-ls
-lt
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ls
-nc
-ls
-pwd
-z blm
-ls
-scc
-ls
-pwd
-ls
-p
-ls
-pwd
-ls
-nc
-;s
-ls
-pwd
-ll
-y
-ls
-ppwd
-l
-ll
-p
-ll
-ls
-ll
-p
-ls
-pwd
-ll
-ls
-pwd
-ll
-pwd
-ll
-pp
-ll
-p
-ls
-pwd
-ll
-pwd
-z port
-ls
-pwd
-y
-gcl https://github.com/rivoten05/login-ui.git
-ls
-pwd
-gcl https://github.com/tenravio21-source/login_ui.git
-y
-ls
-flutter pub get
-ls
-y
-ls
-..
-ls
-nc
+deactivate
 ls
 pwd
 btm
 ls
+pomo completion nu
+pomo
+llmfit
+gloomberb ticker AAPL
+gloomberb ticker HAL
+gloomberb ticker RELIANCE
+bbcli
+ls
 pwd
+ll
+pwd
+ll
+p
+ll
+l
+ls
+ll
+pwd
+ll
+pwd
+ll
+y
+ls
+pam init db.sqlite3
+pam init db db.sqlite3
+pam
+pam init library sql ./db.sqlite3
+l
+hist
+hist | grep pam
+pam init library sqllite ./db.sqlite3
+pam init library sqllite3 ./db.sqlite3
+ping google.com
+z nushell
+v
+nc
+vi
+pwd
+ll
 fzf
 ls
 pwd
-z NvChad
-nc
-z dart algo
-nc
+ll
+pwd
+ll
+pwd
+ll
+pwd
 l
 pwd
-ll
-ls
-pwd
-ll
-yay -Syu
-ls
-pwd
-y
-date now | date to-timezone local
-ll
-y
-nc
-z NvChad
-nc
-z conf
-gs
-ga
-gc 'vtls'
-gp
-ls
-ll
+lt
+z nv
 p
+lt
 ls
-neofetch
-fastfetch
-z cli bin
+pwd
+ll
+pwd
+ll
+l
 ls
-mcdu
+pwd
+ll
+pwd
+lla
+ls
+pwd
+ll
+pwd
+ll
+pwd
+ll
+tmux
+ls
+pwd
+ll
+l
+z conf
+ls
+lsg
 froggit
-ls
-pomo 3m
-ls
-z elib
-ls
-p
-y
-nc
-ls
-nc
-ls
-z server
-p
-nc
-ls
-pwd
-yay -Syu
-ls
-pwd
-lll
-ll
-pwd
-ls
-uv tool update posting
-z nc
-z NvChad
-ls
-pwd
-ll
-nc
-ls
-pwd
-ll
-pwd
-ll
-wdp
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ls
-pwd
-ll
-z apps
-ls
-pwd
-ll
-ls
-pwd
-z portfolio/
-ls
-nc
-p
-ls
-pwd
-lll
-ll
-ls
-pwd
-ls
-pwd
-ls
-pwd
-ll
-wdp
-pwd
-ls
-pwd
-ll
-pwd
-ls
-lw
-ll
-pwd
-ll
-pwd
-ll
-z elib
-ls
-pwd
-ll
-pwd
-ll
-z blm
-ls
-nc
-ls
-pwd
-ll
-pwd
-ls
-pwd
-ll
-ls
-pwd
-ls
-pwd
-ll
-ls
-pwd
-z conf
-gs
-z NvChad
-ls
-pwd
-nc
-ls
-pwd
-ls
-pwd
-z algo
-ls
-nc
-yay -Syu
-ls
-pwd
-ll
-ls
-pwd
-ll
-z NvChad
-nc
-ls
-pwd
-ll
-pwd
-z conf
-gs
-ga
-gc 'vtls'
-gp
-z NvChad
-nc
-ls
-z algo
-nc
-z nv
-p
-nc
-ls
-gs
-rm lua/plugins/code-refactor.lua
-gr lazy-lock.json
-gs
-nc
-nv
-nx
-nc
-gs
-ls
-pwd
-ls
-pwd
-ll
-pwd
-ll
-z algo
-ls
-gs
-pwd
-la
-..
-la
-ga
-pwd
-z algo/
-ls
-pwd
-dart test -r expanded
-dart test test/stack_v2_test.dart
-nc
-ls
-gs
-pwd
-gs
-z 
-ls
-pwd
-mcdu
-ls
-pwd
-ll
-p
-ls
-ll
-p
-l
-c
-pwd
-ls
-cd coding/
-ls
-z py-lang/
-ls
-y
-ls
-uv init server
-y
-ls
-la
-uv venv venv
-ls
-la
-overlay use venv/bin/activate.nu 
-ls
-pwd
-uv pip lits
-uv pip list
-uv run main.py
-la
-overlay hide venv
-ls
-deactivate
-ls
-..
-ls
-rm -r server/
-uv init server
-ls
-cd server/
-ls
-uv pip list
-uv run main.py
-uv pip list
-ls
-la
-pwd
-pip lits
-pip list
-uv add request
-uv python find
-ls -l .venv/bin/python
-ls
-ll
-uv run main.py
-y
-ls
-pwd
-nc
-ls
-pwd
-ll
-pwd
-ll
-z nv
-p
-ls
-pwd
-ll
-ls
-ll
-pwd
-ll
-p
-ll
-ls
-pwd
-lll
-l
-la
-cp ../nvim/learn_basic.lua .//
-ls
-gs
-ls
-scc
-ls
-pwd
-ls
-ll
-l
-ls
-pwd
-ls
-z flutter-apps/
-ls
-pwd
-nc
-ls
-pwd
-ll
-z lazy
-ls
-pwd
-ll
-lll
-c
-l
-p
-ll
-ls
-pwd
-ls
-pwd
-z nv
-p
-v
-nc
-ls
-gs
-rm lua/plugins/signup.lua
-gr lazy-lock.json
-gs
-ga
-gc 'vtls'
-gp
-nc
-ls
-gs
-ls
-p
-ll
-p
-c
-p
-ll
-p
-ll
-p
-ls
-yay -Syu
-ls
-yay -Syu
-ls
-z Nv
-p
-x ../NvChad/
-ls
-lsp
-p
-z ../NvChad/
-ls
-nc
-ls
-uv tool update posting
-ls
-pwd
-ll
-z blm
-ls
-nc
-ls
-yay -Syu
-ls
-pwd
-ll
-ls
-pwd
-ll
-z
-ls
-pwd
-z nv
-cull
-ll
-p
-ls
-pwd
-ll
-pwd
-ll
-ip addr
-ll
-ipconfig
-ls
-pwd
-ll
-z code
-ls
-z
-ls
-pwd
-ls
-z coding/
-l
-ls
-pwd
-ll
-y
-nc
-ls
-bbcli
-z conf
-froggit
-ls
-pwd
-ll
-z 
-ll
-pwd
-ll
-l
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-btm
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ls
-pwd
-ll
-btm
-bmt
-vtm
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-ls
-yay -Syu
-pwd
-flutter --version
-flutter upgrade
-flutter doctor -v
-y
-gs
-git diff | bat
-git log | bat
-lazygit
-l
-ls
-z
-ls
-z code
-ls
-z 
-ls
 yay -Syu
 cls
-pwd
-z Nv
-p
-z Nvchad
-ls
-p
-nc
 ls
 pwd
-ls
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ll
-pwd
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-btm
-ll
-pwd
-ll
-ls
-pwd
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-ls
-pwd
-ls
-wd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-la
-pwd
-ls
-ll
-ls
-pwd
-ll
-ls
-pwd
-z Nvchad
-ls
-pwd
-ll
-lsd
-btm
-ls
-pwd
-ll
-nc
-ls
-pwd
-ll
-z conf
 gs
-pwd
-brm
-btm
 ls
 pwd
-ll
-ls
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-pwd
-ll
-z blm
-ls
-nc
-z blm
-ls
-nc
-yay -Syu
-ls
-pwd
-ll
-ls
-ll
 ls
 z nv
 p
+nc
+z cli bin 
+ls
+pwd
+hist | grep pam
+ls
+bbcli
+pwd
+gloomberb ticker RELIANCE
+gloomberb ticker HAL
+btm
+ps
+btm
+ls
+pwd
+ll
+ps sshd
+pgrep sshd
+l
+ll
+z
+ls
+pwd
+cull
+ping google.com
+\ls
+pwd
+ll
+pwd
+ll
+pwd
+l
+p
+l
+pwdp
+yay -Syu
+sshd
+ls
+pwd
+ll
+yay -Syu
+ls
+powd
+pwd
+ll
+z nv
+p
+nc
+ls
+ping google.com
+ping github.com
+ls
+pwd
+ll
+ls
+pwd
+ll
+owd
+l
+ping github.com
+z nv
 v
+pwd
+nv
+nc
 ls
 pwd
 ll
-y
+ls
+pwd
+ll
+yay -Syu
 ls
 pwd
 ll
 pwd
 ll
-z Nvchad
+z nv
+nc
+z conf
+btm
 ls
+yay -Syu
+flutter --version
+ping github.com
+ls
+pwd
+ping github.com
+z cli bin 
+eget maaslalani/sheets
+ls
+sheets
+ls
+pwd
+ll
+pwd
+ls
+sheets -h
+pwd
+eget hyperb1iss/unifly
+unifly
+eget matthart1983/netwatch
+netwatch
+ls
+netwatch-linux-aarch64
+ls
+eget lazynop/lazyenv
+lazyenv
+eget yashksaini-coder/Rustlens
+z server
+pwedf
+pwd
+z rust
+pwd
+z todo/
+ls
+rustlense
+rustlens
+z cli
+ls
+pwd
+z cli bin
+pwd
+ls
+rustlens
+source ~/.config/nushell/config.nu
+rustlens
+ls
+pwd
+ls
+pwd
+z dow
+las
+ls
+sheets history.csv
+sheets Upi-Transaction_Report.csv
+ls
+touch users.csv
+nc users.csv
+ls
+nvim users.csv
+sheets users.csv
+rm -rf users.csv
+ls
+pwd
+ll
+pwd
+l
+pwd
+ll
+pwd
+ll
+z nv
+o
+p
+x nvchad
+z nvchad
+pwd
 nc
 ls
 pwd
 ll
 pwd
 ll
-btop
-btm
-ll
-ls
-z cli bin
-ls
-ll
 l
+lt
 pwd
+lt
+ls
+pwd
+ll
+pwd
+ll
+pwd
+l
+p
+ls
+pwd
+ll
+pwd
+l
+pd
+ll
+pwd
+l
+p
+z conf
+gs
+ga
+gc 'update'
+gp
+z cli bin
+gs
+ga
+gc 'tools'
+gp
+z cli bin
+gs
+gp
+ls
+gloomberb ticker HAL
+git rm --cached gloomberb
+git commit --amend -m "Remove large file from history"
+git reset --soft HEAD~1
+echo "gloomberb" >> .gitignore
+git rm --cached gloomberb
+gs
+git add .gitignore
+la
+git commit --amend --no-edit
+gs
+gp
 ls
 gs
-ls
-jolt
-l
-nerdfetch
-pomo 3m
-tock calendar
-caesiumclt --help
-l
-mcdu
-cull
-l
-pop
+gp
 ls
 pwd
 ll
-scc
-ls
 pwd
-z
-z conf
-ls
-ksd
-lsd
-yay -Syu
-z Nvchad
-pwd
-ls
-nc
-flutter doctor -v
-flutter --version
-flutter upgrade
-uv tool update posting
-posting
-btm
 l
-z cli bin
 ls
-eget brevity1swos/rgx
-z lua-lang
+pwd
+ll
+pwd
+ll
+pwd
+z dow
+ks
 ls
-rgx 
-rgx  main.lua
+atuin
 ls
-rgx --help
+rm atuin-aarch64-unknown-linux-gnu.tar.gz
+ls
+cull
+ls
+pwd
+ls
+pwd
+ll
+pwd
+l
+ll
+pwd
+l
+pwd
+l
+pwd
+ll
+pwd
+ls
+pwd
+l
+pwd
+ll
+pwd
+ls
+y
+z blm
+ls
+pwd
+ll
+z
+pwd
+ll
+pwd
+l
+hist | grep pam
+hist
+z nushell
+ls
+rm *.bak
+rm *.bak.*
+ls
+rm *.bak2.*
+rm *bak2.*
+ls
+hist
 ls
 pwd
 lll
-pp
-ls
-history 
-z nushell
+l
+ll
+lla
+pwd
+lla
+ll
+l
+lla
+pwd
+ll
+al
+hist
 ls
 python duplicate.py
 ls
+y
