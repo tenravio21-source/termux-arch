@@ -37,13 +37,13 @@ return {
 				enabled = true,
 			},
 			lsp = {
-				color = {
-					enabled = true,
-					background = false,
-					foreground = false,
-					virtual_text = true,
-					virtual_text_str = "■",
-				},
+				-- color = {
+				-- 	enabled = true,
+				-- 	background = false,
+				-- 	foreground = false,
+				-- 	virtual_text = true,
+				-- 	virtual_text_str = "■",
+				-- },
 				settings = {
 					showTodos = true,
 					completeFunctionCalls = true,
