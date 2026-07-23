@@ -1,6 +1,6 @@
 def lsg [path: path = .] {
     ls $path | insert icon {|file|
-        let extension = ($file.name | path parse | get extension | str downcase)
+        let extension = ($file.name | path parse | get extension | str lowercase)
         match $extension {
             "nu" => "🐚",
             "rs" => "🦀", 

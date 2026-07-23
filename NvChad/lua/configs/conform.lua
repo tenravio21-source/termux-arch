@@ -13,6 +13,7 @@ local options = {
 		-- go = { "gofumpt", "goimports-reviser", "golines" },
 		css = { "prettier" },
 		html = { "prettier" },
+		java = { "google_java_format" },
 		-- python = { "isort", "black" },
 	},
 

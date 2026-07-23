@@ -1,5 +1,5 @@
 def ex [file: path] {
-    let ext = ($file | path parse | get extension | str downcase)
+    let ext = ($file | path parse | get extension | str lowercase)
     match $ext {
         "tar" | "gz" | "bz2" | "xz" => { tar -xvf $file }
         "zip" => { unzip $file }
